@@ -46,7 +46,13 @@ function buildSynergyIndex() {
 
 // Normalizes an entry from any category into a common shape for rendering.
 function normalizeEntry(category, raw) {
-  const base = { category, code: raw.code, name: raw.name, raw };
+  const base = {
+    category,
+    code: raw.code,
+    name: raw.name,
+    raw,
+    icon: raw.icon ? `../data/${raw.icon}` : null,
+  };
 
   if (category === "items" || category === "trinkets") {
     return {
@@ -158,10 +164,15 @@ function renderSynergies(entry) {
   if (!syns || !syns.length) return "";
   const rows = syns
     .map((s) => {
+      const partnerCode = s.item_a_code === entry.code ? s.item_b_code : s.item_a_code;
       const partnerName = s.item_a_code === entry.code ? s.item_b_name : s.item_a_name;
       const selfCombo = s.item_a_code === s.item_b_code;
+      const partnerIcon = `../data/icons/items/${partnerCode}.png`;
       return `<div class="synergy-item">
-        <div class="synergy-partner">${selfCombo ? "x2 (mismo item)" : partnerName}</div>
+        <div class="synergy-partner-row">
+          <img class="synergy-icon" src="${partnerIcon}" alt="" loading="lazy" onerror="this.style.display='none'">
+          <div class="synergy-partner">${selfCombo ? "x2 (mismo item)" : partnerName}</div>
+        </div>
         <div>${escapeHtml(s.text)}</div>
       </div>`;
     })
@@ -183,10 +194,14 @@ function renderCard(entry) {
     .join("");
   const synergiesHtml = renderSynergies(entry);
   const catTag = state.category === "all" ? `<span class="badge">${CATEGORY_LABELS[entry.category]}</span>` : "";
+  const iconHtml = entry.icon
+    ? `<img class="card-icon" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : `<div class="card-icon card-icon-placeholder"></div>`;
 
   return `<div class="card" data-code="${entry.category}:${entry.code}">
     <div class="card-head">
-      <div>
+      ${iconHtml}
+      <div class="card-head-text">
         <div class="card-title">${escapeHtml(entry.name)}</div>
         ${entry.subtitle ? `<div class="card-quote">${escapeHtml(entry.subtitle)}</div>` : ""}
       </div>

@@ -16,7 +16,8 @@
       "green",
       "cry",
       "plant"
-    ]
+    ],
+    "icon": "icons/items/C001.png"
   },
   {
     "code": "C002",
@@ -35,7 +36,8 @@
       "round",
       "circle",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C002.png"
   },
   {
     "code": "C003",
@@ -54,7 +56,8 @@
       "grey",
       "gray",
       "bent"
-    ]
+    ],
+    "icon": "icons/items/C003.png"
   },
   {
     "code": "C004",
@@ -78,7 +81,8 @@
       "dead",
       "brown",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C004.png"
   },
   {
     "code": "C005",
@@ -100,7 +104,8 @@
       "grey",
       "gray",
       "silver"
-    ]
+    ],
+    "icon": "icons/items/C005.png"
   },
   {
     "code": "C006",
@@ -121,7 +126,8 @@
       "yellow",
       "tear",
       "drop"
-    ]
+    ],
+    "icon": "icons/items/C006.png"
   },
   {
     "code": "C007",
@@ -141,7 +147,8 @@
       "thorns",
       "brown",
       "hat"
-    ]
+    ],
+    "icon": "icons/items/C007.png"
   },
   {
     "code": "C008",
@@ -164,7 +171,8 @@
       "blue",
       "dead",
       "baby"
-    ]
+    ],
+    "icon": "icons/items/C008.png"
   },
   {
     "code": "C009",
@@ -183,7 +191,8 @@
       "heart",
       "pink",
       "love"
-    ]
+    ],
+    "icon": "icons/items/C009.png"
   },
   {
     "code": "C010",
@@ -205,7 +214,8 @@
       "two",
       "flies",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C010.png"
   },
   {
     "code": "C011",
@@ -224,7 +234,8 @@
       "extra life",
       "spots",
       "spotted"
-    ]
+    ],
+    "icon": "icons/items/C011.png"
   },
   {
     "code": "C012",
@@ -246,7 +257,8 @@
       "spots",
       "spotted",
       "amanita muscaria"
-    ]
+    ],
+    "icon": "icons/items/C012.png"
   },
   {
     "code": "C013",
@@ -270,7 +282,8 @@
       "injection",
       "the lost item pool",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C013.png"
   },
   {
     "code": "C014",
@@ -295,7 +308,8 @@
       "needle",
       "injection",
       "green"
-    ]
+    ],
+    "icon": "icons/items/C014.png"
   },
   {
     "code": "C015",
@@ -319,7 +333,8 @@
       "full heal",
       "gluttony",
       "the lost item pool"
-    ]
+    ],
+    "icon": "icons/items/C015.png"
   },
   {
     "code": "C016",
@@ -337,7 +352,8 @@
       "brown",
       "poop",
       "turd"
-    ]
+    ],
+    "icon": "icons/items/C016.png"
   },
   {
     "code": "C017",
@@ -355,7 +371,8 @@
       "grey",
       "gray",
       "skull"
-    ]
+    ],
+    "icon": "icons/items/C017.png"
   },
   {
     "code": "C018",
@@ -374,7 +391,8 @@
       "bill",
       "cash",
       "green"
-    ]
+    ],
+    "icon": "icons/items/C018.png"
   },
   {
     "code": "C019",
@@ -395,7 +413,8 @@
       "grey",
       "gray",
       "x10"
-    ]
+    ],
+    "icon": "icons/items/C019.png"
   },
   {
     "code": "C020",
@@ -413,7 +432,8 @@
       "brown",
       "noose",
       "hang"
-    ]
+    ],
+    "icon": "icons/items/C020.png"
   },
   {
     "code": "C021",
@@ -434,7 +454,8 @@
       "shop item pool",
       "pink",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C021.png"
   },
   {
     "code": "C022",
@@ -463,7 +484,8 @@
       "gray",
       "poop",
       "fly"
-    ]
+    ],
+    "icon": "icons/items/C022.png"
   },
   {
     "code": "C023",
@@ -490,7 +512,8 @@
       "can",
       "tin",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C023.png"
   },
   {
     "code": "C024",
@@ -518,7 +541,8 @@
       "sack",
       "bag",
       "fly"
-    ]
+    ],
+    "icon": "icons/items/C024.png"
   },
   {
     "code": "C025",
@@ -545,7 +569,8 @@
       "fly",
       "flies",
       "milk"
-    ]
+    ],
+    "icon": "icons/items/C025.png"
   },
   {
     "code": "C026",
@@ -572,7 +597,8 @@
       "bone",
       "lump",
       "yellow"
-    ]
+    ],
+    "icon": "icons/items/C026.png"
   },
   {
     "code": "C027",
@@ -588,7 +614,8 @@
       "boss room pool",
       "boss room item",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C027.png"
   },
   {
     "code": "C028",
@@ -609,7 +636,8 @@
       "sack",
       "golden chest pool",
       "gold chest pool"
-    ]
+    ],
+    "icon": "icons/items/C028.png"
   },
   {
     "code": "C029",
@@ -634,7 +662,8 @@
       "knickers",
       "moms underwear",
       "mom underwear"
-    ]
+    ],
+    "icon": "icons/items/C029.png"
   },
   {
     "code": "C030",
@@ -657,7 +686,8 @@
       "shoe",
       "moms heels",
       "mom heels"
-    ]
+    ],
+    "icon": "icons/items/C030.png"
   },
   {
     "code": "C031",
@@ -680,7 +710,8 @@
       "red",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C031.png"
   },
   {
     "code": "C032",
@@ -696,7 +727,8 @@
       "boss room pool",
       "boss room item",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C032.png"
   },
   {
     "code": "C033",
@@ -719,7 +751,8 @@
       "shop item pool",
       "cross",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C033.png"
   },
   {
     "code": "C034",
@@ -741,7 +774,8 @@
       "star grey",
       "gray",
       "pentagram"
-    ]
+    ],
+    "icon": "icons/items/C034.png"
   },
   {
     "code": "C035",
@@ -764,7 +798,8 @@
       "brown",
       "face",
       "spots"
-    ]
+    ],
+    "icon": "icons/items/C035.png"
   },
   {
     "code": "C036",
@@ -783,7 +818,8 @@
       "starting",
       "turd",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C036.png"
   },
   {
     "code": "C037",
@@ -806,7 +842,8 @@
       "face",
       "smile",
       "grey"
-    ]
+    ],
+    "icon": "icons/items/C037.png"
   },
   {
     "code": "C038",
@@ -827,7 +864,8 @@
       "yellow",
       "tammys head",
       "tammy head"
-    ]
+    ],
+    "icon": "icons/items/C038.png"
   },
   {
     "code": "C039",
@@ -851,7 +889,8 @@
       "underwear",
       "moms bra",
       "mom bra"
-    ]
+    ],
+    "icon": "icons/items/C039.png"
   },
   {
     "code": "C040",
@@ -872,7 +911,8 @@
       "tnt",
       "clock",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C040.png"
   },
   {
     "code": "C041",
@@ -895,7 +935,8 @@
       "grey",
       "gray moms pad",
       "mom pad"
-    ]
+    ],
+    "icon": "icons/items/C041.png"
   },
   {
     "code": "C042",
@@ -920,7 +961,8 @@
       "mouth",
       "bobs rotten head",
       "bob rotten head"
-    ]
+    ],
+    "icon": "icons/items/C042.png"
   },
   {
     "code": "C044",
@@ -938,7 +980,8 @@
       "item room pool",
       "blue remote",
       "robot"
-    ]
+    ],
+    "icon": "icons/items/C044.png"
   },
   {
     "code": "C045",
@@ -960,7 +1003,8 @@
       "red",
       "pink",
       "broken"
-    ]
+    ],
+    "icon": "icons/items/C045.png"
   },
   {
     "code": "C046",
@@ -984,7 +1028,8 @@
       "pink",
       "white",
       "yellow"
-    ]
+    ],
+    "icon": "icons/items/C046.png"
   },
   {
     "code": "C047",
@@ -1003,7 +1048,8 @@
       "grey",
       "gray",
       "robot"
-    ]
+    ],
+    "icon": "icons/items/C047.png"
   },
   {
     "code": "C048",
@@ -1027,7 +1073,8 @@
       "bolt",
       "cupid arrow",
       "cupids arrow"
-    ]
+    ],
+    "icon": "icons/items/C048.png"
   },
   {
     "code": "C049",
@@ -1047,7 +1094,8 @@
       "lips",
       "white",
       "eyes"
-    ]
+    ],
+    "icon": "icons/items/C049.png"
   },
   {
     "code": "C050",
@@ -1066,7 +1114,8 @@
       "eyes",
       "mouth",
       "golden chest pool"
-    ]
+    ],
+    "icon": "icons/items/C050.png"
   },
   {
     "code": "C051",
@@ -1089,7 +1138,8 @@
       "star",
       "red",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C051.png"
   },
   {
     "code": "C052",
@@ -1113,7 +1163,8 @@
       "pink",
       "bug",
       "dr fetus"
-    ]
+    ],
+    "icon": "icons/items/C052.png"
   },
   {
     "code": "C053",
@@ -1131,7 +1182,8 @@
       "item room pool",
       "red",
       "horse shoe"
-    ]
+    ],
+    "icon": "icons/items/C053.png"
   },
   {
     "code": "C054",
@@ -1154,7 +1206,8 @@
       "x",
       "cross",
       "paper"
-    ]
+    ],
+    "icon": "icons/items/C054.png"
   },
   {
     "code": "C055",
@@ -1177,7 +1230,8 @@
       "red",
       "moms eye",
       "mom eye"
-    ]
+    ],
+    "icon": "icons/items/C055.png"
   },
   {
     "code": "C056",
@@ -1195,7 +1249,8 @@
       "item room pool",
       "yellow",
       "chet lemon"
-    ]
+    ],
+    "icon": "icons/items/C056.png"
   },
   {
     "code": "C057",
@@ -1216,7 +1271,8 @@
       "item room",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C057.png"
   },
   {
     "code": "C058",
@@ -1237,7 +1293,8 @@
       "item room pool",
       "white",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C058.png"
   },
   {
     "code": "C060",
@@ -1255,7 +1312,8 @@
       "the lost item pool",
       "brown",
       "wooden"
-    ]
+    ],
+    "icon": "icons/items/C060.png"
   },
   {
     "code": "C062",
@@ -1276,7 +1334,8 @@
       "grey",
       "gray",
       "bat"
-    ]
+    ],
+    "icon": "icons/items/C062.png"
   },
   {
     "code": "C063",
@@ -1293,7 +1352,8 @@
       "shop item pool",
       "pink",
       "purple"
-    ]
+    ],
+    "icon": "icons/items/C063.png"
   },
   {
     "code": "C064",
@@ -1312,7 +1372,8 @@
       "pink",
       "white",
       "paper"
-    ]
+    ],
+    "icon": "icons/items/C064.png"
   },
   {
     "code": "C065",
@@ -1335,7 +1396,8 @@
       "white",
       "red",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C065.png"
   },
   {
     "code": "C066",
@@ -1356,7 +1418,8 @@
       "egg timer",
       "sandbrown",
       "glass"
-    ]
+    ],
+    "icon": "icons/items/C066.png"
   },
   {
     "code": "C067",
@@ -1378,7 +1441,8 @@
       "red",
       "dead",
       "baby"
-    ]
+    ],
+    "icon": "icons/items/C067.png"
   },
   {
     "code": "C068",
@@ -1398,7 +1462,8 @@
       "wire",
       "white",
       "eye"
-    ]
+    ],
+    "icon": "icons/items/C068.png"
   },
   {
     "code": "C069",
@@ -1418,7 +1483,8 @@
       "glass",
       "beaker",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C069.png"
   },
   {
     "code": "C070",
@@ -1442,7 +1508,8 @@
       "purple",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C070.png"
   },
   {
     "code": "C071",
@@ -1461,7 +1528,8 @@
       "mushroom",
       "blue",
       "spotted"
-    ]
+    ],
+    "icon": "icons/items/C071.png"
   },
   {
     "code": "C072",
@@ -1487,7 +1555,8 @@
       "gray",
       "cross",
       "necklace"
-    ]
+    ],
+    "icon": "icons/items/C072.png"
   },
   {
     "code": "C073",
@@ -1503,7 +1572,8 @@
       "red",
       "box",
       "square"
-    ]
+    ],
+    "icon": "icons/items/C073.png"
   },
   {
     "code": "C074",
@@ -1527,7 +1597,8 @@
       "devil pool",
       "devil room pool",
       "devil deal"
-    ]
+    ],
+    "icon": "icons/items/C074.png"
   },
   {
     "code": "C075",
@@ -1548,7 +1619,8 @@
       "pink",
       "yellow",
       "paper"
-    ]
+    ],
+    "icon": "icons/items/C075.png"
   },
   {
     "code": "C076",
@@ -1569,7 +1641,8 @@
       "pink",
       "white",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C076.png"
   },
   {
     "code": "C077",
@@ -1587,7 +1660,8 @@
       "item room pool",
       "white",
       "horn"
-    ]
+    ],
+    "icon": "icons/items/C077.png"
   },
   {
     "code": "C078",
@@ -1609,7 +1683,8 @@
       "the lost item pool",
       "purple",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C078.png"
   },
   {
     "code": "C079",
@@ -1628,7 +1703,8 @@
       "devil deal",
       "red",
       "666"
-    ]
+    ],
+    "icon": "icons/items/C079.png"
   },
   {
     "code": "C080",
@@ -1650,7 +1726,8 @@
       "contract",
       "red",
       "drip"
-    ]
+    ],
+    "icon": "icons/items/C080.png"
   },
   {
     "code": "C081",
@@ -1669,7 +1746,8 @@
       "devil pool",
       "devil room pool",
       "devil deal"
-    ]
+    ],
+    "icon": "icons/items/C081.png"
   },
   {
     "code": "C082",
@@ -1690,7 +1768,8 @@
       "upside down",
       "red",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C082.png"
   },
   {
     "code": "C083",
@@ -1709,7 +1788,8 @@
       "grey",
       "gray",
       "bloody"
-    ]
+    ],
+    "icon": "icons/items/C083.png"
   },
   {
     "code": "C084",
@@ -1732,7 +1812,8 @@
       "dig",
       "spade",
       "shovel"
-    ]
+    ],
+    "icon": "icons/items/C084.png"
   },
   {
     "code": "C085",
@@ -1752,7 +1833,8 @@
       "item room pool",
       "brown",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C085.png"
   },
   {
     "code": "C086",
@@ -1774,7 +1856,8 @@
       "bloody",
       "monstros tooth",
       "monstro tooth"
-    ]
+    ],
+    "icon": "icons/items/C086.png"
   },
   {
     "code": "C087",
@@ -1794,7 +1877,8 @@
       "gray",
       "devil",
       "lokis horns loki horns"
-    ]
+    ],
+    "icon": "icons/items/C087.png"
   },
   {
     "code": "C088",
@@ -1814,7 +1898,8 @@
       "smile",
       "face",
       "bug"
-    ]
+    ],
+    "icon": "icons/items/C088.png"
   },
   {
     "code": "C089",
@@ -1835,7 +1920,8 @@
       "gray",
       "red",
       "bug"
-    ]
+    ],
+    "icon": "icons/items/C089.png"
   },
   {
     "code": "C090",
@@ -1854,7 +1940,8 @@
       "gray",
       "lump",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C090.png"
   },
   {
     "code": "C091",
@@ -1880,7 +1967,8 @@
       "grey",
       "gray",
       "lamp"
-    ]
+    ],
+    "icon": "icons/items/C091.png"
   },
   {
     "code": "C092",
@@ -1902,7 +1990,8 @@
       "treasure room",
       "item room pool",
       "the lost item pool"
-    ]
+    ],
+    "icon": "icons/items/C092.png"
   },
   {
     "code": "C093",
@@ -1922,7 +2011,8 @@
       "grey",
       "gray",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C093.png"
   },
   {
     "code": "C094",
@@ -1942,7 +2032,8 @@
       "bag",
       "purple",
       "pouch"
-    ]
+    ],
+    "icon": "icons/items/C094.png"
   },
   {
     "code": "C095",
@@ -1965,7 +2056,8 @@
       "gray",
       "silver",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C095.png"
   },
   {
     "code": "C096",
@@ -1988,7 +2080,8 @@
       "smile",
       "face",
       "bug"
-    ]
+    ],
+    "icon": "icons/items/C096.png"
   },
   {
     "code": "C097",
@@ -2014,7 +2107,8 @@
       "grey",
       "gray",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C097.png"
   },
   {
     "code": "C098",
@@ -2034,7 +2128,8 @@
       "treasure room",
       "item room pool",
       "the lost item pool"
-    ]
+    ],
+    "icon": "icons/items/C098.png"
   },
   {
     "code": "C099",
@@ -2055,7 +2150,8 @@
       "yellow",
       "eyes",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C099.png"
   },
   {
     "code": "C100",
@@ -2077,7 +2173,8 @@
       "baby",
       "white",
       "eyes"
-    ]
+    ],
+    "icon": "icons/items/C100.png"
   },
   {
     "code": "C101",
@@ -2102,7 +2199,8 @@
       "golden",
       "ring",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C101.png"
   },
   {
     "code": "C102",
@@ -2137,7 +2235,8 @@
       "jar",
       "drug",
       "moms bottle of pills"
-    ]
+    ],
+    "icon": "icons/items/C102.png"
   },
   {
     "code": "C103",
@@ -2158,7 +2257,8 @@
       "booger",
       "ball",
       "slime"
-    ]
+    ],
+    "icon": "icons/items/C103.png"
   },
   {
     "code": "C104",
@@ -2178,7 +2278,8 @@
       "slug",
       "bug",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C104.png"
   },
   {
     "code": "C105",
@@ -2200,7 +2301,8 @@
       "red",
       "cube",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C105.png"
   },
   {
     "code": "C106",
@@ -2226,7 +2328,8 @@
       "grey",
       "gray",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C106.png"
   },
   {
     "code": "C107",
@@ -2249,7 +2352,8 @@
       "silver",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C107.png"
   },
   {
     "code": "C108",
@@ -2274,7 +2378,8 @@
       "cross",
       "white",
       "yellow"
-    ]
+    ],
+    "icon": "icons/items/C108.png"
   },
   {
     "code": "C109",
@@ -2295,7 +2400,8 @@
       "red",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C109.png"
   },
   {
     "code": "C110",
@@ -2318,7 +2424,8 @@
       "red",
       "eye",
       "glow moms contacts mom contact"
-    ]
+    ],
+    "icon": "icons/items/C110.png"
   },
   {
     "code": "C111",
@@ -2342,7 +2449,8 @@
       "#teambean",
       "brown",
       "kidney"
-    ]
+    ],
+    "icon": "icons/items/C111.png"
   },
   {
     "code": "C112",
@@ -2360,7 +2468,8 @@
       "angel room item",
       "baby",
       "wings"
-    ]
+    ],
+    "icon": "icons/items/C112.png"
   },
   {
     "code": "C113",
@@ -2384,7 +2493,8 @@
       "grey",
       "gray",
       "horns"
-    ]
+    ],
+    "icon": "icons/items/C113.png"
   },
   {
     "code": "C114",
@@ -2409,7 +2519,8 @@
       "grey",
       "gray",
       "silver"
-    ]
+    ],
+    "icon": "icons/items/C114.png"
   },
   {
     "code": "C115",
@@ -2429,7 +2540,8 @@
       "weeja board",
       "paper",
       "grown"
-    ]
+    ],
+    "icon": "icons/items/C115.png"
   },
   {
     "code": "C116",
@@ -2447,7 +2559,8 @@
       "battery",
       "black",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C116.png"
   },
   {
     "code": "C117",
@@ -2467,7 +2580,8 @@
       "starting",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C117.png"
   },
   {
     "code": "C118",
@@ -2486,7 +2600,8 @@
       "infinity",
       "red",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C118.png"
   },
   {
     "code": "C119",
@@ -2502,7 +2617,8 @@
       "the lost item pool",
       "red",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C119.png"
   },
   {
     "code": "C120",
@@ -2524,7 +2640,8 @@
       "purple",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C120.png"
   },
   {
     "code": "C121",
@@ -2545,7 +2662,8 @@
       "pink",
       "brown",
       "thick odd mushroom thick"
-    ]
+    ],
+    "icon": "icons/items/C121.png"
   },
   {
     "code": "C122",
@@ -2565,7 +2683,8 @@
       "black",
       "star",
       "moon"
-    ]
+    ],
+    "icon": "icons/items/C122.png"
   },
   {
     "code": "C123",
@@ -2589,7 +2708,8 @@
       "blue",
       "monster manuel",
       "manaul"
-    ]
+    ],
+    "icon": "icons/items/C123.png"
   },
   {
     "code": "C124",
@@ -2611,7 +2731,8 @@
       "paper",
       "roll",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C124.png"
   },
   {
     "code": "C125",
@@ -2633,7 +2754,8 @@
       "grey",
       "gray",
       "feet bobby bomb"
-    ]
+    ],
+    "icon": "icons/items/C125.png"
   },
   {
     "code": "C126",
@@ -2654,7 +2776,8 @@
       "silver",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C126.png"
   },
   {
     "code": "C127",
@@ -2676,7 +2799,8 @@
       "drug",
       "white",
       "purple"
-    ]
+    ],
+    "icon": "icons/items/C127.png"
   },
   {
     "code": "C128",
@@ -2693,7 +2817,8 @@
       "treasure room",
       "item room pool",
       "blue"
-    ]
+    ],
+    "icon": "icons/items/C128.png"
   },
   {
     "code": "C129",
@@ -2714,7 +2839,8 @@
       "grey",
       "gray",
       "tub"
-    ]
+    ],
+    "icon": "icons/items/C129.png"
   },
   {
     "code": "C130",
@@ -2732,7 +2858,8 @@
       "red",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C130.png"
   },
   {
     "code": "C131",
@@ -2755,7 +2882,8 @@
       "pouch",
       "blue",
       "purple"
-    ]
+    ],
+    "icon": "icons/items/C131.png"
   },
   {
     "code": "C132",
@@ -2771,7 +2899,8 @@
       "krampus",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C132.png"
   },
   {
     "code": "C133",
@@ -2798,7 +2927,8 @@
       "gray",
       "guppys paw",
       "guppy paw"
-    ]
+    ],
+    "icon": "icons/items/C133.png"
   },
   {
     "code": "C134",
@@ -2823,7 +2953,8 @@
       "grey",
       "guppys tail",
       "guppy tail"
-    ]
+    ],
+    "icon": "icons/items/C134.png"
   },
   {
     "code": "C135",
@@ -2839,7 +2970,8 @@
       "the lost item pool",
       "red",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C135.png"
   },
   {
     "code": "C136",
@@ -2860,7 +2992,8 @@
       "baby",
       "pink",
       "puppet"
-    ]
+    ],
+    "icon": "icons/items/C136.png"
   },
   {
     "code": "C137",
@@ -2883,7 +3016,8 @@
       "red",
       "boom",
       "tnt"
-    ]
+    ],
+    "icon": "icons/items/C137.png"
   },
   {
     "code": "C138",
@@ -2902,7 +3036,8 @@
       "wooden",
       "cross",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C138.png"
   },
   {
     "code": "C139",
@@ -2920,7 +3055,8 @@
       "purple",
       "pink",
       "bag"
-    ]
+    ],
+    "icon": "icons/items/C139.png"
   },
   {
     "code": "C140",
@@ -2944,7 +3080,8 @@
       "face",
       "bobs curse",
       "bob curse"
-    ]
+    ],
+    "icon": "icons/items/C140.png"
   },
   {
     "code": "C141",
@@ -2967,7 +3104,8 @@
       "pink",
       "purple",
       "hat"
-    ]
+    ],
+    "icon": "icons/items/C141.png"
   },
   {
     "code": "C142",
@@ -2990,7 +3128,8 @@
       "brown",
       "white",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C142.png"
   },
   {
     "code": "C143",
@@ -3015,7 +3154,8 @@
       "needle",
       "injection",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C143.png"
   },
   {
     "code": "C144",
@@ -3033,7 +3173,8 @@
       "item room pool",
       "baby",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C144.png"
   },
   {
     "code": "C145",
@@ -3060,7 +3201,8 @@
       "gray",
       "guppy head",
       "guppys head"
-    ]
+    ],
+    "icon": "icons/items/C145.png"
   },
   {
     "code": "C146",
@@ -3083,7 +3225,8 @@
       "white",
       "yellow",
       "blue"
-    ]
+    ],
+    "icon": "icons/items/C146.png"
   },
   {
     "code": "C147",
@@ -3104,7 +3247,8 @@
       "grey",
       "gray",
       "silver"
-    ]
+    ],
+    "icon": "icons/items/C147.png"
   },
   {
     "code": "C148",
@@ -3124,7 +3268,8 @@
       "bug",
       "yellow",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C148.png"
   },
   {
     "code": "C149",
@@ -3144,7 +3289,8 @@
       "bottle",
       "purple",
       "label"
-    ]
+    ],
+    "icon": "icons/items/C149.png"
   },
   {
     "code": "C150",
@@ -3167,7 +3313,8 @@
       "grey",
       "gray",
       "brass knuckles"
-    ]
+    ],
+    "icon": "icons/items/C150.png"
   },
   {
     "code": "C151",
@@ -3184,7 +3331,8 @@
       "treasure room",
       "item room pool",
       "heart"
-    ]
+    ],
+    "icon": "icons/items/C151.png"
   },
   {
     "code": "C152",
@@ -3205,7 +3353,8 @@
       "grey",
       "red",
       "machine"
-    ]
+    ],
+    "icon": "icons/items/C152.png"
   },
   {
     "code": "C153",
@@ -3223,7 +3372,8 @@
       "item room pool",
       "green",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C153.png"
   },
   {
     "code": "C154",
@@ -3245,7 +3395,8 @@
       "bottle",
       "jar",
       "danger"
-    ]
+    ],
+    "icon": "icons/items/C154.png"
   },
   {
     "code": "C155",
@@ -3263,7 +3414,8 @@
       "item room pool",
       "red",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C155.png"
   },
   {
     "code": "C156",
@@ -3284,7 +3436,8 @@
       "the lost item pool",
       "white",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C156.png"
   },
   {
     "code": "C157",
@@ -3305,7 +3458,8 @@
       "red",
       "blood",
       "drop"
-    ]
+    ],
+    "icon": "icons/items/C157.png"
   },
   {
     "code": "C158",
@@ -3323,7 +3477,8 @@
       "item room pool",
       "white",
       "purple"
-    ]
+    ],
+    "icon": "icons/items/C158.png"
   },
   {
     "code": "C159",
@@ -3344,7 +3499,8 @@
       "moon",
       "drop",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C159.png"
   },
   {
     "code": "C160",
@@ -3363,7 +3519,8 @@
       "feather",
       "white",
       "arrow"
-    ]
+    ],
+    "icon": "icons/items/C160.png"
   },
   {
     "code": "C161",
@@ -3386,7 +3543,8 @@
       "egypt",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C161.png"
   },
   {
     "code": "C162",
@@ -3408,7 +3566,8 @@
       "the lost item pool",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C162.png"
   },
   {
     "code": "C163",
@@ -3429,7 +3588,8 @@
       "item room pool",
       "white",
       "spoopy"
-    ]
+    ],
+    "icon": "icons/items/C163.png"
   },
   {
     "code": "C164",
@@ -3450,7 +3610,8 @@
       "silver",
       "lamp",
       "lantern"
-    ]
+    ],
+    "icon": "icons/items/C164.png"
   },
   {
     "code": "C165",
@@ -3469,7 +3630,8 @@
       "gray",
       "whip",
       "cat o nine tails catonine tails"
-    ]
+    ],
+    "icon": "icons/items/C165.png"
   },
   {
     "code": "C166",
@@ -3488,7 +3650,8 @@
       "dice pip",
       "red",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C166.png"
   },
   {
     "code": "C167",
@@ -3508,7 +3671,8 @@
       "eyes",
       "pink",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C167.png"
   },
   {
     "code": "C168",
@@ -3529,7 +3693,8 @@
       "white",
       "hat",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C168.png"
   },
   {
     "code": "C169",
@@ -3550,7 +3715,8 @@
       "one eye",
       "blue",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C169.png"
   },
   {
     "code": "C170",
@@ -3570,7 +3736,8 @@
       "yarn",
       "wool",
       "spider"
-    ]
+    ],
+    "icon": "icons/items/C170.png"
   },
   {
     "code": "C171",
@@ -3589,7 +3756,8 @@
       "brown",
       "red",
       "web"
-    ]
+    ],
+    "icon": "icons/items/C171.png"
   },
   {
     "code": "C172",
@@ -3612,7 +3780,8 @@
       "knife",
       "red",
       "silver"
-    ]
+    ],
+    "icon": "icons/items/C172.png"
   },
   {
     "code": "C173",
@@ -3638,7 +3807,8 @@
       "cross",
       "pope",
       "hat"
-    ]
+    ],
+    "icon": "icons/items/C173.png"
   },
   {
     "code": "C174",
@@ -3655,7 +3825,8 @@
       "treasure room",
       "item room pool",
       "purple"
-    ]
+    ],
+    "icon": "icons/items/C174.png"
   },
   {
     "code": "C175",
@@ -3679,7 +3850,8 @@
       "copper",
       "dads key",
       "dad key"
-    ]
+    ],
+    "icon": "icons/items/C175.png"
   },
   {
     "code": "C176",
@@ -3700,7 +3872,8 @@
       "lumpy",
       "red",
       "balls"
-    ]
+    ],
+    "icon": "icons/items/C176.png"
   },
   {
     "code": "C177",
@@ -3723,7 +3896,8 @@
       "robot",
       "head",
       "cube"
-    ]
+    ],
+    "icon": "icons/items/C177.png"
   },
   {
     "code": "C178",
@@ -3747,7 +3921,8 @@
       "blue",
       "cross",
       "jar"
-    ]
+    ],
+    "icon": "icons/items/C178.png"
   },
   {
     "code": "C179",
@@ -3766,7 +3941,8 @@
       "the lost item pool",
       "dead",
       "ball"
-    ]
+    ],
+    "icon": "icons/items/C179.png"
   },
   {
     "code": "C180",
@@ -3790,7 +3966,8 @@
       "kidney",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C180.png"
   },
   {
     "code": "C181",
@@ -3806,7 +3983,8 @@
       "red",
       "horse",
       "head"
-    ]
+    ],
+    "icon": "icons/items/C181.png"
   },
   {
     "code": "C182",
@@ -3827,7 +4005,8 @@
       "flame",
       "orange",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C182.png"
   },
   {
     "code": "C183",
@@ -3845,7 +4024,8 @@
       "sticks",
       "brown",
       "yellow"
-    ]
+    ],
+    "icon": "icons/items/C183.png"
   },
   {
     "code": "C184",
@@ -3866,7 +4046,8 @@
       "wooden",
       "chalice",
       "indiana jones"
-    ]
+    ],
+    "icon": "icons/items/C184.png"
   },
   {
     "code": "C185",
@@ -3884,7 +4065,8 @@
       "angel room item",
       "bird",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C185.png"
   },
   {
     "code": "C186",
@@ -3907,7 +4089,8 @@
       "bloody",
       "brown",
       "silver"
-    ]
+    ],
+    "icon": "icons/items/C186.png"
   },
   {
     "code": "C187",
@@ -3928,7 +4111,8 @@
       "pile",
       "guppys hairball",
       "guppy hairball"
-    ]
+    ],
+    "icon": "icons/items/C187.png"
   },
   {
     "code": "C188",
@@ -3955,7 +4139,8 @@
       "head",
       "grey",
       "green cain and abel cain & abel"
-    ]
+    ],
+    "icon": "icons/items/C188.png"
   },
   {
     "code": "C189",
@@ -3976,7 +4161,8 @@
       "grey",
       "gray",
       "sharp"
-    ]
+    ],
+    "icon": "icons/items/C189.png"
   },
   {
     "code": "C190",
@@ -3997,7 +4183,8 @@
       "face",
       "grinning",
       "doitfgt"
-    ]
+    ],
+    "icon": "icons/items/C190.png"
   },
   {
     "code": "C191",
@@ -4018,7 +4205,8 @@
       "cash",
       "three dollar bill",
       "cash money"
-    ]
+    ],
+    "icon": "icons/items/C191.png"
   },
   {
     "code": "C192",
@@ -4038,7 +4226,8 @@
       "treasure room",
       "item room pool",
       "yellow book how to"
-    ]
+    ],
+    "icon": "icons/items/C192.png"
   },
   {
     "code": "C193",
@@ -4056,7 +4245,8 @@
       "bone",
       "red",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C193.png"
   },
   {
     "code": "C194",
@@ -4074,7 +4264,8 @@
       "eight",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C194.png"
   },
   {
     "code": "C195",
@@ -4105,7 +4296,8 @@
       "pouch",
       "moms coin purse",
       "mom coin purse"
-    ]
+    ],
+    "icon": "icons/items/C195.png"
   },
   {
     "code": "C196",
@@ -4126,7 +4318,8 @@
       "white",
       "brown",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C196.png"
   },
   {
     "code": "C197",
@@ -4144,7 +4337,8 @@
       "purple",
       "carton",
       "grape drank"
-    ]
+    ],
+    "icon": "icons/items/C197.png"
   },
   {
     "code": "C198",
@@ -4169,7 +4363,8 @@
       "brown",
       "orange",
       "cardboard"
-    ]
+    ],
+    "icon": "icons/items/C198.png"
   },
   {
     "code": "C199",
@@ -4194,7 +4389,8 @@
       "horns",
       "moms key",
       "mom key"
-    ]
+    ],
+    "icon": "icons/items/C199.png"
   },
   {
     "code": "C200",
@@ -4217,7 +4413,8 @@
       "gray",
       "blue",
       "moms eyeshadow"
-    ]
+    ],
+    "icon": "icons/items/C200.png"
   },
   {
     "code": "C201",
@@ -4237,7 +4434,8 @@
       "gray",
       "silver",
       "ingot"
-    ]
+    ],
+    "icon": "icons/items/C201.png"
   },
   {
     "code": "C202",
@@ -4257,7 +4455,8 @@
       "ingot",
       "bar",
       "orange"
-    ]
+    ],
+    "icon": "icons/items/C202.png"
   },
   {
     "code": "C203",
@@ -4275,7 +4474,8 @@
       "paper",
       "purple",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C203.png"
   },
   {
     "code": "C204",
@@ -4300,7 +4500,8 @@
       "purse",
       "satchel",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C204.png"
   },
   {
     "code": "C205",
@@ -4317,7 +4518,8 @@
       "shop item pool",
       "the lost item pool",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C205.png"
   },
   {
     "code": "C206",
@@ -4337,7 +4539,8 @@
       "head",
       "silver",
       "metal"
-    ]
+    ],
+    "icon": "icons/items/C206.png"
   },
   {
     "code": "C207",
@@ -4353,7 +4556,8 @@
       "super meat boy",
       "pink",
       "plasters"
-    ]
+    ],
+    "icon": "icons/items/C207.png"
   },
   {
     "code": "C208",
@@ -4371,7 +4575,8 @@
       "red",
       "croissant",
       "crescent"
-    ]
+    ],
+    "icon": "icons/items/C208.png"
   },
   {
     "code": "C209",
@@ -4392,7 +4597,8 @@
       "poop",
       "face",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C209.png"
   },
   {
     "code": "C210",
@@ -4410,7 +4616,8 @@
       "item room pool",
       "raccoon",
       "green"
-    ]
+    ],
+    "icon": "icons/items/C210.png"
   },
   {
     "code": "C211",
@@ -4431,7 +4638,8 @@
       "blue",
       "heart",
       "cute spider baby"
-    ]
+    ],
+    "icon": "icons/items/C211.png"
   },
   {
     "code": "C212",
@@ -4454,7 +4662,8 @@
       "pink",
       "circle",
       "guppys collar"
-    ]
+    ],
+    "icon": "icons/items/C212.png"
   },
   {
     "code": "C213",
@@ -4474,7 +4683,8 @@
       "white",
       "lump",
       "oval"
-    ]
+    ],
+    "icon": "icons/items/C213.png"
   },
   {
     "code": "C214",
@@ -4493,7 +4703,8 @@
       "blood drop",
       "red blood",
       "drip"
-    ]
+    ],
+    "icon": "icons/items/C214.png"
   },
   {
     "code": "C215",
@@ -4516,7 +4727,8 @@
       "devil deal",
       "brown",
       "horns"
-    ]
+    ],
+    "icon": "icons/items/C215.png"
   },
   {
     "code": "C216",
@@ -4539,7 +4751,8 @@
       "grey",
       "gray",
       "hood"
-    ]
+    ],
+    "icon": "icons/items/C216.png"
   },
   {
     "code": "C217",
@@ -4560,7 +4773,8 @@
       "item room pink",
       "orange",
       "moms wig"
-    ]
+    ],
+    "icon": "icons/items/C217.png"
   },
   {
     "code": "C218",
@@ -4579,7 +4793,8 @@
       "purple",
       "red",
       "lump"
-    ]
+    ],
+    "icon": "icons/items/C218.png"
   },
   {
     "code": "C219",
@@ -4597,7 +4812,8 @@
       "the lost item pool",
       "plasters",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C219.png"
   },
   {
     "code": "C220",
@@ -4617,7 +4833,8 @@
       "item room pool",
       "crying",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C220.png"
   },
   {
     "code": "C221",
@@ -4637,7 +4854,8 @@
       "brown",
       "bottle",
       "jar"
-    ]
+    ],
+    "icon": "icons/items/C221.png"
   },
   {
     "code": "C222",
@@ -4657,7 +4875,8 @@
       "anti gravity",
       "atom",
       "nucleus"
-    ]
+    ],
+    "icon": "icons/items/C222.png"
   },
   {
     "code": "C223",
@@ -4678,7 +4897,8 @@
       "orange",
       "burning",
       "stannis"
-    ]
+    ],
+    "icon": "icons/items/C223.png"
   },
   {
     "code": "C224",
@@ -4698,7 +4918,8 @@
       "orange",
       "headless",
       "crickets body"
-    ]
+    ],
+    "icon": "icons/items/C224.png"
   },
   {
     "code": "C225",
@@ -4725,7 +4946,8 @@
       "grey",
       "gray",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C225.png"
   },
   {
     "code": "C226",
@@ -4747,7 +4969,8 @@
       "flower",
       "mtg magic the gathering",
       "vintage"
-    ]
+    ],
+    "icon": "icons/items/C226.png"
   },
   {
     "code": "C227",
@@ -4767,7 +4990,8 @@
       "item room pool",
       "pink",
       "oink"
-    ]
+    ],
+    "icon": "icons/items/C227.png"
   },
   {
     "code": "C228",
@@ -4791,7 +5015,8 @@
       "white",
       "yellow",
       "moms purfume"
-    ]
+    ],
+    "icon": "icons/items/C228.png"
   },
   {
     "code": "C229",
@@ -4810,7 +5035,8 @@
       "pink",
       "body part",
       "monstros lung"
-    ]
+    ],
+    "icon": "icons/items/C229.png"
   },
   {
     "code": "C230",
@@ -4830,7 +5056,8 @@
       "abandon",
       "abadon",
       "pentagram"
-    ]
+    ],
+    "icon": "icons/items/C230.png"
   },
   {
     "code": "C231",
@@ -4849,7 +5076,8 @@
       "black",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C231.png"
   },
   {
     "code": "C232",
@@ -4868,7 +5096,8 @@
       "blue",
       "pocket",
       "clock"
-    ]
+    ],
+    "icon": "icons/items/C232.png"
   },
   {
     "code": "C233",
@@ -4889,7 +5118,8 @@
       "asteroid",
       "silver",
       "ball"
-    ]
+    ],
+    "icon": "icons/items/C233.png"
   },
   {
     "code": "C234",
@@ -4907,7 +5137,8 @@
       "item room pool",
       "pink",
       "smile"
-    ]
+    ],
+    "icon": "icons/items/C234.png"
   },
   {
     "code": "C236",
@@ -4930,7 +5161,8 @@
       "white",
       "red sperm",
       "ecoli"
-    ]
+    ],
+    "icon": "icons/items/C236.png"
   },
   {
     "code": "C237",
@@ -4955,7 +5187,8 @@
       "gray",
       "deaths touch",
       "death touch"
-    ]
+    ],
+    "icon": "icons/items/C237.png"
   },
   {
     "code": "C238",
@@ -4974,7 +5207,8 @@
       "yellow",
       "gold",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C238.png"
   },
   {
     "code": "C239",
@@ -4990,7 +5224,8 @@
       "yellow",
       "gold",
       "broken"
-    ]
+    ],
+    "icon": "icons/items/C239.png"
   },
   {
     "code": "C240",
@@ -5014,7 +5249,8 @@
       "yellow syringe",
       "needle",
       "injection"
-    ]
+    ],
+    "icon": "icons/items/C240.png"
   },
   {
     "code": "C241",
@@ -5038,7 +5274,8 @@
       "pink",
       "brown",
       "isaac"
-    ]
+    ],
+    "icon": "icons/items/C241.png"
   },
   {
     "code": "C242",
@@ -5061,7 +5298,8 @@
       "pink",
       "mask",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C242.png"
   },
   {
     "code": "C243",
@@ -5080,7 +5318,8 @@
       "blue",
       "silver",
       "metal"
-    ]
+    ],
+    "icon": "icons/items/C243.png"
   },
   {
     "code": "C244",
@@ -5102,7 +5341,8 @@
       "red",
       "eye",
       "robot"
-    ]
+    ],
+    "icon": "icons/items/C244.png"
   },
   {
     "code": "C245",
@@ -5122,7 +5362,8 @@
       "item room pool",
       "black glasses",
       "spectacles"
-    ]
+    ],
+    "icon": "icons/items/C245.png"
   },
   {
     "code": "C246",
@@ -5143,7 +5384,8 @@
       "shop item pool",
       "x",
       "paper"
-    ]
+    ],
+    "icon": "icons/items/C246.png"
   },
   {
     "code": "C247",
@@ -5163,7 +5405,8 @@
       "shop item pool",
       "red",
       "arrow"
-    ]
+    ],
+    "icon": "icons/items/C247.png"
   },
   {
     "code": "C248",
@@ -5180,7 +5423,8 @@
       "shop item pool",
       "blue",
       "fat"
-    ]
+    ],
+    "icon": "icons/items/C248.png"
   },
   {
     "code": "C249",
@@ -5199,7 +5443,8 @@
       "question mark",
       "square",
       "theres options"
-    ]
+    ],
+    "icon": "icons/items/C249.png"
   },
   {
     "code": "C250",
@@ -5217,7 +5462,8 @@
       "purple",
       "paper",
       "ticket"
-    ]
+    ],
+    "icon": "icons/items/C250.png"
   },
   {
     "code": "C251",
@@ -5236,7 +5482,8 @@
       "deck",
       "brown",
       "orange"
-    ]
+    ],
+    "icon": "icons/items/C251.png"
   },
   {
     "code": "C252",
@@ -5253,7 +5500,8 @@
       "shop item pool",
       "brown",
       "purple"
-    ]
+    ],
+    "icon": "icons/items/C252.png"
   },
   {
     "code": "C253",
@@ -5272,7 +5520,8 @@
       "wedge",
       "purple",
       "triangle"
-    ]
+    ],
+    "icon": "icons/items/C253.png"
   },
   {
     "code": "C254",
@@ -5291,7 +5540,8 @@
       "blob",
       "circle",
       "spot"
-    ]
+    ],
+    "icon": "icons/items/C254.png"
   },
   {
     "code": "C255",
@@ -5308,7 +5558,8 @@
       "boss room item",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C255.png"
   },
   {
     "code": "C256",
@@ -5328,7 +5579,8 @@
       "orange",
       "flame",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C256.png"
   },
   {
     "code": "C257",
@@ -5350,7 +5602,8 @@
       "back",
       "ball",
       "burning"
-    ]
+    ],
+    "icon": "icons/items/C257.png"
   },
   {
     "code": "C258",
@@ -5370,7 +5623,8 @@
       "blue",
       "red",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C258.png"
   },
   {
     "code": "C259",
@@ -5390,7 +5644,8 @@
       "gray",
       "fist",
       "glow"
-    ]
+    ],
+    "icon": "icons/items/C259.png"
   },
   {
     "code": "C260",
@@ -5408,7 +5663,8 @@
       "shop item pool",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C260.png"
   },
   {
     "code": "C261",
@@ -5427,7 +5683,8 @@
       "red",
       "bloody",
       "eyeball"
-    ]
+    ],
+    "icon": "icons/items/C261.png"
   },
   {
     "code": "C262",
@@ -5452,7 +5709,8 @@
       "bloody",
       "purple",
       "paper"
-    ]
+    ],
+    "icon": "icons/items/C262.png"
   },
   {
     "code": "C263",
@@ -5466,7 +5724,8 @@
     "quality": 2,
     "tags": [
       "Secret Room"
-    ]
+    ],
+    "icon": "icons/items/C263.png"
   },
   {
     "code": "C264",
@@ -5488,7 +5747,8 @@
       "golden",
       "yellow",
       "glow"
-    ]
+    ],
+    "icon": "icons/items/C264.png"
   },
   {
     "code": "C265",
@@ -5510,7 +5770,8 @@
       "white",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C265.png"
   },
   {
     "code": "C266",
@@ -5529,7 +5790,8 @@
       "white",
       "ball",
       "dripping"
-    ]
+    ],
+    "icon": "icons/items/C266.png"
   },
   {
     "code": "C267",
@@ -5551,7 +5813,8 @@
       "grey",
       "gray",
       "robot"
-    ]
+    ],
+    "icon": "icons/items/C267.png"
   },
   {
     "code": "C268",
@@ -5574,7 +5837,8 @@
       "green",
       "red",
       "bloody"
-    ]
+    ],
+    "icon": "icons/items/C268.png"
   },
   {
     "code": "C269",
@@ -5596,7 +5860,8 @@
       "bloody",
       "pink",
       "purple"
-    ]
+    ],
+    "icon": "icons/items/C269.png"
   },
   {
     "code": "C270",
@@ -5615,7 +5880,8 @@
       "grey",
       "gray",
       "worm"
-    ]
+    ],
+    "icon": "icons/items/C270.png"
   },
   {
     "code": "C271",
@@ -5642,7 +5908,8 @@
       "pouch",
       "purple",
       "question mark"
-    ]
+    ],
+    "icon": "icons/items/C271.png"
   },
   {
     "code": "C272",
@@ -5660,7 +5927,8 @@
       "item room pool",
       "heart",
       "smile"
-    ]
+    ],
+    "icon": "icons/items/C272.png"
   },
   {
     "code": "C273",
@@ -5681,7 +5949,8 @@
       "green",
       "bad damage",
       "bobs brain"
-    ]
+    ],
+    "icon": "icons/items/C273.png"
   },
   {
     "code": "C274",
@@ -5702,7 +5971,8 @@
       "item room pool",
       "the lost item pool",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C274.png"
   },
   {
     "code": "C275",
@@ -5724,7 +5994,8 @@
       "horns",
       "smile",
       "lil' brimstone"
-    ]
+    ],
+    "icon": "icons/items/C275.png"
   },
   {
     "code": "C276",
@@ -5742,7 +6013,8 @@
       "item room pool",
       "red",
       "isaacs heart"
-    ]
+    ],
+    "icon": "icons/items/C276.png"
   },
   {
     "code": "C277",
@@ -5760,7 +6032,8 @@
       "item room pool",
       "white",
       "lil' haunt"
-    ]
+    ],
+    "icon": "icons/items/C277.png"
   },
   {
     "code": "C278",
@@ -5789,7 +6062,8 @@
       "grey",
       "gray",
       "smile"
-    ]
+    ],
+    "icon": "icons/items/C278.png"
   },
   {
     "code": "C279",
@@ -5807,7 +6081,8 @@
       "item room pool",
       "fat",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C279.png"
   },
   {
     "code": "C280",
@@ -5829,7 +6104,8 @@
       "damn it reddit",
       "blue",
       "derpface"
-    ]
+    ],
+    "icon": "icons/items/C280.png"
   },
   {
     "code": "C281",
@@ -5850,7 +6126,8 @@
       "lumpy",
       "brown",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C281.png"
   },
   {
     "code": "C282",
@@ -5875,7 +6152,8 @@
       "grey",
       "gray",
       "orange"
-    ]
+    ],
+    "icon": "icons/items/C282.png"
   },
   {
     "code": "C283",
@@ -5898,7 +6176,8 @@
       "circle",
       "sphere",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C283.png"
   },
   {
     "code": "C284",
@@ -5920,7 +6199,8 @@
       "green",
       "triange",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C284.png"
   },
   {
     "code": "C285",
@@ -5942,7 +6222,8 @@
       "brown",
       "turban",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C285.png"
   },
   {
     "code": "C286",
@@ -5963,7 +6244,8 @@
       "item room pool",
       "white",
       "square"
-    ]
+    ],
+    "icon": "icons/items/C286.png"
   },
   {
     "code": "C287",
@@ -5985,7 +6267,8 @@
       "item room pool",
       "question mark book",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C287.png"
   },
   {
     "code": "C288",
@@ -6002,7 +6285,8 @@
       "treasure room",
       "item room poolgrey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C288.png"
   },
   {
     "code": "C289",
@@ -6017,7 +6301,8 @@
     "tags": [
       "shop room pool",
       "shop item pool"
-    ]
+    ],
+    "icon": "icons/items/C289.png"
   },
   {
     "code": "C290",
@@ -6034,7 +6319,8 @@
       "shop item pool",
       "the lost item pool",
       "glass"
-    ]
+    ],
+    "icon": "icons/items/C290.png"
   },
   {
     "code": "C291",
@@ -6055,7 +6341,8 @@
       "gray",
       "white",
       "toilet"
-    ]
+    ],
+    "icon": "icons/items/C291.png"
   },
   {
     "code": "C292",
@@ -6083,7 +6370,8 @@
       "grey",
       "gray",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C292.png"
   },
   {
     "code": "C293",
@@ -6104,7 +6392,8 @@
       "dead",
       "tongue",
       "krampus head"
-    ]
+    ],
+    "icon": "icons/items/C293.png"
   },
   {
     "code": "C294",
@@ -6125,7 +6414,8 @@
       "treasure room",
       "item room pool",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C294.png"
   },
   {
     "code": "C295",
@@ -6147,7 +6437,8 @@
       "box",
       "yellow",
       "grey"
-    ]
+    ],
+    "icon": "icons/items/C295.png"
   },
   {
     "code": "C296",
@@ -6168,7 +6459,8 @@
       "grey",
       "yellow",
       "sprocket"
-    ]
+    ],
+    "icon": "icons/items/C296.png"
   },
   {
     "code": "C297",
@@ -6187,7 +6479,8 @@
       "shop item pool",
       "blue box",
       "pandoras box"
-    ]
+    ],
+    "icon": "icons/items/C297.png"
   },
   {
     "code": "C298",
@@ -6208,7 +6501,8 @@
       "grey",
       "gray",
       "blob"
-    ]
+    ],
+    "icon": "icons/items/C298.png"
   },
   {
     "code": "C299",
@@ -6230,7 +6524,8 @@
       "glow",
       "circle",
       "horns"
-    ]
+    ],
+    "icon": "icons/items/C299.png"
   },
   {
     "code": "C300",
@@ -6252,7 +6547,8 @@
       "blue",
       "cyan",
       "glow"
-    ]
+    ],
+    "icon": "icons/items/C300.png"
   },
   {
     "code": "C301",
@@ -6276,7 +6572,8 @@
       "blue",
       "glow",
       "69"
-    ]
+    ],
+    "icon": "icons/items/C301.png"
   },
   {
     "code": "C302",
@@ -6298,7 +6595,8 @@
       "glow",
       "circle",
       "bomb"
-    ]
+    ],
+    "icon": "icons/items/C302.png"
   },
   {
     "code": "C303",
@@ -6318,7 +6616,8 @@
       "item room pool",
       "blue glow",
       "m"
-    ]
+    ],
+    "icon": "icons/items/C303.png"
   },
   {
     "code": "C304",
@@ -6339,7 +6638,8 @@
       "ohm",
       "blue",
       "glow"
-    ]
+    ],
+    "icon": "icons/items/C304.png"
   },
   {
     "code": "C305",
@@ -6361,7 +6661,8 @@
       "tail",
       "blue",
       "glow"
-    ]
+    ],
+    "icon": "icons/items/C305.png"
   },
   {
     "code": "C306",
@@ -6385,7 +6686,8 @@
       "glow",
       "arrow",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C306.png"
   },
   {
     "code": "C307",
@@ -6408,7 +6710,8 @@
       "blue",
       "glow",
       "tail"
-    ]
+    ],
+    "icon": "icons/items/C307.png"
   },
   {
     "code": "C308",
@@ -6433,7 +6736,8 @@
       "lightning",
       "bolt",
       "hot garbage"
-    ]
+    ],
+    "icon": "icons/items/C308.png"
   },
   {
     "code": "C309",
@@ -6453,7 +6757,8 @@
       "item room pool",
       "blue",
       "glow"
-    ]
+    ],
+    "icon": "icons/items/C309.png"
   },
   {
     "code": "C310",
@@ -6476,7 +6781,8 @@
       "gray",
       "square",
       "eves mascara"
-    ]
+    ],
+    "icon": "icons/items/C310.png"
   },
   {
     "code": "C311",
@@ -6495,7 +6801,8 @@
       "item room",
       "treasure room",
       "item room pool judas shadow"
-    ]
+    ],
+    "icon": "icons/items/C311.png"
   },
   {
     "code": "C312",
@@ -6515,7 +6822,8 @@
       "pink",
       "purple",
       "candy"
-    ]
+    ],
+    "icon": "icons/items/C312.png"
   },
   {
     "code": "C313",
@@ -6539,7 +6847,8 @@
       "white",
       "glow",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C313.png"
   },
   {
     "code": "C314",
@@ -6561,7 +6870,8 @@
       "gray",
       "orange",
       "jar"
-    ]
+    ],
+    "icon": "icons/items/C314.png"
   },
   {
     "code": "C315",
@@ -6580,7 +6890,8 @@
       "grey",
       "gray",
       "magnet"
-    ]
+    ],
+    "icon": "icons/items/C315.png"
   },
   {
     "code": "C316",
@@ -6600,7 +6911,8 @@
       "white",
       "circle",
       "pearl"
-    ]
+    ],
+    "icon": "icons/items/C316.png"
   },
   {
     "code": "C317",
@@ -6620,7 +6932,8 @@
       "grey",
       "gray",
       "green"
-    ]
+    ],
+    "icon": "icons/items/C317.png"
   },
   {
     "code": "C318",
@@ -6640,7 +6953,8 @@
       "item room pool",
       "blue",
       "glow"
-    ]
+    ],
+    "icon": "icons/items/C318.png"
   },
   {
     "code": "C319",
@@ -6661,7 +6975,8 @@
       "circle",
       "cataract",
       "cains other eye"
-    ]
+    ],
+    "icon": "icons/items/C319.png"
   },
   {
     "code": "C320",
@@ -6684,7 +6999,8 @@
       "dead",
       "???s only friend",
       "blue bozzy"
-    ]
+    ],
+    "icon": "icons/items/C320.png"
   },
   {
     "code": "C321",
@@ -6704,7 +7020,8 @@
       "grey",
       "gray",
       "shackle"
-    ]
+    ],
+    "icon": "icons/items/C321.png"
   },
   {
     "code": "C322",
@@ -6724,7 +7041,8 @@
       "blue",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C322.png"
   },
   {
     "code": "C323",
@@ -6744,7 +7062,8 @@
       "blue",
       "water",
       "isaacs tears"
-    ]
+    ],
+    "icon": "icons/items/C323.png"
   },
   {
     "code": "C324",
@@ -6764,7 +7083,8 @@
       "purple",
       "red",
       "broken"
-    ]
+    ],
+    "icon": "icons/items/C324.png"
   },
   {
     "code": "C325",
@@ -6782,7 +7102,8 @@
       "item room pool",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C325.png"
   },
   {
     "code": "C326",
@@ -6802,7 +7123,8 @@
       "blue",
       "ball",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C326.png"
   },
   {
     "code": "C327",
@@ -6818,7 +7140,8 @@
       "photo",
       "family",
       "kodak"
-    ]
+    ],
+    "icon": "icons/items/C327.png"
   },
   {
     "code": "C328",
@@ -6839,7 +7162,8 @@
       "family",
       "kodak",
       "inverted"
-    ]
+    ],
+    "icon": "icons/items/C328.png"
   },
   {
     "code": "C329",
@@ -6860,7 +7184,8 @@
       "grey",
       "gray",
       "robot"
-    ]
+    ],
+    "icon": "icons/items/C329.png"
   },
   {
     "code": "C330",
@@ -6879,7 +7204,8 @@
       "white",
       "glass",
       "square"
-    ]
+    ],
+    "icon": "icons/items/C330.png"
   },
   {
     "code": "C331",
@@ -6900,7 +7226,8 @@
       "red",
       "triangle",
       "all seeing eye"
-    ]
+    ],
+    "icon": "icons/items/C331.png"
   },
   {
     "code": "C332",
@@ -6924,7 +7251,8 @@
       "white",
       "bandages",
       "lazarus rags"
-    ]
+    ],
+    "icon": "icons/items/C332.png"
   },
   {
     "code": "C333",
@@ -6946,7 +7274,8 @@
       "yellow",
       "white",
       "triangle"
-    ]
+    ],
+    "icon": "icons/items/C333.png"
   },
   {
     "code": "C334",
@@ -6967,7 +7296,8 @@
       "item room pool",
       "real platinum god",
       "the lost item pool"
-    ]
+    ],
+    "icon": "icons/items/C334.png"
   },
   {
     "code": "C335",
@@ -6989,7 +7319,8 @@
       "blue",
       "white",
       "triangle"
-    ]
+    ],
+    "icon": "icons/items/C335.png"
   },
   {
     "code": "C336",
@@ -7009,7 +7340,8 @@
       "pink",
       "purple",
       "plant"
-    ]
+    ],
+    "icon": "icons/items/C336.png"
   },
   {
     "code": "C337",
@@ -7031,7 +7363,8 @@
       "clock",
       "broken stop watch",
       "broken stopwatch"
-    ]
+    ],
+    "icon": "icons/items/C337.png"
   },
   {
     "code": "C338",
@@ -7051,7 +7384,8 @@
       "blue",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C338.png"
   },
   {
     "code": "C339",
@@ -7069,7 +7403,8 @@
       "grey",
       "gray",
       "punk"
-    ]
+    ],
+    "icon": "icons/items/C339.png"
   },
   {
     "code": "C340",
@@ -7088,7 +7423,8 @@
       "tablet",
       "medicine",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C340.png"
   },
   {
     "code": "C341",
@@ -7107,7 +7443,8 @@
       "orange",
       "family",
       "picture"
-    ]
+    ],
+    "icon": "icons/items/C341.png"
   },
   {
     "code": "C342",
@@ -7125,7 +7462,8 @@
       "mushroom",
       "fungi",
       "fungus"
-    ]
+    ],
+    "icon": "icons/items/C342.png"
   },
   {
     "code": "C343",
@@ -7144,7 +7482,8 @@
       "bronze",
       "brown",
       "gold"
-    ]
+    ],
+    "icon": "icons/items/C343.png"
   },
   {
     "code": "C344",
@@ -7161,7 +7500,8 @@
       "boss room item",
       "white",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C344.png"
   },
   {
     "code": "C345",
@@ -7181,7 +7521,8 @@
       "grey",
       "purple",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C345.png"
   },
   {
     "code": "C346",
@@ -7201,7 +7542,8 @@
       "biscuit",
       "brown",
       "orange"
-    ]
+    ],
+    "icon": "icons/items/C346.png"
   },
   {
     "code": "C347",
@@ -7217,7 +7559,8 @@
       "white",
       "button",
       "eye"
-    ]
+    ],
+    "icon": "icons/items/C347.png"
   },
   {
     "code": "C348",
@@ -7235,7 +7578,8 @@
       "white",
       "medicine",
       "tablet"
-    ]
+    ],
+    "icon": "icons/items/C348.png"
   },
   {
     "code": "C349",
@@ -7252,7 +7596,8 @@
       "brown",
       "orange",
       "cent"
-    ]
+    ],
+    "icon": "icons/items/C349.png"
   },
   {
     "code": "C350",
@@ -7268,7 +7613,8 @@
       "green",
       "glow",
       "biohazard"
-    ]
+    ],
+    "icon": "icons/items/C350.png"
   },
   {
     "code": "C351",
@@ -7283,7 +7629,8 @@
     "tags": [
       "pink",
       "kidney"
-    ]
+    ],
+    "icon": "icons/items/C351.png"
   },
   {
     "code": "C352",
@@ -7297,7 +7644,8 @@
     "quality": 1,
     "tags": [
       "silver"
-    ]
+    ],
+    "icon": "icons/items/C352.png"
   },
   {
     "code": "C353",
@@ -7313,7 +7661,8 @@
       "man",
       "face",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C353.png"
   },
   {
     "code": "C354",
@@ -7333,7 +7682,8 @@
       "box",
       "golden chest pool",
       "gold chest pool"
-    ]
+    ],
+    "icon": "icons/items/C354.png"
   },
   {
     "code": "C355",
@@ -7352,7 +7702,8 @@
       "gray",
       "moms pearls",
       "mom pearls"
-    ]
+    ],
+    "icon": "icons/items/C355.png"
   },
   {
     "code": "C356",
@@ -7368,7 +7719,8 @@
       "black",
       "box",
       "cube"
-    ]
+    ],
+    "icon": "icons/items/C356.png"
   },
   {
     "code": "C357",
@@ -7383,7 +7735,8 @@
     "tags": [
       "gold",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C357.png"
   },
   {
     "code": "C358",
@@ -7402,7 +7755,8 @@
       "white",
       "hat",
       "cone"
-    ]
+    ],
+    "icon": "icons/items/C358.png"
   },
   {
     "code": "C359",
@@ -7418,7 +7772,8 @@
       "silver",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C359.png"
   },
   {
     "code": "C360",
@@ -7437,7 +7792,8 @@
       "eyes",
       "wings",
       "bat"
-    ]
+    ],
+    "icon": "icons/items/C360.png"
   },
   {
     "code": "C361",
@@ -7455,7 +7811,8 @@
       "face",
       "fates reward",
       "fate reward"
-    ]
+    ],
+    "icon": "icons/items/C361.png"
   },
   {
     "code": "C362",
@@ -7472,7 +7829,8 @@
       "brown",
       "orange",
       "wooden"
-    ]
+    ],
+    "icon": "icons/items/C362.png"
   },
   {
     "code": "C363",
@@ -7489,7 +7847,8 @@
       "wings",
       "pink",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C363.png"
   },
   {
     "code": "C364",
@@ -7506,7 +7865,8 @@
       "wings",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C364.png"
   },
   {
     "code": "C365",
@@ -7523,7 +7883,8 @@
       "wings",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C365.png"
   },
   {
     "code": "C366",
@@ -7538,7 +7899,8 @@
     "tags": [
       "clear",
       "transparent"
-    ]
+    ],
+    "icon": "icons/items/C366.png"
   },
   {
     "code": "C367",
@@ -7554,7 +7916,8 @@
       "white",
       "cobweb",
       "web"
-    ]
+    ],
+    "icon": "icons/items/C367.png"
   },
   {
     "code": "C368",
@@ -7571,7 +7934,8 @@
       "drops",
       "three",
       "water"
-    ]
+    ],
+    "icon": "icons/items/C368.png"
   },
   {
     "code": "C369",
@@ -7588,7 +7952,8 @@
       "pink",
       "purple",
       "oo"
-    ]
+    ],
+    "icon": "icons/items/C369.png"
   },
   {
     "code": "C370",
@@ -7607,7 +7972,8 @@
       "red",
       "bow",
       "baby mr dolly"
-    ]
+    ],
+    "icon": "icons/items/C370.png"
   },
   {
     "code": "C371",
@@ -7627,7 +7993,8 @@
       "paper",
       "page",
       "ripped"
-    ]
+    ],
+    "icon": "icons/items/C371.png"
   },
   {
     "code": "C372",
@@ -7644,7 +8011,8 @@
       "grey",
       "gray",
       "power"
-    ]
+    ],
+    "icon": "icons/items/C372.png"
   },
   {
     "code": "C373",
@@ -7664,7 +8032,8 @@
       "black",
       "red",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C373.png"
   },
   {
     "code": "C374",
@@ -7682,7 +8051,8 @@
       "white",
       "black",
       "ball"
-    ]
+    ],
+    "icon": "icons/items/C374.png"
   },
   {
     "code": "C375",
@@ -7700,7 +8070,8 @@
       "grey",
       "gray",
       "zoidberg"
-    ]
+    ],
+    "icon": "icons/items/C375.png"
   },
   {
     "code": "C376",
@@ -7716,7 +8087,8 @@
       "recycle",
       "green",
       "arrows"
-    ]
+    ],
+    "icon": "icons/items/C376.png"
   },
   {
     "code": "C377",
@@ -7734,7 +8106,8 @@
       "pop",
       "white",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C377.png"
   },
   {
     "code": "C378",
@@ -7758,7 +8131,8 @@
       "number two",
       "number 2",
       "no two"
-    ]
+    ],
+    "icon": null
   },
   {
     "code": "C379",
@@ -7779,7 +8153,8 @@
       "drip",
       "water",
       "eyes"
-    ]
+    ],
+    "icon": "icons/items/C379.png"
   },
   {
     "code": "C380",
@@ -7798,7 +8173,8 @@
       "slot",
       "rectangle",
       "silver"
-    ]
+    ],
+    "icon": "icons/items/C380.png"
   },
   {
     "code": "C381",
@@ -7815,7 +8191,8 @@
       "rose",
       "flower",
       "petal"
-    ]
+    ],
+    "icon": "icons/items/C381.png"
   },
   {
     "code": "C382",
@@ -7834,7 +8211,8 @@
       "blue",
       "deathstar",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C382.png"
   },
   {
     "code": "C383",
@@ -7850,7 +8228,8 @@
       "blue",
       "tnt",
       "boom"
-    ]
+    ],
+    "icon": "icons/items/C383.png"
   },
   {
     "code": "C384",
@@ -7867,7 +8246,8 @@
       "brown",
       "circle",
       "eye"
-    ]
+    ],
+    "icon": "icons/items/C384.png"
   },
   {
     "code": "C385",
@@ -7885,7 +8265,8 @@
       "round",
       "smile",
       ":D"
-    ]
+    ],
+    "icon": "icons/items/C385.png"
   },
   {
     "code": "C386",
@@ -7905,7 +8286,8 @@
       "12",
       "circle",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C386.png"
   },
   {
     "code": "C387",
@@ -7921,7 +8303,8 @@
       "gold",
       "vase",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C387.png"
   },
   {
     "code": "C388",
@@ -7941,7 +8324,8 @@
       "stone",
       "rock",
       "baby"
-    ]
+    ],
+    "icon": "icons/items/C388.png"
   },
   {
     "code": "C389",
@@ -7958,7 +8342,8 @@
       "sack",
       "pouch",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C389.png"
   },
   {
     "code": "C390",
@@ -7977,7 +8362,8 @@
       "blue",
       "white",
       "baby"
-    ]
+    ],
+    "icon": "icons/items/C390.png"
   },
   {
     "code": "C391",
@@ -7995,7 +8381,8 @@
       "dagger",
       "knife",
       "bloody"
-    ]
+    ],
+    "icon": "icons/items/C391.png"
   },
   {
     "code": "C392",
@@ -8011,7 +8398,8 @@
       "cross",
       "white",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C392.png"
   },
   {
     "code": "C393",
@@ -8031,7 +8419,8 @@
       "drop",
       "serpents kiss",
       "serpent kiss"
-    ]
+    ],
+    "icon": "icons/items/C393.png"
   },
   {
     "code": "C394",
@@ -8047,7 +8436,8 @@
       "red",
       "cross",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C394.png"
   },
   {
     "code": "C395",
@@ -8066,7 +8456,8 @@
       "vr",
       "headset",
       "visor"
-    ]
+    ],
+    "icon": "icons/items/C395.png"
   },
   {
     "code": "C396",
@@ -8088,7 +8479,8 @@
       "metal",
       "knife",
       "cut"
-    ]
+    ],
+    "icon": "icons/items/C396.png"
   },
   {
     "code": "C397",
@@ -8107,7 +8499,8 @@
       "grey",
       "gray",
       "light"
-    ]
+    ],
+    "icon": "icons/items/C397.png"
   },
   {
     "code": "C398",
@@ -8124,7 +8517,8 @@
       "pink",
       "gods flesh",
       "god flesh"
-    ]
+    ],
+    "icon": "icons/items/C398.png"
   },
   {
     "code": "C399",
@@ -8141,7 +8535,8 @@
       "circle",
       "blood",
       "paint"
-    ]
+    ],
+    "icon": "icons/items/C399.png"
   },
   {
     "code": "C400",
@@ -8160,7 +8555,8 @@
       "dagger",
       "blade",
       "knife"
-    ]
+    ],
+    "icon": "icons/items/C400.png"
   },
   {
     "code": "C401",
@@ -8178,7 +8574,8 @@
       "ball",
       "circle",
       "explode"
-    ]
+    ],
+    "icon": "icons/items/C401.png"
   },
   {
     "code": "C402",
@@ -8193,7 +8590,8 @@
     "tags": [
       "red",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C402.png"
   },
   {
     "code": "C403",
@@ -8213,7 +8611,8 @@
       "silver",
       "metal",
       "antenna"
-    ]
+    ],
+    "icon": "icons/items/C403.png"
   },
   {
     "code": "C404",
@@ -8229,7 +8628,8 @@
       "fart baby",
       "green",
       "fat"
-    ]
+    ],
+    "icon": "icons/items/C404.png"
   },
   {
     "code": "C405",
@@ -8248,7 +8648,8 @@
       "white",
       "square",
       "rectangle"
-    ]
+    ],
+    "icon": "icons/items/C405.png"
   },
   {
     "code": "C406",
@@ -8270,7 +8671,8 @@
       "pyramid",
       "triangle",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C406.png"
   },
   {
     "code": "C407",
@@ -8288,7 +8690,8 @@
       "lotus",
       "petal",
       "rose"
-    ]
+    ],
+    "icon": "icons/items/C407.png"
   },
   {
     "code": "C408",
@@ -8307,7 +8710,8 @@
       "metal grabber",
       "hand",
       "robot"
-    ]
+    ],
+    "icon": "icons/items/C408.png"
   },
   {
     "code": "C409",
@@ -8325,7 +8729,8 @@
       "gray",
       "black",
       "bomb"
-    ]
+    ],
+    "icon": "icons/items/C409.png"
   },
   {
     "code": "C410",
@@ -8341,7 +8746,8 @@
       "blue",
       "glow",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C410.png"
   },
   {
     "code": "C411",
@@ -8358,7 +8764,8 @@
       "heart",
       "bleed",
       "bloody"
-    ]
+    ],
+    "icon": "icons/items/C411.png"
   },
   {
     "code": "C412",
@@ -8375,7 +8782,8 @@
       "organ",
       "lung",
       "starting"
-    ]
+    ],
+    "icon": "icons/items/C412.png"
   },
   {
     "code": "C413",
@@ -8390,7 +8798,8 @@
     "tags": [
       "white",
       "halo"
-    ]
+    ],
+    "icon": "icons/items/C413.png"
   },
   {
     "code": "C414",
@@ -8408,7 +8817,8 @@
       "mark",
       "gold",
       "?"
-    ]
+    ],
+    "icon": "icons/items/C414.png"
   },
   {
     "code": "C415",
@@ -8423,7 +8833,8 @@
     "tags": [
       "blue",
       "glow"
-    ]
+    ],
+    "icon": "icons/items/C415.png"
   },
   {
     "code": "C416",
@@ -8441,7 +8852,8 @@
       "bag",
       "stone",
       "rock"
-    ]
+    ],
+    "icon": "icons/items/C416.png"
   },
   {
     "code": "C417",
@@ -8459,7 +8871,8 @@
       "wings",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C417.png"
   },
   {
     "code": "C418",
@@ -8478,7 +8891,8 @@
       "orange",
       "pile",
       "dirt"
-    ]
+    ],
+    "icon": "icons/items/C418.png"
   },
   {
     "code": "C419",
@@ -8498,7 +8912,8 @@
       "black",
       "teleport two",
       "teleport 20"
-    ]
+    ],
+    "icon": "icons/items/C419.png"
   },
   {
     "code": "C420",
@@ -8517,7 +8932,8 @@
       "bag",
       "sack",
       "pouch"
-    ]
+    ],
+    "icon": "icons/items/C420.png"
   },
   {
     "code": "C421",
@@ -8531,7 +8947,8 @@
     "quality": 1,
     "tags": [
       "red"
-    ]
+    ],
+    "icon": "icons/items/C421.png"
   },
   {
     "code": "C422",
@@ -8550,7 +8967,8 @@
       "timer",
       "blue",
       "brown Glowing Hourglass"
-    ]
+    ],
+    "icon": "icons/items/C422.png"
   },
   {
     "code": "C423",
@@ -8567,7 +8985,8 @@
       "bandana",
       "circle",
       "bandage"
-    ]
+    ],
+    "icon": "icons/items/C423.png"
   },
   {
     "code": "C424",
@@ -8587,7 +9006,8 @@
       "tear",
       "shia paper bag sackhead",
       "sad"
-    ]
+    ],
+    "icon": "icons/items/C424.png"
   },
   {
     "code": "C425",
@@ -8605,7 +9025,8 @@
       "white",
       "blue",
       "inhaler"
-    ]
+    ],
+    "icon": "icons/items/C425.png"
   },
   {
     "code": "C426",
@@ -8620,7 +9041,8 @@
     "tags": [
       "purple",
       "fly"
-    ]
+    ],
+    "icon": "icons/items/C426.png"
   },
   {
     "code": "C427",
@@ -8635,7 +9057,8 @@
     "tags": [
       "orange",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C427.png"
   },
   {
     "code": "C428",
@@ -8654,7 +9077,8 @@
       "headless",
       "golden chest pool",
       "gold chest pool"
-    ]
+    ],
+    "icon": "icons/items/C428.png"
   },
   {
     "code": "C429",
@@ -8671,7 +9095,8 @@
       "eyes",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C429.png"
   },
   {
     "code": "C430",
@@ -8685,7 +9110,8 @@
     "quality": 1,
     "tags": [
       "blue"
-    ]
+    ],
+    "icon": "icons/items/C430.png"
   },
   {
     "code": "C431",
@@ -8702,7 +9128,8 @@
       "gray",
       "black",
       "ghost"
-    ]
+    ],
+    "icon": "icons/items/C431.png"
   },
   {
     "code": "C432",
@@ -8717,7 +9144,8 @@
     "tags": [
       "pink",
       "sparkle"
-    ]
+    ],
+    "icon": "icons/items/C432.png"
   },
   {
     "code": "C433",
@@ -8734,7 +9162,8 @@
       "outline",
       "upside",
       "down"
-    ]
+    ],
+    "icon": "icons/items/C433.png"
   },
   {
     "code": "C434",
@@ -8749,7 +9178,8 @@
     "tags": [
       "glass",
       "bottle"
-    ]
+    ],
+    "icon": "icons/items/C434.png"
   },
   {
     "code": "C435",
@@ -8766,7 +9196,8 @@
       "devil",
       "baby",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C435.png"
   },
   {
     "code": "C436",
@@ -8782,7 +9213,8 @@
       "glass",
       "white",
       "cup"
-    ]
+    ],
+    "icon": "icons/items/C436.png"
   },
   {
     "code": "C437",
@@ -8803,7 +9235,8 @@
       "grey",
       "gray",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C437.png"
   },
   {
     "code": "C438",
@@ -8821,7 +9254,8 @@
       "baby",
       "blue",
       "white"
-    ]
+    ],
+    "icon": "icons/items/C438.png"
   },
   {
     "code": "C439",
@@ -8838,7 +9272,8 @@
       "purple",
       "mom box",
       "moms box"
-    ]
+    ],
+    "icon": "icons/items/C439.png"
   },
   {
     "code": "C440",
@@ -8856,7 +9291,8 @@
       "hair",
       "wig",
       "scalp"
-    ]
+    ],
+    "icon": "icons/items/C440.png"
   },
   {
     "code": "C441",
@@ -8876,7 +9312,8 @@
       "black",
       "red",
       "eyes"
-    ]
+    ],
+    "icon": "icons/items/C441.png"
   },
   {
     "code": "C442",
@@ -8894,7 +9331,8 @@
       "Dark Prince's Crown",
       "dark princes crown",
       "dark prince crown"
-    ]
+    ],
+    "icon": "icons/items/C442.png"
   },
   {
     "code": "C443",
@@ -8908,7 +9346,8 @@
     "quality": 3,
     "tags": [
       "red"
-    ]
+    ],
+    "icon": "icons/items/C443.png"
   },
   {
     "code": "C444",
@@ -8923,7 +9362,8 @@
     "tags": [
       "yellow",
       "pen"
-    ]
+    ],
+    "icon": "icons/items/C444.png"
   },
   {
     "code": "C445",
@@ -8938,7 +9378,8 @@
     "tags": [
       "white",
       "silver"
-    ]
+    ],
+    "icon": "icons/items/C445.png"
   },
   {
     "code": "C446",
@@ -8956,7 +9397,8 @@
       "brown",
       "face",
       "rabbit"
-    ]
+    ],
+    "icon": "icons/items/C446.png"
   },
   {
     "code": "C447",
@@ -8970,7 +9412,8 @@
     "quality": 0,
     "tags": [
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C447.png"
   },
   {
     "code": "C448",
@@ -8986,7 +9429,8 @@
       "blue",
       "triangle",
       "pyramid"
-    ]
+    ],
+    "icon": "icons/items/C448.png"
   },
   {
     "code": "C449",
@@ -9003,7 +9447,8 @@
       "metal",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C449.png"
   },
   {
     "code": "C450",
@@ -9022,7 +9467,8 @@
       "metal",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C450.png"
   },
   {
     "code": "C451",
@@ -9038,7 +9484,8 @@
       "purple",
       "grey",
       "bag"
-    ]
+    ],
+    "icon": "icons/items/C451.png"
   },
   {
     "code": "C452",
@@ -9053,7 +9500,8 @@
     "tags": [
       "red",
       "tube"
-    ]
+    ],
+    "icon": "icons/items/C452.png"
   },
   {
     "code": "C453",
@@ -9071,7 +9519,8 @@
       "snapped",
       "white",
       "bloody"
-    ]
+    ],
+    "icon": "icons/items/C453.png"
   },
   {
     "code": "C454",
@@ -9085,7 +9534,8 @@
     "quality": 2,
     "tags": [
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C454.png"
   },
   {
     "code": "C455",
@@ -9106,7 +9556,8 @@
       "dads lost coin",
       "dad lost coin",
       "dad coin"
-    ]
+    ],
+    "icon": "icons/items/C455.png"
   },
   {
     "code": "C456",
@@ -9125,7 +9576,8 @@
       "green",
       "bite",
       "bitten"
-    ]
+    ],
+    "icon": "icons/items/C456.png"
   },
   {
     "code": "C457",
@@ -9150,7 +9602,8 @@
       "northernlion's head resembles an egg much like this item",
       "isn't that hilarious?",
       "pink"
-    ]
+    ],
+    "icon": "icons/items/C457.png"
   },
   {
     "code": "C458",
@@ -9166,7 +9619,8 @@
       "pink",
       "circle",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C458.png"
   },
   {
     "code": "C459",
@@ -9185,7 +9639,8 @@
       "drop",
       "drip",
       "boogey"
-    ]
+    ],
+    "icon": "icons/items/C459.png"
   },
   {
     "code": "C460",
@@ -9202,7 +9657,8 @@
       "circle",
       "eye",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C460.png"
   },
   {
     "code": "C461",
@@ -9217,7 +9673,8 @@
     "tags": [
       "blue",
       "fly"
-    ]
+    ],
+    "icon": "icons/items/C461.png"
   },
   {
     "code": "C462",
@@ -9232,7 +9689,8 @@
     "tags": [
       "red",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C462.png"
   },
   {
     "code": "C463",
@@ -9249,7 +9707,8 @@
       "yellow",
       "bottle",
       "X"
-    ]
+    ],
+    "icon": "icons/items/C463.png"
   },
   {
     "code": "C464",
@@ -9264,7 +9723,8 @@
     "tags": [
       "blue",
       "triangle"
-    ]
+    ],
+    "icon": "icons/items/C464.png"
   },
   {
     "code": "C465",
@@ -9280,7 +9740,8 @@
       "grey",
       "gray",
       "mushroom"
-    ]
+    ],
+    "icon": "icons/items/C465.png"
   },
   {
     "code": "C466",
@@ -9297,7 +9758,8 @@
       "glow",
       "biological",
       "danger"
-    ]
+    ],
+    "icon": "icons/items/C466.png"
   },
   {
     "code": "C467",
@@ -9314,7 +9776,8 @@
       "toe",
       "pink",
       "bone"
-    ]
+    ],
+    "icon": "icons/items/C467.png"
   },
   {
     "code": "C468",
@@ -9330,7 +9793,8 @@
       "blue",
       "white",
       "eyes"
-    ]
+    ],
+    "icon": "icons/items/C468.png"
   },
   {
     "code": "C469",
@@ -9347,7 +9811,8 @@
       "purple",
       "cloud",
       "smoke"
-    ]
+    ],
+    "icon": "icons/items/C469.png"
   },
   {
     "code": "C470",
@@ -9364,7 +9829,8 @@
       "pacman",
       "ghost",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C470.png"
   },
   {
     "code": "C471",
@@ -9383,7 +9849,8 @@
       "palate",
       "hairlip",
       "tooth"
-    ]
+    ],
+    "icon": "icons/items/C471.png"
   },
   {
     "code": "C472",
@@ -9400,7 +9867,8 @@
       "crown",
       "gold",
       "yellow"
-    ]
+    ],
+    "icon": "icons/items/C472.png"
   },
   {
     "code": "C473",
@@ -9416,7 +9884,8 @@
       "face",
       "yellow",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C473.png"
   },
   {
     "code": "C475",
@@ -9433,7 +9902,8 @@
       "pill",
       "medicine",
       "drug"
-    ]
+    ],
+    "icon": "icons/items/C475.png"
   },
   {
     "code": "C476",
@@ -9452,7 +9922,8 @@
       "dice pip",
       "one",
       "dice effect"
-    ]
+    ],
+    "icon": "icons/items/C476.png"
   },
   {
     "code": "C477",
@@ -9469,7 +9940,8 @@
       "swirl",
       "spin",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C477.png"
   },
   {
     "code": "C478",
@@ -9485,7 +9957,8 @@
       "green",
       "robot",
       "antenna"
-    ]
+    ],
+    "icon": "icons/items/C478.png"
   },
   {
     "code": "C479",
@@ -9507,7 +9980,8 @@
       "tea",
       "drink",
       "cup"
-    ]
+    ],
+    "icon": "icons/items/C479.png"
   },
   {
     "code": "C480",
@@ -9526,7 +10000,8 @@
       "gray",
       "ball",
       "lump"
-    ]
+    ],
+    "icon": "icons/items/C480.png"
   },
   {
     "code": "C481",
@@ -9544,7 +10019,8 @@
       "pickaxe",
       "minecraft",
       "pixel"
-    ]
+    ],
+    "icon": "icons/items/C481.png"
   },
   {
     "code": "C482",
@@ -9564,7 +10040,8 @@
       "zapper",
       "changer",
       "building"
-    ]
+    ],
+    "icon": "icons/items/C482.png"
   },
   {
     "code": "C483",
@@ -9581,7 +10058,8 @@
       "face",
       "red",
       "lips"
-    ]
+    ],
+    "icon": "icons/items/C483.png"
   },
   {
     "code": "C484",
@@ -9597,7 +10075,8 @@
       "white",
       "yellow",
       "bean"
-    ]
+    ],
+    "icon": "icons/items/C484.png"
   },
   {
     "code": "C485",
@@ -9616,7 +10095,8 @@
       "gold",
       "coin",
       "cent"
-    ]
+    ],
+    "icon": "icons/items/C485.png"
   },
   {
     "code": "C486",
@@ -9632,7 +10112,8 @@
       "blue",
       "pink",
       "purple"
-    ]
+    ],
+    "icon": "icons/items/C486.png"
   },
   {
     "code": "C487",
@@ -9650,7 +10131,8 @@
       "silver",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/items/C487.png"
   },
   {
     "code": "C488",
@@ -9666,7 +10148,8 @@
       "grey",
       "gray",
       "brown"
-    ]
+    ],
+    "icon": "icons/items/C488.png"
   },
   {
     "code": "C489",
@@ -9685,7 +10168,8 @@
       "box",
       "oo",
       "square"
-    ]
+    ],
+    "icon": "icons/items/C489.png"
   },
   {
     "code": "C490",
@@ -9701,7 +10185,8 @@
       "blue",
       "circle",
       "spikes"
-    ]
+    ],
+    "icon": "icons/items/C490.png"
   },
   {
     "code": "C491",
@@ -9720,7 +10205,8 @@
       "red",
       "eyes",
       "ghost"
-    ]
+    ],
+    "icon": "icons/items/C491.png"
   },
   {
     "code": "C492",
@@ -9737,7 +10223,8 @@
       "blue",
       "green",
       "fly"
-    ]
+    ],
+    "icon": "icons/items/C492.png"
   },
   {
     "code": "C493",
@@ -9755,7 +10242,8 @@
       "syringe",
       "needle",
       "injection"
-    ]
+    ],
+    "icon": "icons/items/C493.png"
   },
   {
     "code": "C494",
@@ -9775,7 +10263,8 @@
       "blue",
       "jacob ladder",
       "jacobs ladder"
-    ]
+    ],
+    "icon": "icons/items/C494.png"
   },
   {
     "code": "C495",
@@ -9790,7 +10279,8 @@
     "tags": [
       "white",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C495.png"
   },
   {
     "code": "C496",
@@ -9812,7 +10302,8 @@
       "dangheesling",
       "dangDEB8",
       "you piece"
-    ]
+    ],
+    "icon": "icons/items/C496.png"
   },
   {
     "code": "C497",
@@ -9828,7 +10319,8 @@
       "pink",
       "purple",
       "goggles underwear under wear"
-    ]
+    ],
+    "icon": "icons/items/C497.png"
   },
   {
     "code": "C498",
@@ -9844,7 +10336,8 @@
       "black",
       "white",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C498.png"
   },
   {
     "code": "C499",
@@ -9861,7 +10354,8 @@
       "yellow",
       "white",
       "cross"
-    ]
+    ],
+    "icon": "icons/items/C499.png"
   },
   {
     "code": "C500",
@@ -9881,7 +10375,8 @@
       "pouch",
       "pocket",
       "bulge"
-    ]
+    ],
+    "icon": "icons/items/C500.png"
   },
   {
     "code": "C501",
@@ -9901,7 +10396,8 @@
       "pouch",
       "greeds gullet",
       "greed gullet"
-    ]
+    ],
+    "icon": "icons/items/C501.png"
   },
   {
     "code": "C502",
@@ -9919,7 +10415,8 @@
       "toe",
       "nail",
       "tooth"
-    ]
+    ],
+    "icon": "icons/items/C502.png"
   },
   {
     "code": "C503",
@@ -9937,7 +10434,8 @@
       "devil",
       "azazel",
       "demon"
-    ]
+    ],
+    "icon": "icons/items/C503.png"
   },
   {
     "code": "C504",
@@ -9955,7 +10453,8 @@
       "rock",
       "brownie",
       "dirt"
-    ]
+    ],
+    "icon": "icons/items/C504.png"
   },
   {
     "code": "C505",
@@ -9974,7 +10473,8 @@
       "green",
       "blue",
       "gps"
-    ]
+    ],
+    "icon": "icons/items/C505.png"
   },
   {
     "code": "C506",
@@ -9993,7 +10493,8 @@
       "heart",
       "silver",
       "knife"
-    ]
+    ],
+    "icon": "icons/items/C506.png"
   },
   {
     "code": "C507",
@@ -10009,7 +10510,8 @@
       "blue",
       "white",
       "stripe"
-    ]
+    ],
+    "icon": "icons/items/C507.png"
   },
   {
     "code": "C508",
@@ -10025,7 +10527,8 @@
       "pink",
       "moms razor",
       "mom razor"
-    ]
+    ],
+    "icon": "icons/items/C508.png"
   },
   {
     "code": "C509",
@@ -10040,7 +10543,8 @@
     "tags": [
       "pink",
       "red"
-    ]
+    ],
+    "icon": "icons/items/C509.png"
   },
   {
     "code": "C510",
@@ -10057,7 +10561,8 @@
       "eyes",
       "face",
       "round"
-    ]
+    ],
+    "icon": "icons/items/C510.png"
   },
   {
     "code": "C511",
@@ -10074,7 +10579,8 @@
       "cube",
       "wings",
       "face"
-    ]
+    ],
+    "icon": "icons/items/C511.png"
   },
   {
     "code": "C512",
@@ -10091,7 +10597,8 @@
       "purple",
       "black",
       "planet"
-    ]
+    ],
+    "icon": "icons/items/C512.png"
   },
   {
     "code": "C513",
@@ -10111,7 +10618,8 @@
       "clown",
       "waldo",
       "wally"
-    ]
+    ],
+    "icon": "icons/items/C513.png"
   },
   {
     "code": "C514",
@@ -10129,7 +10637,8 @@
       "red",
       "vcr",
       "vhs"
-    ]
+    ],
+    "icon": "icons/items/C514.png"
   },
   {
     "code": "C515",
@@ -10148,7 +10657,8 @@
       "bow",
       "xmas",
       "christmas"
-    ]
+    ],
+    "icon": "icons/items/C515.png"
   },
   {
     "code": "C516",
@@ -10167,7 +10677,8 @@
       "metal",
       "eye",
       "stick"
-    ]
+    ],
+    "icon": "icons/items/C516.png"
   },
   {
     "code": "C517",
@@ -10184,7 +10695,8 @@
       "bolt",
       "yellow",
       "black"
-    ]
+    ],
+    "icon": "icons/items/C517.png"
   },
   {
     "code": "C518",
@@ -10202,7 +10714,8 @@
       "snake",
       "mgs",
       "cardboard"
-    ]
+    ],
+    "icon": "icons/items/C518.png"
   },
   {
     "code": "C519",
@@ -10220,7 +10733,8 @@
       "eyes",
       "face",
       "circle"
-    ]
+    ],
+    "icon": "icons/items/C519.png"
   },
   {
     "code": "C520",
@@ -10238,7 +10752,8 @@
       "metal",
       "crocodile",
       "clips"
-    ]
+    ],
+    "icon": "icons/items/C520.png"
   },
   {
     "code": "C521",
@@ -10259,7 +10774,8 @@
       "barcode",
       "letter",
       "postcard"
-    ]
+    ],
+    "icon": "icons/items/C521.png"
   },
   {
     "code": "C522",
@@ -10275,7 +10791,8 @@
       "blue",
       "glow",
       "hand"
-    ]
+    ],
+    "icon": "icons/items/C522.png"
   },
   {
     "code": "C523",
@@ -10291,7 +10808,8 @@
       "brown",
       "orange",
       "cardboard"
-    ]
+    ],
+    "icon": "icons/items/C523.png"
   },
   {
     "code": "C524",
@@ -10316,7 +10834,8 @@
       "coin",
       "slot",
       "laser"
-    ]
+    ],
+    "icon": "icons/items/C524.png"
   },
   {
     "code": "C525",
@@ -10336,7 +10855,8 @@
       "red",
       "bloody",
       "lump"
-    ]
+    ],
+    "icon": "icons/items/C525.png"
   },
   {
     "code": "C526",
@@ -10356,7 +10876,8 @@
       "red",
       "toilet paper",
       "seven seals"
-    ]
+    ],
+    "icon": "icons/items/C526.png"
   },
   {
     "code": "C527",
@@ -10376,7 +10897,8 @@
       "chest",
       "szechuan sauce",
       "mister me"
-    ]
+    ],
+    "icon": "icons/items/C527.png"
   },
   {
     "code": "C528",
@@ -10398,7 +10920,8 @@
       "triangle",
       "pink floyd",
       "thought"
-    ]
+    ],
+    "icon": "icons/items/C528.png"
   },
   {
     "code": "C529",
@@ -10418,7 +10941,8 @@
       "red",
       "googly googley",
       "bank shot"
-    ]
+    ],
+    "icon": "icons/items/C529.png"
   },
   {
     "code": "C530",
@@ -10441,7 +10965,8 @@
       "deaths list",
       "paper",
       "contract"
-    ]
+    ],
+    "icon": "icons/items/C530.png"
   },
   {
     "code": "C531",
@@ -10457,7 +10982,8 @@
       "water balloon",
       "blood",
       "heamolacria"
-    ]
+    ],
+    "icon": "icons/items/C531.png"
   },
   {
     "code": "C532",
@@ -10469,7 +10995,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C532.png"
   },
   {
     "code": "C533",
@@ -10481,7 +11008,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C533.png"
   },
   {
     "code": "C534",
@@ -10495,7 +11023,8 @@
     "quality": 3,
     "tags": [
       "backpack back pack school bag"
-    ]
+    ],
+    "icon": "icons/items/C534.png"
   },
   {
     "code": "C535",
@@ -10507,7 +11036,8 @@
     "type": "Passive",
     "pool": "Shop",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C535.png"
   },
   {
     "code": "C536",
@@ -10522,7 +11052,8 @@
     "tags": [
       "sacraficial",
       "sacrafice"
-    ]
+    ],
+    "icon": "icons/items/C536.png"
   },
   {
     "code": "C537",
@@ -10536,7 +11067,8 @@
     "quality": 1,
     "tags": [
       "face"
-    ]
+    ],
+    "icon": "icons/items/C537.png"
   },
   {
     "code": "C538",
@@ -10548,7 +11080,8 @@
     "type": "Passive",
     "pool": "Boss Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C538.png"
   },
   {
     "code": "C539",
@@ -10560,7 +11093,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C539.png"
   },
   {
     "code": "C540",
@@ -10572,7 +11106,8 @@
     "type": "Passive",
     "pool": "Item Room, Greed Mode Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C540.png"
   },
   {
     "code": "C541",
@@ -10584,7 +11119,8 @@
     "type": "Passive",
     "pool": "Boss Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C541.png"
   },
   {
     "code": "C542",
@@ -10596,7 +11132,8 @@
     "type": "Passive",
     "pool": "Item Room, Greed Mode Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C542.png"
   },
   {
     "code": "C543",
@@ -10608,7 +11145,8 @@
     "type": "Passive",
     "pool": "Item Room, Angel Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C543.png"
   },
   {
     "code": "C544",
@@ -10620,7 +11158,8 @@
     "type": "Passive",
     "pool": "Item Room, Greed Mode Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C544.png"
   },
   {
     "code": "C545",
@@ -10632,7 +11171,8 @@
     "type": "Active",
     "pool": "Item Room, Library, Devil Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C545.png"
   },
   {
     "code": "C546",
@@ -10647,7 +11187,8 @@
     "tags": [
       "dads ring",
       "dad ring"
-    ]
+    ],
+    "icon": "icons/items/C546.png"
   },
   {
     "code": "C547",
@@ -10659,7 +11200,8 @@
     "type": "Passive",
     "pool": "Boss Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C547.png"
   },
   {
     "code": "C548",
@@ -10671,7 +11213,8 @@
     "type": "Passive",
     "pool": "Item Room, Greed Mode item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C548.png"
   },
   {
     "code": "C549",
@@ -10683,7 +11226,8 @@
     "type": "Passive",
     "pool": "Item Room, Greed Mode Item Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C549.png"
   },
   {
     "code": "C550",
@@ -10695,7 +11239,8 @@
     "type": "Active",
     "pool": null,
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C550.png"
   },
   {
     "code": "C551",
@@ -10707,7 +11252,8 @@
     "type": "Passive",
     "pool": null,
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C551.png"
   },
   {
     "code": "C552",
@@ -10722,7 +11268,8 @@
     "tags": [
       "moms shovel",
       "mom shovel"
-    ]
+    ],
+    "icon": "icons/items/C552.png"
   },
   {
     "code": "C553",
@@ -10734,7 +11281,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C553.png"
   },
   {
     "code": "C554",
@@ -10746,7 +11294,8 @@
     "type": "Passive",
     "pool": "Devil Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C554.png"
   },
   {
     "code": "C555",
@@ -10758,7 +11307,8 @@
     "type": "Active",
     "pool": "Item Room, Greed Mode Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C555.png"
   },
   {
     "code": "C556",
@@ -10770,7 +11320,8 @@
     "type": "Active",
     "pool": "Devil Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C556.png"
   },
   {
     "code": "C557",
@@ -10782,7 +11333,8 @@
     "type": "Active",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C557.png"
   },
   {
     "code": "C558",
@@ -10794,7 +11346,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C558.png"
   },
   {
     "code": "C559",
@@ -10806,7 +11359,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C559.png"
   },
   {
     "code": "C560",
@@ -10818,7 +11372,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C560.png"
   },
   {
     "code": "C561",
@@ -10830,7 +11385,8 @@
     "type": "Passive, Tear Modifier",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C561.png"
   },
   {
     "code": "C562",
@@ -10842,7 +11398,8 @@
     "type": "Passive",
     "pool": "Secret Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C562.png"
   },
   {
     "code": "C563",
@@ -10854,7 +11411,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C563.png"
   },
   {
     "code": "C564",
@@ -10866,7 +11424,8 @@
     "type": "Passive",
     "pool": "Boss Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C564.png"
   },
   {
     "code": "C565",
@@ -10878,7 +11437,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room, Red Chest, Curse Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C565.png"
   },
   {
     "code": "C566",
@@ -10890,7 +11450,8 @@
     "type": "Passive",
     "pool": "Shop",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C566.png"
   },
   {
     "code": "C567",
@@ -10902,7 +11463,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C567.png"
   },
   {
     "code": "C568",
@@ -10914,7 +11476,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C568.png"
   },
   {
     "code": "C569",
@@ -10926,7 +11489,8 @@
     "type": "Passive",
     "pool": "Devil Room, Curse Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C569.png"
   },
   {
     "code": "C570",
@@ -10938,7 +11502,8 @@
     "type": "Passive, Tear Modifier",
     "pool": "Item Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C570.png"
   },
   {
     "code": "C571",
@@ -10950,7 +11515,8 @@
     "type": "Passive",
     "pool": "Secret Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C571.png"
   },
   {
     "code": "C572",
@@ -10962,7 +11528,8 @@
     "type": "Passive",
     "pool": "Devil Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C572.png"
   },
   {
     "code": "C573",
@@ -10974,7 +11541,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C573.png"
   },
   {
     "code": "C574",
@@ -10986,7 +11554,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C574.png"
   },
   {
     "code": "C575",
@@ -11000,7 +11569,8 @@
     "quality": 3,
     "tags": [
       "ew gross face spider in face"
-    ]
+    ],
+    "icon": "icons/items/C575.png"
   },
   {
     "code": "C576",
@@ -11012,7 +11582,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C576.png"
   },
   {
     "code": "C577",
@@ -11024,7 +11595,8 @@
     "type": "Active",
     "pool": "Devil Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C577.png"
   },
   {
     "code": "C578",
@@ -11036,7 +11608,8 @@
     "type": "Active",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C578.png"
   },
   {
     "code": "C579",
@@ -11048,7 +11621,8 @@
     "type": "Passive, Tear Modifier",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C579.png"
   },
   {
     "code": "C580",
@@ -11060,7 +11634,8 @@
     "type": "Active",
     "pool": "Secret Room, Red Chest, Curse Room, Key Beggar, Mom's Chest",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C580.png"
   },
   {
     "code": "C581",
@@ -11072,7 +11647,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room, Key Beggar",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C581.png"
   },
   {
     "code": "C582",
@@ -11084,7 +11660,8 @@
     "type": "Active",
     "pool": "Secret Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C582.png"
   },
   {
     "code": "C583",
@@ -11096,7 +11673,8 @@
     "type": "Passive",
     "pool": "Item Room, Bomb Beggar",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C583.png"
   },
   {
     "code": "C584",
@@ -11108,7 +11686,8 @@
     "type": "Active/Passive Item",
     "pool": "Angel Room, Library",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C584.png"
   },
   {
     "code": "C585",
@@ -11120,7 +11699,8 @@
     "type": "Active",
     "pool": "Shop",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C585.png"
   },
   {
     "code": "C586",
@@ -11132,7 +11712,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C586.png"
   },
   {
     "code": "C588",
@@ -11144,7 +11725,8 @@
     "type": "Passive",
     "pool": "Planetarium",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C588.png"
   },
   {
     "code": "C589",
@@ -11160,7 +11742,8 @@
       "moon",
       "loona",
       "lunar"
-    ]
+    ],
+    "icon": "icons/items/C589.png"
   },
   {
     "code": "C590",
@@ -11172,7 +11755,8 @@
     "type": "Passive",
     "pool": "Planetarium",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C590.png"
   },
   {
     "code": "C591",
@@ -11184,7 +11768,8 @@
     "type": "Passive",
     "pool": "Planetarium",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C591.png"
   },
   {
     "code": "C592",
@@ -11196,7 +11781,8 @@
     "type": "Passive, Tear Modifier",
     "pool": "Planetarium",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C592.png"
   },
   {
     "code": "C593",
@@ -11208,7 +11794,8 @@
     "type": "Passive",
     "pool": "Planetarium",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C593.png"
   },
   {
     "code": "C594",
@@ -11220,7 +11807,8 @@
     "type": "Passive",
     "pool": "Planetarium",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C594.png"
   },
   {
     "code": "C595",
@@ -11232,7 +11820,8 @@
     "type": "Passive",
     "pool": "Planetarium",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C595.png"
   },
   {
     "code": "C596",
@@ -11244,7 +11833,8 @@
     "type": "Passive",
     "pool": "Planetarium",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C596.png"
   },
   {
     "code": "C597",
@@ -11256,7 +11846,8 @@
     "type": "Passive, Tear Modifier",
     "pool": "Planetarium",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C597.png"
   },
   {
     "code": "C598",
@@ -11268,7 +11859,8 @@
     "type": "Passive",
     "pool": "Planetarium",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C598.png"
   },
   {
     "code": "C599",
@@ -11280,7 +11872,8 @@
     "type": "Passive",
     "pool": "Shop, Crane Game",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C599.png"
   },
   {
     "code": "C600",
@@ -11294,7 +11887,8 @@
     "quality": 3,
     "tags": [
       "bottle container dropper medicine"
-    ]
+    ],
+    "icon": "icons/items/C600.png"
   },
   {
     "code": "C601",
@@ -11306,7 +11900,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C601.png"
   },
   {
     "code": "C602",
@@ -11320,7 +11915,8 @@
     "quality": 2,
     "tags": [
       "gold"
-    ]
+    ],
+    "icon": "icons/items/C602.png"
   },
   {
     "code": "C603",
@@ -11332,7 +11928,8 @@
     "type": "Passive",
     "pool": "Shop, Battery Beggar",
     "quality": 0,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C603.png"
   },
   {
     "code": "C604",
@@ -11353,7 +11950,8 @@
       "gold band",
       "golden band",
       "power bracelet"
-    ]
+    ],
+    "icon": "icons/items/C604.png"
   },
   {
     "code": "C605",
@@ -11365,7 +11963,8 @@
     "type": "Active",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C605.png"
   },
   {
     "code": "C606",
@@ -11377,7 +11976,8 @@
     "type": "Passive",
     "pool": "Devil Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C606.png"
   },
   {
     "code": "C607",
@@ -11389,7 +11989,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C607.png"
   },
   {
     "code": "C608",
@@ -11401,7 +12002,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C608.png"
   },
   {
     "code": "C609",
@@ -11413,7 +12015,8 @@
     "type": "Active",
     "pool": "Item Room, Secret Room, Crane Game",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C609.png"
   },
   {
     "code": "C610",
@@ -11425,7 +12028,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C610.png"
   },
   {
     "code": "C611",
@@ -11437,7 +12041,8 @@
     "type": "Active",
     "pool": "Item Room, Greed Mode Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C611.png"
   },
   {
     "code": "C612",
@@ -11449,7 +12054,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room, Secret Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C612.png"
   },
   {
     "code": "C614",
@@ -11461,7 +12067,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C614.png"
   },
   {
     "code": "C615",
@@ -11478,7 +12085,8 @@
       "ball",
       "eyes",
       "lil' dumpy"
-    ]
+    ],
+    "icon": "icons/items/C615.png"
   },
   {
     "code": "C616",
@@ -11495,7 +12103,8 @@
       "chili",
       "face",
       "birds"
-    ]
+    ],
+    "icon": "icons/items/C616.png"
   },
   {
     "code": "C617",
@@ -11507,7 +12116,8 @@
     "type": "Passive",
     "pool": "Item Room, Crane Game",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C617.png"
   },
   {
     "code": "C618",
@@ -11519,7 +12129,8 @@
     "type": "Passive",
     "pool": "Item Room, Rotten Beggar",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C618.png"
   },
   {
     "code": "C619",
@@ -11531,7 +12142,8 @@
     "type": "Passive",
     "pool": "Shop",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C619.png"
   },
   {
     "code": "C619",
@@ -11543,7 +12155,8 @@
     "type": "Passive",
     "pool": "Shop",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C619.png"
   },
   {
     "code": "C621",
@@ -11559,7 +12172,8 @@
       "bowl",
       "soup",
       "broth"
-    ]
+    ],
+    "icon": "icons/items/C621.png"
   },
   {
     "code": "C622",
@@ -11571,7 +12185,8 @@
     "type": "Active",
     "pool": "Angel Room, Greed Mode Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C622.png"
   },
   {
     "code": "C623",
@@ -11583,7 +12198,8 @@
     "type": "Active",
     "pool": "Shop",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C623.png"
   },
   {
     "code": "C624",
@@ -11595,7 +12211,8 @@
     "type": "Passive",
     "pool": "Boss Room, Shop",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C624.png"
   },
   {
     "code": "C625",
@@ -11607,7 +12224,8 @@
     "type": "Active",
     "pool": "Item Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C625.png"
   },
   {
     "code": "C626",
@@ -11619,7 +12237,8 @@
     "type": "Passive",
     "pool": "None (see above)",
     "quality": 0,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C626.png"
   },
   {
     "code": "C627",
@@ -11631,7 +12250,8 @@
     "type": "Passive",
     "pool": "None (see above)",
     "quality": 0,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C627.png"
   },
   {
     "code": "C628",
@@ -11643,7 +12263,8 @@
     "type": "Active",
     "pool": "Secret Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C628.png"
   },
   {
     "code": "C629",
@@ -11655,7 +12276,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room, Key Beggar, Crane Game",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C629.png"
   },
   {
     "code": "C631",
@@ -11667,7 +12289,8 @@
     "type": "Active",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C631.png"
   },
   {
     "code": "C632",
@@ -11679,7 +12302,8 @@
     "type": "Passive",
     "pool": "Secret Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C632.png"
   },
   {
     "code": "C633",
@@ -11693,7 +12317,8 @@
     "quality": 3,
     "tags": [
       "godma"
-    ]
+    ],
+    "icon": "icons/items/C633.png"
   },
   {
     "code": "C634",
@@ -11707,7 +12332,8 @@
     "quality": 2,
     "tags": [
       "ghost"
-    ]
+    ],
+    "icon": "icons/items/C634.png"
   },
   {
     "code": "C635",
@@ -11719,7 +12345,8 @@
     "type": "Active, Familiar",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C635.png"
   },
   {
     "code": "C636",
@@ -11731,7 +12358,8 @@
     "type": "Active",
     "pool": "Secret Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C636.png"
   },
   {
     "code": "C637",
@@ -11743,7 +12371,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C637.png"
   },
   {
     "code": "C638",
@@ -11755,7 +12384,8 @@
     "type": "Active",
     "pool": "Shop, Crane Game",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C638.png"
   },
   {
     "code": "C639",
@@ -11767,7 +12397,8 @@
     "type": "Active",
     "pool": "Item Room, Rotten Beggar",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C639.png"
   },
   {
     "code": "C640",
@@ -11779,7 +12410,8 @@
     "type": "Active",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C640.png"
   },
   {
     "code": "C641",
@@ -11791,7 +12423,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C641.png"
   },
   {
     "code": "C642",
@@ -11805,7 +12438,8 @@
     "quality": 2,
     "tags": [
       "blood"
-    ]
+    ],
+    "icon": "icons/items/C642.png"
   },
   {
     "code": "C643",
@@ -11817,7 +12451,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C643.png"
   },
   {
     "code": "C644",
@@ -11829,7 +12464,8 @@
     "type": "Passive",
     "pool": "Boss Room, Golden Chest, Crane Game",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C644.png"
   },
   {
     "code": "C645",
@@ -11841,7 +12477,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C645.png"
   },
   {
     "code": "C646",
@@ -11853,7 +12490,8 @@
     "type": "Passive",
     "pool": "Devil Room, Bomb Beggar, Greed Mode Devil Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C646.png"
   },
   {
     "code": "C647",
@@ -11865,7 +12503,8 @@
     "type": "Passive",
     "pool": "Shop, Battery Beggar",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C647.png"
   },
   {
     "code": "C649",
@@ -11880,7 +12519,8 @@
     "tags": [
       "extremely cute omg",
       "plum smug"
-    ]
+    ],
+    "icon": "icons/items/C649.png"
   },
   {
     "code": "C650",
@@ -11894,7 +12534,8 @@
     "quality": 1,
     "tags": [
       "extremely cute omg :plumsmug:"
-    ]
+    ],
+    "icon": "icons/items/C650.png"
   },
   {
     "code": "C651",
@@ -11906,7 +12547,8 @@
     "type": "Passive, Familiar",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C651.png"
   },
   {
     "code": "C652",
@@ -11918,7 +12560,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C652.png"
   },
   {
     "code": "C653",
@@ -11930,7 +12573,8 @@
     "type": "Active",
     "pool": "Angel Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C653.png"
   },
   {
     "code": "C654",
@@ -11944,7 +12588,8 @@
     "quality": 2,
     "tags": [
       "p.h.d ph.d p.hd paper blood"
-    ]
+    ],
+    "icon": "icons/items/C654.png"
   },
   {
     "code": "C655",
@@ -11956,7 +12601,8 @@
     "type": "Active & Passive, Familiar",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C655.png"
   },
   {
     "code": "C657",
@@ -11968,7 +12614,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C657.png"
   },
   {
     "code": "C658",
@@ -11980,7 +12627,8 @@
     "type": "Passive",
     "pool": "Item Room, Greed Mode Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C658.png"
   },
   {
     "code": "C659",
@@ -11992,7 +12640,8 @@
     "type": "Passive",
     "pool": "Boss Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C659.png"
   },
   {
     "code": "C660",
@@ -12007,7 +12656,8 @@
     "tags": [
       "paper",
       "tarot card"
-    ]
+    ],
+    "icon": "icons/items/C660.png"
   },
   {
     "code": "C661",
@@ -12019,7 +12669,8 @@
     "type": "Passive",
     "pool": "Item Room, Greed Mode Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C661.png"
   },
   {
     "code": "C663",
@@ -12037,7 +12688,8 @@
       "spike rock",
       "greyhost",
       "grey host"
-    ]
+    ],
+    "icon": "icons/items/C663.png"
   },
   {
     "code": "C664",
@@ -12052,7 +12704,8 @@
     "tags": [
       "dog",
       "food"
-    ]
+    ],
+    "icon": "icons/items/C664.png"
   },
   {
     "code": "C665",
@@ -12067,7 +12720,8 @@
     "tags": [
       "guppys eye",
       "guppy eye"
-    ]
+    ],
+    "icon": "icons/items/C665.png"
   },
   {
     "code": "C667",
@@ -12079,7 +12733,8 @@
     "type": "Passive, Familiar",
     "pool": "Secret Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C667.png"
   },
   {
     "code": "C668",
@@ -12095,7 +12750,8 @@
       "dads note",
       "dad note",
       "paper"
-    ]
+    ],
+    "icon": "icons/items/C668.png"
   },
   {
     "code": "C669",
@@ -12111,7 +12767,8 @@
       "sosig",
       "meat",
       "food"
-    ]
+    ],
+    "icon": "icons/items/C669.png"
   },
   {
     "code": "C670",
@@ -12123,7 +12780,8 @@
     "type": "Passive",
     "pool": "Shop",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C670.png"
   },
   {
     "code": "C671",
@@ -12135,7 +12793,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C671.png"
   },
   {
     "code": "C672",
@@ -12147,7 +12806,8 @@
     "type": "Passive",
     "pool": "Devil Room, Demon Beggar",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C672.png"
   },
   {
     "code": "C673",
@@ -12159,7 +12819,8 @@
     "type": "Passive",
     "pool": "None",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C673.png"
   },
   {
     "code": "C674",
@@ -12171,7 +12832,8 @@
     "type": "Passive",
     "pool": "Secret Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C674.png"
   },
   {
     "code": "C675",
@@ -12183,7 +12845,8 @@
     "type": "Passive",
     "pool": "Item Room, Secret Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C675.png"
   },
   {
     "code": "C676",
@@ -12197,7 +12860,8 @@
     "quality": 1,
     "tags": [
       "blood"
-    ]
+    ],
+    "icon": "icons/items/C676.png"
   },
   {
     "code": "C677",
@@ -12209,7 +12873,8 @@
     "type": "Passive",
     "pool": "Item Room, Secret Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C677.png"
   },
   {
     "code": "C678",
@@ -12221,7 +12886,8 @@
     "type": "Passive",
     "pool": "Item Room, Ultra Secret Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C678.png"
   },
   {
     "code": "C679",
@@ -12233,7 +12899,8 @@
     "type": "Passive, Familiar",
     "pool": "Devil Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C679.png"
   },
   {
     "code": "C680",
@@ -12247,7 +12914,8 @@
     "quality": 2,
     "tags": [
       "Montezumas revenge"
-    ]
+    ],
+    "icon": "icons/items/C680.png"
   },
   {
     "code": "C681",
@@ -12259,7 +12927,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C681.png"
   },
   {
     "code": "C682",
@@ -12271,7 +12940,8 @@
     "type": "Passive, Familiar",
     "pool": "Item Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C682.png"
   },
   {
     "code": "C683",
@@ -12283,7 +12953,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C683.png"
   },
   {
     "code": "C684",
@@ -12297,7 +12968,8 @@
     "quality": 2,
     "tags": [
       "this item is irrelevant 99.94% of you wont kill the beast as the lost me included :("
-    ]
+    ],
+    "icon": "icons/items/C684.png"
   },
   {
     "code": "C685",
@@ -12309,7 +12981,8 @@
     "type": "Active",
     "pool": "Angel Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C685.png"
   },
   {
     "code": "C686",
@@ -12321,7 +12994,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C686.png"
   },
   {
     "code": "C687",
@@ -12333,7 +13007,8 @@
     "type": "Active",
     "pool": "Item Room, Crane Game",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C687.png"
   },
   {
     "code": "C688",
@@ -12345,7 +13020,8 @@
     "type": "Passive",
     "pool": "Secret Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C688.png"
   },
   {
     "code": "C689",
@@ -12357,7 +13033,8 @@
     "type": "Passive",
     "pool": "Secret Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C689.png"
   },
   {
     "code": "C690",
@@ -12369,7 +13046,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C690.png"
   },
   {
     "code": "C691",
@@ -12381,7 +13059,8 @@
     "type": "Passive",
     "pool": "Angel Room, Secret Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C691.png"
   },
   {
     "code": "C692",
@@ -12393,7 +13072,8 @@
     "type": "Passive",
     "pool": "Devil Room, Curse Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C692.png"
   },
   {
     "code": "C693",
@@ -12405,7 +13085,8 @@
     "type": "Passive",
     "pool": "Item Room, Key Beggar",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C693.png"
   },
   {
     "code": "C694",
@@ -12417,7 +13098,8 @@
     "type": "Passive",
     "pool": "Devil Room, Curse Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C694.png"
   },
   {
     "code": "C695",
@@ -12429,7 +13111,8 @@
     "type": "Passive",
     "pool": "Item Room, Devil Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C695.png"
   },
   {
     "code": "C696",
@@ -12441,7 +13124,8 @@
     "type": "Passive",
     "pool": "Angel Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C696.png"
   },
   {
     "code": "C697",
@@ -12453,7 +13137,8 @@
     "type": "Passive, Familiar",
     "pool": "Secret Room, Curse Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C697.png"
   },
   {
     "code": "C698",
@@ -12465,7 +13150,8 @@
     "type": "Passive, Familiar",
     "pool": "Devil Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C698.png"
   },
   {
     "code": "C699",
@@ -12480,7 +13166,8 @@
     "tags": [
       "azazels rage",
       "azazel rage"
-    ]
+    ],
+    "icon": "icons/items/C699.png"
   },
   {
     "code": "C700",
@@ -12492,7 +13179,8 @@
     "type": "Passive",
     "pool": "Secret Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C700.png"
   },
   {
     "code": "C701",
@@ -12507,7 +13195,8 @@
     "tags": [
       "isaacs tomb",
       "isaac tomb"
-    ]
+    ],
+    "icon": "icons/items/C701.png"
   },
   {
     "code": "C702",
@@ -12519,7 +13208,8 @@
     "type": "Passive",
     "pool": "Devil Room, Curse Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C702.png"
   },
   {
     "code": "C703",
@@ -12531,7 +13221,8 @@
     "type": "Active",
     "pool": "Item Room, Secret Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C703.png"
   },
   {
     "code": "C704",
@@ -12546,7 +13237,8 @@
     "tags": [
       "berzerk",
       "bamson"
-    ]
+    ],
+    "icon": "icons/items/C704.png"
   },
   {
     "code": "C705",
@@ -12564,7 +13256,8 @@
       "sword",
       "blood",
       "omae wa mou shindeiru"
-    ]
+    ],
+    "icon": "icons/items/C705.png"
   },
   {
     "code": "C706",
@@ -12576,7 +13269,8 @@
     "type": "Active",
     "pool": "Devil Room",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C706.png"
   },
   {
     "code": "C707",
@@ -12588,7 +13282,8 @@
     "type": "Passive",
     "pool": "Boss Room",
     "quality": 1,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C707.png"
   },
   {
     "code": "C708",
@@ -12600,7 +13295,8 @@
     "type": "Passive",
     "pool": "Boss Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C708.png"
   },
   {
     "code": "C709",
@@ -12612,7 +13308,8 @@
     "type": "Active",
     "pool": "Item Room, Crane Game",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C709.png"
   },
   {
     "code": "C710",
@@ -12626,7 +13323,8 @@
     "quality": 3,
     "tags": [
       "Bain"
-    ]
+    ],
+    "icon": "icons/items/C710.png"
   },
   {
     "code": "C711",
@@ -12640,7 +13338,8 @@
     "quality": 4,
     "tags": [
       "Bazarus"
-    ]
+    ],
+    "icon": "icons/items/C711.png"
   },
   {
     "code": "C712",
@@ -12652,7 +13351,8 @@
     "type": "Active",
     "pool": "Devil Room, Library",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C712.png"
   },
   {
     "code": "C713",
@@ -12664,7 +13364,8 @@
     "type": "Active",
     "pool": "Item Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C713.png"
   },
   {
     "code": "C714",
@@ -12676,7 +13377,8 @@
     "type": "Active",
     "pool": "None",
     "quality": 0,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C714.png"
   },
   {
     "code": "C715",
@@ -12688,7 +13390,8 @@
     "type": "Active",
     "pool": "None",
     "quality": 0,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C715.png"
   },
   {
     "code": "C716",
@@ -12703,7 +13406,8 @@
     "tags": [
       "keepers sack",
       "keeper sack"
-    ]
+    ],
+    "icon": "icons/items/C716.png"
   },
   {
     "code": "C717",
@@ -12718,7 +13422,8 @@
     "tags": [
       "keepers kin",
       "keeper kin"
-    ]
+    ],
+    "icon": "icons/items/C717.png"
   },
   {
     "code": "C719",
@@ -12733,7 +13438,8 @@
     "tags": [
       "keepers box",
       "keeper box"
-    ]
+    ],
+    "icon": "icons/items/C719.png"
   },
   {
     "code": "C720",
@@ -12745,7 +13451,8 @@
     "type": "Active",
     "pool": "Item Room, Crane Game",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C720.png"
   },
   {
     "code": "C721",
@@ -12764,7 +13471,8 @@
       "tmt trainer",
       "tmelt",
       "t melt"
-    ]
+    ],
+    "icon": "icons/items/C721.png"
   },
   {
     "code": "C722",
@@ -12778,7 +13486,8 @@
     "quality": 2,
     "tags": [
       "Bacob"
-    ]
+    ],
+    "icon": "icons/items/C722.png"
   },
   {
     "code": "C723",
@@ -12790,7 +13499,8 @@
     "type": "Active",
     "pool": "Item Room, Secret Room, Crane Game",
     "quality": 4,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C723.png"
   },
   {
     "code": "C724",
@@ -12802,7 +13512,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C724.png"
   },
   {
     "code": "C725",
@@ -12814,7 +13525,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 0,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C725.png"
   },
   {
     "code": "C726",
@@ -12826,7 +13538,8 @@
     "type": "Passive",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C726.png"
   },
   {
     "code": "C727",
@@ -12838,7 +13551,8 @@
     "type": "Passive",
     "pool": "Item Room, Bomb Beggar",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C727.png"
   },
   {
     "code": "C728",
@@ -12850,7 +13564,8 @@
     "type": "Active",
     "pool": "Item Room, Devil Room",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C728.png"
   },
   {
     "code": "C729",
@@ -12862,7 +13577,8 @@
     "type": "Active",
     "pool": "Item Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C729.png"
   },
   {
     "code": "C730",
@@ -12874,7 +13590,8 @@
     "type": "Passive",
     "pool": "Boss Room, Crane Game, Golden Chest",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C730.png"
   },
   {
     "code": "C731",
@@ -12886,7 +13603,8 @@
     "type": "Passive",
     "pool": "Boss Room",
     "quality": 2,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C731.png"
   },
   {
     "code": "C732",
@@ -12898,6 +13616,7 @@
     "type": "Passive",
     "pool": "Shop, Golden Chest, Mom's Chest, Old Chest",
     "quality": 3,
-    "tags": []
+    "tags": [],
+    "icon": "icons/items/C732.png"
   }
 ]

@@ -3,204 +3,238 @@
     "code": "PJ01",
     "name": "Isaac",
     "tainted": false,
-    "unlock_requirement": "None; unlocked by default"
+    "unlock_requirement": "None; unlocked by default",
+    "icon": "icons/characters/PJ01.png"
   },
   {
     "code": "PJ02",
     "name": "Magdalene",
     "tainted": false,
-    "unlock_requirement": "Have 7 or more Red Heart Containers at one time"
+    "unlock_requirement": "Have 7 or more Red Heart Containers at one time",
+    "icon": "icons/characters/PJ02.png"
   },
   {
     "code": "PJ03",
     "name": "Cain",
     "tainted": false,
-    "unlock_requirement": "Hold 55 Coins at one time"
+    "unlock_requirement": "Hold 55 Coins at one time",
+    "icon": "icons/characters/PJ03.png"
   },
   {
     "code": "PJ04",
     "name": "Judas",
     "tainted": false,
-    "unlock_requirement": "Defeat Satan"
+    "unlock_requirement": "Defeat Satan",
+    "icon": "icons/characters/PJ04.png"
   },
   {
     "code": "PJ05",
     "name": "???",
     "tainted": false,
-    "unlock_requirement": "Defeat Mom's Heart 10 times"
+    "unlock_requirement": "Defeat Mom's Heart 10 times",
+    "icon": "icons/characters/PJ05.png"
   },
   {
     "code": "PJ06",
     "name": "Eve",
     "tainted": false,
-    "unlock_requirement": "Don't pick up any hearts for 2 floors in a row"
+    "unlock_requirement": "Don't pick up any hearts for 2 floors in a row",
+    "icon": "icons/characters/PJ06.png"
   },
   {
     "code": "PJ07",
     "name": "Samson",
     "tainted": false,
-    "unlock_requirement": "Complete 2 floors in a row without taking damage"
+    "unlock_requirement": "Complete 2 floors in a row without taking damage",
+    "icon": "icons/characters/PJ07.png"
   },
   {
     "code": "PJ08",
     "name": "Azazel",
     "tainted": false,
-    "unlock_requirement": "Make 3 Deals with the Devil in one run"
+    "unlock_requirement": "Make 3 Deals with the Devil in one run",
+    "icon": "icons/characters/PJ08.png"
   },
   {
     "code": "PJ09",
     "name": "Lazarus",
     "tainted": false,
-    "unlock_requirement": "Have 4 or more Soul Hearts at one time"
+    "unlock_requirement": "Have 4 or more Soul Hearts at one time",
+    "icon": "icons/characters/PJ09.png"
   },
   {
     "code": "PJ10",
     "name": "Eden",
     "tainted": false,
-    "unlock_requirement": "Complete Chapter 4"
+    "unlock_requirement": "Complete Chapter 4",
+    "icon": "icons/characters/PJ10.png"
   },
   {
     "code": "PJ11",
     "name": "The Lost",
     "tainted": false,
-    "unlock_requirement": "It's complicated Die in a Sacrifice Room while holding Missing Poster"
+    "unlock_requirement": "It's complicated Die in a Sacrifice Room while holding Missing Poster",
+    "icon": "icons/characters/PJ11.png"
   },
   {
     "code": "PJ12",
     "name": "Lilith",
     "tainted": false,
-    "unlock_requirement": "Defeat Ultra Greed as Azazel"
+    "unlock_requirement": "Defeat Ultra Greed as Azazel",
+    "icon": "icons/characters/PJ12.png"
   },
   {
     "code": "PJ13",
     "name": "Keeper",
     "tainted": false,
-    "unlock_requirement": "Donate 1000 Coins to the Greed Donation Machine"
+    "unlock_requirement": "Donate 1000 Coins to the Greed Donation Machine",
+    "icon": "icons/characters/PJ13.png"
   },
   {
     "code": "PJ14",
     "name": "Apollyon",
     "tainted": false,
-    "unlock_requirement": "Defeat Mega Satan"
+    "unlock_requirement": "Defeat Mega Satan",
+    "icon": "icons/characters/PJ14.png"
   },
   {
     "code": "PJ15",
     "name": "The Forgotten",
     "tainted": false,
-    "unlock_requirement": "It's complicated"
+    "unlock_requirement": "It's complicated",
+    "icon": "icons/characters/PJ15.png"
   },
   {
     "code": "PJ16",
     "name": "Bethany",
     "tainted": false,
-    "unlock_requirement": "Defeat Mom's Heart or It Lives! on hard mode as Lazarus , without dying at all"
+    "unlock_requirement": "Defeat Mom's Heart or It Lives! on hard mode as Lazarus , without dying at all",
+    "icon": "icons/characters/PJ16.png"
   },
   {
     "code": "PJ17",
     "name": "Jacob and Esau",
     "tainted": false,
-    "unlock_requirement": "Defeat Mother"
+    "unlock_requirement": "Defeat Mother",
+    "icon": "icons/characters/PJ17.png"
   },
   {
     "code": "PJ18",
     "name": "Tainted Isaac",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Isaac"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Isaac",
+    "icon": "icons/characters/PJ18.png"
   },
   {
     "code": "PJ19",
     "name": "Tainted Magdalene",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene",
+    "icon": "icons/characters/PJ19.png"
   },
   {
     "code": "PJ20",
     "name": "Tainted Cain",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Cain"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
+    "icon": "icons/characters/PJ20.png"
   },
   {
     "code": "PJ21",
     "name": "Tainted Judas",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Judas"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Judas",
+    "icon": "icons/characters/PJ21.png"
   },
   {
     "code": "PJ22",
     "name": "Tainted ???",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as ???"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as ???",
+    "icon": "icons/characters/PJ22.png"
   },
   {
     "code": "PJ23",
     "name": "Tainted Eve",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Eve"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Eve",
+    "icon": "icons/characters/PJ23.png"
   },
   {
     "code": "PJ24",
     "name": "Tainted Samson",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Samson"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Samson",
+    "icon": "icons/characters/PJ24.png"
   },
   {
     "code": "PJ25",
     "name": "Tainted Azazel",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Azazel"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Azazel",
+    "icon": "icons/characters/PJ25.png"
   },
   {
     "code": "PJ26",
     "name": "Tainted Lazarus",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus",
+    "icon": "icons/characters/PJ26.png"
   },
   {
     "code": "PJ27",
     "name": "Tainted Eden",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Eden"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
+    "icon": "icons/characters/PJ27.png"
   },
   {
     "code": "PJ28",
     "name": "Tainted Lost",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as The Lost"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as The Lost",
+    "icon": "icons/characters/PJ28.png"
   },
   {
     "code": "PJ29",
     "name": "Tainted Lilith",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Lilith"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Lilith",
+    "icon": "icons/characters/PJ29.png"
   },
   {
     "code": "PJ30",
     "name": "Tainted Keeper",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Keeper"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Keeper",
+    "icon": "icons/characters/PJ30.png"
   },
   {
     "code": "PJ31",
     "name": "Tainted Apollyon",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon",
+    "icon": "icons/characters/PJ31.png"
   },
   {
     "code": "PJ32",
     "name": "Tainted Forgotten",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
+    "icon": "icons/characters/PJ32.png"
   },
   {
     "code": "PJ33",
     "name": "Tainted Bethany",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Bethany"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Bethany",
+    "icon": "icons/characters/PJ33.png"
   },
   {
     "code": "PJ34",
     "name": "Tainted Jacob",
     "tainted": true,
-    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau"
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
+    "icon": "icons/characters/PJ34.png"
   }
 ]

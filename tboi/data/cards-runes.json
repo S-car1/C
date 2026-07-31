@@ -11,7 +11,8 @@
       "card",
       "green"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K001.png"
   },
   {
     "code": "K002",
@@ -25,7 +26,8 @@
       "card",
       "yellow"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K002.png"
   },
   {
     "code": "K003",
@@ -39,7 +41,8 @@
       "card",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K003.png"
   },
   {
     "code": "K004",
@@ -55,7 +58,8 @@
       "blue",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K004.png"
   },
   {
     "code": "K005",
@@ -69,7 +73,8 @@
       "card",
       "yellow"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K005.png"
   },
   {
     "code": "K006",
@@ -85,7 +90,8 @@
       "blue",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K006.png"
   },
   {
     "code": "K007",
@@ -100,7 +106,8 @@
       "card",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K007.png"
   },
   {
     "code": "K008",
@@ -114,7 +121,8 @@
       "card",
       "yellow"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K008.png"
   },
   {
     "code": "K009",
@@ -128,7 +136,8 @@
       "card",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K009.png"
   },
   {
     "code": "K010",
@@ -142,7 +151,8 @@
       "card",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K010.png"
   },
   {
     "code": "K011",
@@ -156,7 +166,8 @@
       "card",
       "pink"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K011.png"
   },
   {
     "code": "K012",
@@ -170,7 +181,8 @@
       "card",
       "pink"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K012.png"
   },
   {
     "code": "K013",
@@ -186,7 +198,8 @@
       "grey",
       "gray"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K013.png"
   },
   {
     "code": "K014",
@@ -201,7 +214,8 @@
       "grey",
       "gray"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K014.png"
   },
   {
     "code": "K015",
@@ -217,7 +231,8 @@
       "red",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K015.png"
   },
   {
     "code": "K016",
@@ -232,7 +247,8 @@
       "card",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K016.png"
   },
   {
     "code": "K017",
@@ -246,7 +262,8 @@
       "card",
       "purple"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K017.png"
   },
   {
     "code": "K018",
@@ -260,7 +277,8 @@
       "card",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K018.png"
   },
   {
     "code": "K019",
@@ -274,7 +292,8 @@
       "card",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K019.png"
   },
   {
     "code": "K020",
@@ -288,7 +307,8 @@
       "card",
       "yellow"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K020.png"
   },
   {
     "code": "K021",
@@ -302,7 +322,8 @@
       "card",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K021.png"
   },
   {
     "code": "K022",
@@ -316,7 +337,8 @@
       "card",
       "pink"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K022.png"
   },
   {
     "code": "K023",
@@ -331,7 +353,8 @@
       "white",
       "black"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K023.png"
   },
   {
     "code": "K024",
@@ -346,7 +369,8 @@
       "white",
       "red"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K024.png"
   },
   {
     "code": "K025",
@@ -361,7 +385,8 @@
       "white",
       "black"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K025.png"
   },
   {
     "code": "K026",
@@ -377,7 +402,8 @@
       "white",
       "red"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K026.png"
   },
   {
     "code": "K027",
@@ -392,7 +418,8 @@
       "white",
       "black"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K027.png"
   },
   {
     "code": "K028",
@@ -407,7 +434,8 @@
       "white",
       "red"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K028.png"
   },
   {
     "code": "K029",
@@ -422,7 +450,8 @@
       "white",
       "black"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K029.png"
   },
   {
     "code": "K030",
@@ -437,7 +466,8 @@
       "white",
       "red"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K030.png"
   },
   {
     "code": "K031",
@@ -452,7 +482,8 @@
       "white",
       "black"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K031.png"
   },
   {
     "code": "K046",
@@ -466,7 +497,8 @@
       "blue",
       "red"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K046.png"
   },
   {
     "code": "K079",
@@ -476,7 +508,8 @@
     "description": "Drops 1-20 full red hearts on the floor Unlock this card by defeating Mega Satan as Tainted Magdalene",
     "quality": null,
     "tags": [],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K079.png"
   },
   {
     "code": "K042",
@@ -492,7 +525,8 @@
       "gathering",
       "brown"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K042.png"
   },
   {
     "code": "K052",
@@ -510,7 +544,8 @@
       "brown",
       "giant growth"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K052.png"
   },
   {
     "code": "K053",
@@ -526,7 +561,8 @@
       "gathering",
       "blue"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K053.png"
   },
   {
     "code": "K054",
@@ -542,7 +578,8 @@
       "gathering",
       "blue"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K054.png"
   },
   {
     "code": "K043",
@@ -555,7 +592,8 @@
       "blue",
       "green"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K043.png"
   },
   {
     "code": "K044",
@@ -569,7 +607,8 @@
       "black",
       "writing"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K044.png"
   },
   {
     "code": "K045",
@@ -583,7 +622,8 @@
       "white",
       "writing"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K045.png"
   },
   {
     "code": "K047",
@@ -596,7 +636,8 @@
       "brown",
       "orange"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K047.png"
   },
   {
     "code": "K048",
@@ -611,7 +652,8 @@
       "question",
       "mark"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K048.png"
   },
   {
     "code": "K032",
@@ -624,7 +666,8 @@
       "purple",
       "glow"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K032.png"
   },
   {
     "code": "K033",
@@ -637,7 +680,8 @@
       "purple",
       "glow"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K033.png"
   },
   {
     "code": "K034",
@@ -650,7 +694,8 @@
       "purple",
       "glow"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K034.png"
   },
   {
     "code": "K035",
@@ -663,7 +708,8 @@
       "purple",
       "glow"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K035.png"
   },
   {
     "code": "K036",
@@ -676,7 +722,8 @@
       "purple",
       "glow"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K036.png"
   },
   {
     "code": "K037",
@@ -689,7 +736,8 @@
       "purple",
       "glow"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K037.png"
   },
   {
     "code": "K038",
@@ -702,7 +750,8 @@
       "purple",
       "glow"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K038.png"
   },
   {
     "code": "K039",
@@ -715,7 +764,8 @@
       "purple",
       "glow"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K039.png"
   },
   {
     "code": "K040",
@@ -725,7 +775,8 @@
     "description": "When used, gives a random Mystic rune effect Possible effects include: Algiz, Ansuz, Berkano, Dagaz, Ehwaz, Hagalaz, Jera, Perthro Also has a 25% chance to spawn another Blank Rune upon use Unlock this card by beating Challenge #30 (Guardian)",
     "quality": null,
     "tags": [],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K040.png"
   },
   {
     "code": "K041",
@@ -738,7 +789,8 @@
       "rock",
       "black"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K041.png"
   },
   {
     "code": "K055",
@@ -750,7 +802,8 @@
     "tags": [
       "shart"
     ],
-    "kind": "rune"
+    "kind": "rune",
+    "icon": "icons/cards/K055.png"
   },
   {
     "code": "K049",
@@ -764,7 +817,8 @@
       "broken",
       "pip"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K049.png"
   },
   {
     "code": "K050",
@@ -779,7 +833,8 @@
       "paper",
       "shop room pool"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K050.png"
   },
   {
     "code": "K051",
@@ -795,7 +850,8 @@
       "cross",
       "blue"
     ],
-    "kind": "playing_card"
+    "kind": "playing_card",
+    "icon": "icons/cards/K051.png"
   },
   {
     "code": "K078",
@@ -807,7 +863,8 @@
     "tags": [
       "Red Key Shard"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K078.png"
   },
   {
     "code": "K056",
@@ -821,7 +878,8 @@
       "card",
       "green"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K056.png"
   },
   {
     "code": "K057",
@@ -835,7 +893,8 @@
       "card",
       "yellow"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K057.png"
   },
   {
     "code": "K058",
@@ -849,7 +908,8 @@
       "card",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K058.png"
   },
   {
     "code": "K059",
@@ -865,7 +925,8 @@
       "blue",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K059.png"
   },
   {
     "code": "K060",
@@ -879,7 +940,8 @@
       "card",
       "yellow"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K060.png"
   },
   {
     "code": "K061",
@@ -895,7 +957,8 @@
       "blue",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K061.png"
   },
   {
     "code": "K062",
@@ -910,7 +973,8 @@
       "card",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K062.png"
   },
   {
     "code": "K063",
@@ -924,7 +988,8 @@
       "card",
       "yellow"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K063.png"
   },
   {
     "code": "K064",
@@ -938,7 +1003,8 @@
       "card",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K064.png"
   },
   {
     "code": "K065",
@@ -952,7 +1018,8 @@
       "card",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K065.png"
   },
   {
     "code": "K066",
@@ -966,7 +1033,8 @@
       "card",
       "pink"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K066.png"
   },
   {
     "code": "K067",
@@ -980,7 +1048,8 @@
       "card",
       "pink"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K067.png"
   },
   {
     "code": "K068",
@@ -996,7 +1065,8 @@
       "grey",
       "gray"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K068.png"
   },
   {
     "code": "K069",
@@ -1011,7 +1081,8 @@
       "grey",
       "gray"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K069.png"
   },
   {
     "code": "K070",
@@ -1027,7 +1098,8 @@
       "red",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K070.png"
   },
   {
     "code": "K071",
@@ -1042,7 +1114,8 @@
       "card",
       "red"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K071.png"
   },
   {
     "code": "K072",
@@ -1056,7 +1129,8 @@
       "card",
       "purple"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K072.png"
   },
   {
     "code": "K073",
@@ -1070,7 +1144,8 @@
       "card",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K073.png"
   },
   {
     "code": "K074",
@@ -1084,7 +1159,8 @@
       "card",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K074.png"
   },
   {
     "code": "K075",
@@ -1098,7 +1174,8 @@
       "card",
       "yellow"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K075.png"
   },
   {
     "code": "K076",
@@ -1112,7 +1189,8 @@
       "card",
       "blue"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K076.png"
   },
   {
     "code": "K077",
@@ -1126,7 +1204,8 @@
       "card",
       "pink"
     ],
-    "kind": "tarot"
+    "kind": "tarot",
+    "icon": "icons/cards/K077.png"
   },
   {
     "code": "K080",
@@ -1138,7 +1217,8 @@
     "tags": [
       "Uno Card"
     ],
-    "kind": "special_card"
+    "kind": "special_card",
+    "icon": "icons/cards/K080.png"
   },
   {
     "code": "K081",
@@ -1150,7 +1230,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K081.png"
   },
   {
     "code": "K082",
@@ -1162,7 +1243,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K082.png"
   },
   {
     "code": "K083",
@@ -1174,7 +1256,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K083.png"
   },
   {
     "code": "K084",
@@ -1186,7 +1269,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K084.png"
   },
   {
     "code": "K085",
@@ -1198,7 +1282,8 @@
     "tags": [
       "Soul of Blue Baby"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K085.png"
   },
   {
     "code": "K086",
@@ -1210,7 +1295,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K086.png"
   },
   {
     "code": "K087",
@@ -1222,7 +1308,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K087.png"
   },
   {
     "code": "K088",
@@ -1234,7 +1321,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K088.png"
   },
   {
     "code": "K089",
@@ -1246,7 +1334,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K089.png"
   },
   {
     "code": "K090",
@@ -1258,7 +1347,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K090.png"
   },
   {
     "code": "K091",
@@ -1270,7 +1360,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K091.png"
   },
   {
     "code": "K092",
@@ -1282,7 +1373,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K092.png"
   },
   {
     "code": "K093",
@@ -1294,7 +1386,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K093.png"
   },
   {
     "code": "K094",
@@ -1306,7 +1399,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K094.png"
   },
   {
     "code": "K095",
@@ -1318,7 +1412,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K095.png"
   },
   {
     "code": "K096",
@@ -1330,7 +1425,8 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K096.png"
   },
   {
     "code": "K097",
@@ -1342,6 +1438,7 @@
     "tags": [
       "Soul Stone"
     ],
-    "kind": "soul_stone"
+    "kind": "soul_stone",
+    "icon": "icons/cards/K097.png"
   }
 ]

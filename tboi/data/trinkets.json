@@ -16,7 +16,8 @@
       "water",
       "wet",
       "blue"
-    ]
+    ],
+    "icon": "icons/trinkets/T001.png"
   },
   {
     "code": "T002",
@@ -31,7 +32,8 @@
     "tags": [
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/trinkets/T002.png"
   },
   {
     "code": "T003",
@@ -48,7 +50,8 @@
       "grey",
       "gray",
       "yellow"
-    ]
+    ],
+    "icon": "icons/trinkets/T003.png"
   },
   {
     "code": "T004",
@@ -64,7 +67,8 @@
       "joystick",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/trinkets/T004.png"
   },
   {
     "code": "T005",
@@ -76,7 +80,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T005.png"
   },
   {
     "code": "T006",
@@ -90,7 +95,8 @@
     "quality": null,
     "tags": [
       "red"
-    ]
+    ],
+    "icon": "icons/trinkets/T006.png"
   },
   {
     "code": "T007",
@@ -106,7 +112,8 @@
       "red",
       "black",
       "circle"
-    ]
+    ],
+    "icon": "icons/trinkets/T007.png"
   },
   {
     "code": "T008",
@@ -124,7 +131,8 @@
       "game",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/trinkets/T008.png"
   },
   {
     "code": "T009",
@@ -139,7 +147,8 @@
     "tags": [
       "white",
       "lump"
-    ]
+    ],
+    "icon": "icons/trinkets/T009.png"
   },
   {
     "code": "T010",
@@ -155,7 +164,8 @@
       "white",
       "s",
       "snake"
-    ]
+    ],
+    "icon": "icons/trinkets/T010.png"
   },
   {
     "code": "T011",
@@ -171,7 +181,8 @@
       "white",
       "circle",
       "snake"
-    ]
+    ],
+    "icon": "icons/trinkets/T011.png"
   },
   {
     "code": "T012",
@@ -187,7 +198,8 @@
       "grey",
       "gray",
       "eyes"
-    ]
+    ],
+    "icon": "icons/trinkets/T012.png"
   },
   {
     "code": "T013",
@@ -207,7 +219,8 @@
       "note",
       "cash",
       "money"
-    ]
+    ],
+    "icon": "icons/trinkets/T013.png"
   },
   {
     "code": "T014",
@@ -226,7 +239,8 @@
       "lump",
       "ball",
       "spot"
-    ]
+    ],
+    "icon": "icons/trinkets/T014.png"
   },
   {
     "code": "T015",
@@ -243,7 +257,8 @@
       "gray",
       "stone",
       "square"
-    ]
+    ],
+    "icon": "icons/trinkets/T015.png"
   },
   {
     "code": "T016",
@@ -261,7 +276,8 @@
       "white",
       "yellow",
       "moms toenail"
-    ]
+    ],
+    "icon": "icons/trinkets/T016.png"
   },
   {
     "code": "T017",
@@ -278,7 +294,8 @@
       "grey",
       "gray",
       "makeup"
-    ]
+    ],
+    "icon": "icons/trinkets/T017.png"
   },
   {
     "code": "T018",
@@ -296,7 +313,8 @@
       "gray",
       "black",
       "book"
-    ]
+    ],
+    "icon": "icons/trinkets/T018.png"
   },
   {
     "code": "T019",
@@ -314,7 +332,8 @@
       "gray",
       "metal",
       "wire"
-    ]
+    ],
+    "icon": "icons/trinkets/T019.png"
   },
   {
     "code": "T020",
@@ -332,7 +351,8 @@
       "brown",
       "monkeys paw",
       "monkey's paw"
-    ]
+    ],
+    "icon": "icons/trinkets/T020.png"
   },
   {
     "code": "T021",
@@ -349,7 +369,8 @@
       "grey",
       "gray",
       "page"
-    ]
+    ],
+    "icon": "icons/trinkets/T021.png"
   },
   {
     "code": "T022",
@@ -368,7 +389,8 @@
       "daemons tail",
       "demons tail",
       "demon tail"
-    ]
+    ],
+    "icon": "icons/trinkets/T022.png"
   },
   {
     "code": "T023",
@@ -386,7 +408,8 @@
       "isaac",
       "white",
       "writing"
-    ]
+    ],
+    "icon": "icons/trinkets/T023.png"
   },
   {
     "code": "T024",
@@ -402,7 +425,8 @@
       "brown",
       "orange",
       "flat"
-    ]
+    ],
+    "icon": "icons/trinkets/T024.png"
   },
   {
     "code": "T025",
@@ -418,7 +442,8 @@
       "chocolate",
       "brown",
       "rectangle"
-    ]
+    ],
+    "icon": "icons/trinkets/T025.png"
   },
   {
     "code": "T026",
@@ -434,7 +459,8 @@
       "white",
       "snake",
       "square"
-    ]
+    ],
+    "icon": "icons/trinkets/T026.png"
   },
   {
     "code": "T027",
@@ -449,7 +475,8 @@
     "tags": [
       "snake",
       "white"
-    ]
+    ],
+    "icon": "icons/trinkets/T027.png"
   },
   {
     "code": "T028",
@@ -465,7 +492,8 @@
       "ank",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/trinkets/T028.png"
   },
   {
     "code": "T029",
@@ -483,7 +511,8 @@
       "red",
       "bloody",
       "dead"
-    ]
+    ],
+    "icon": "icons/trinkets/T029.png"
   },
   {
     "code": "T030",
@@ -497,7 +526,8 @@
     "quality": null,
     "tags": [
       "red"
-    ]
+    ],
+    "icon": "icons/trinkets/T030.png"
   },
   {
     "code": "T031",
@@ -511,7 +541,8 @@
     "quality": null,
     "tags": [
       "blue"
-    ]
+    ],
+    "icon": "icons/trinkets/T031.png"
   },
   {
     "code": "T032",
@@ -530,7 +561,8 @@
       "grey",
       "gray",
       "mushroom"
-    ]
+    ],
+    "icon": "icons/trinkets/T032.png"
   },
   {
     "code": "T033",
@@ -549,7 +581,8 @@
       "guts",
       "intestine",
       "tube"
-    ]
+    ],
+    "icon": "icons/trinkets/T033.png"
   },
   {
     "code": "T034",
@@ -567,7 +600,8 @@
       "purple",
       "childs heart",
       "child heart"
-    ]
+    ],
+    "icon": "icons/trinkets/T034.png"
   },
   {
     "code": "T035",
@@ -583,7 +617,8 @@
       "pink",
       "purple",
       "twisted"
-    ]
+    ],
+    "icon": "icons/trinkets/T035.png"
   },
   {
     "code": "T036",
@@ -599,7 +634,8 @@
       "brown",
       "wooden",
       "broken"
-    ]
+    ],
+    "icon": "icons/trinkets/T036.png"
   },
   {
     "code": "T037",
@@ -616,7 +652,8 @@
       "gray",
       "bloody",
       "square"
-    ]
+    ],
+    "icon": "icons/trinkets/T037.png"
   },
   {
     "code": "T038",
@@ -636,7 +673,8 @@
       "circle",
       "round",
       "moms pearl"
-    ]
+    ],
+    "icon": "icons/trinkets/T038.png"
   },
   {
     "code": "T039",
@@ -654,7 +692,8 @@
       "red",
       "saddle",
       "tube"
-    ]
+    ],
+    "icon": "icons/trinkets/T039.png"
   },
   {
     "code": "T040",
@@ -668,7 +707,8 @@
     "quality": null,
     "tags": [
       "the lost item pool"
-    ]
+    ],
+    "icon": "icons/trinkets/T040.png"
   },
   {
     "code": "T041",
@@ -683,7 +723,8 @@
     "tags": [
       "red",
       "white"
-    ]
+    ],
+    "icon": "icons/trinkets/T041.png"
   },
   {
     "code": "T042",
@@ -700,7 +741,8 @@
       "thumb",
       "nail",
       "bone"
-    ]
+    ],
+    "icon": "icons/trinkets/T042.png"
   },
   {
     "code": "T043",
@@ -718,7 +760,8 @@
       "bone",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/trinkets/T043.png"
   },
   {
     "code": "T044",
@@ -733,7 +776,8 @@
     "tags": [
       "white",
       "pill"
-    ]
+    ],
+    "icon": "icons/trinkets/T044.png"
   },
   {
     "code": "T045",
@@ -747,7 +791,8 @@
     "quality": null,
     "tags": [
       "card"
-    ]
+    ],
+    "icon": "icons/trinkets/T045.png"
   },
   {
     "code": "T046",
@@ -766,7 +811,8 @@
       "grey",
       "gray",
       "isaacs fork"
-    ]
+    ],
+    "icon": "icons/trinkets/T046.png"
   },
   {
     "code": "T048",
@@ -784,7 +830,8 @@
       "purple",
       "paper",
       "red"
-    ]
+    ],
+    "icon": "icons/trinkets/T048.png"
   },
   {
     "code": "T049",
@@ -802,7 +849,8 @@
       "coin",
       "cent",
       "money"
-    ]
+    ],
+    "icon": "icons/trinkets/T049.png"
   },
   {
     "code": "T050",
@@ -822,7 +870,8 @@
       "steam",
       "smoke",
       "cent"
-    ]
+    ],
+    "icon": "icons/trinkets/T050.png"
   },
   {
     "code": "T051",
@@ -842,7 +891,8 @@
       "cent",
       "money",
       "cash"
-    ]
+    ],
+    "icon": "icons/trinkets/T051.png"
   },
   {
     "code": "T052",
@@ -862,7 +912,8 @@
       "money",
       "cash",
       "sparkle"
-    ]
+    ],
+    "icon": "icons/trinkets/T052.png"
   },
   {
     "code": "T053",
@@ -882,7 +933,8 @@
       "grey",
       "gray",
       "brown"
-    ]
+    ],
+    "icon": "icons/trinkets/T053.png"
   },
   {
     "code": "T054",
@@ -898,7 +950,8 @@
       "dead",
       "crying",
       "isaacs head"
-    ]
+    ],
+    "icon": "icons/trinkets/T054.png"
   },
   {
     "code": "T055",
@@ -917,7 +970,8 @@
       "golden",
       "glow",
       "maggys faith"
-    ]
+    ],
+    "icon": "icons/trinkets/T055.png"
   },
   {
     "code": "T056",
@@ -936,7 +990,8 @@
       "bloody",
       "lips",
       "judas tongue"
-    ]
+    ],
+    "icon": "icons/trinkets/T056.png"
   },
   {
     "code": "T057",
@@ -955,7 +1010,8 @@
       "???s soul",
       "blue baby's soul",
       "blue babys soul"
-    ]
+    ],
+    "icon": "icons/trinkets/T057.png"
   },
   {
     "code": "T058",
@@ -974,7 +1030,8 @@
       "brown",
       "red",
       "samsons lock"
-    ]
+    ],
+    "icon": "icons/trinkets/T058.png"
   },
   {
     "code": "T059",
@@ -990,7 +1047,8 @@
       "circle",
       "white",
       "black"
-    ]
+    ],
+    "icon": "icons/trinkets/T059.png"
   },
   {
     "code": "T060",
@@ -1008,7 +1066,8 @@
       "black",
       "striped",
       "eves bird foot"
-    ]
+    ],
+    "icon": "icons/trinkets/T060.png"
   },
   {
     "code": "T061",
@@ -1028,7 +1087,8 @@
       "bleeding",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/trinkets/T061.png"
   },
   {
     "code": "T062",
@@ -1047,7 +1107,8 @@
       "lump",
       "metal",
       "stone"
-    ]
+    ],
+    "icon": "icons/trinkets/T062.png"
   },
   {
     "code": "T063",
@@ -1063,7 +1124,8 @@
       "blue",
       "metal",
       "sissors"
-    ]
+    ],
+    "icon": "icons/trinkets/T063.png"
   },
   {
     "code": "T064",
@@ -1082,7 +1144,8 @@
       "red",
       "green",
       "blue"
-    ]
+    ],
+    "icon": "icons/trinkets/T064.png"
   },
   {
     "code": "T065",
@@ -1098,7 +1161,8 @@
       "intestine",
       "white",
       "snake"
-    ]
+    ],
+    "icon": "icons/trinkets/T065.png"
   },
   {
     "code": "T066",
@@ -1115,7 +1179,8 @@
       "button",
       "eyes",
       "white"
-    ]
+    ],
+    "icon": "icons/trinkets/T066.png"
   },
   {
     "code": "T067",
@@ -1137,7 +1202,8 @@
       "pip",
       "broken",
       "die"
-    ]
+    ],
+    "icon": "icons/trinkets/T067.png"
   },
   {
     "code": "T068",
@@ -1156,7 +1222,8 @@
       "pill",
       "medicine",
       "drug"
-    ]
+    ],
+    "icon": "icons/trinkets/T068.png"
   },
   {
     "code": "T069",
@@ -1172,7 +1239,8 @@
       "photo",
       "family",
       "old"
-    ]
+    ],
+    "icon": "icons/trinkets/T069.png"
   },
   {
     "code": "T070",
@@ -1189,7 +1257,8 @@
       "insect",
       "pink",
       "legs"
-    ]
+    ],
+    "icon": "icons/trinkets/T070.png"
   },
   {
     "code": "T071",
@@ -1208,7 +1277,8 @@
       "ocarina",
       "bobs bladder",
       "bob bladder"
-    ]
+    ],
+    "icon": "icons/trinkets/T071.png"
   },
   {
     "code": "T072",
@@ -1227,7 +1297,8 @@
       "silver",
       "pill",
       "cross"
-    ]
+    ],
+    "icon": "icons/trinkets/T072.png"
   },
   {
     "code": "T073",
@@ -1243,7 +1314,8 @@
       "orange",
       "red",
       "circle"
-    ]
+    ],
+    "icon": "icons/trinkets/T073.png"
   },
   {
     "code": "T074",
@@ -1264,7 +1336,8 @@
       "black",
       "red",
       "yellow"
-    ]
+    ],
+    "icon": "icons/trinkets/T074.png"
   },
   {
     "code": "T075",
@@ -1279,7 +1352,8 @@
     "tags": [
       "404",
       "red"
-    ]
+    ],
+    "icon": "icons/trinkets/T075.png"
   },
   {
     "code": "T076",
@@ -1297,7 +1371,8 @@
       "circle",
       "pill",
       "bow"
-    ]
+    ],
+    "icon": "icons/trinkets/T076.png"
   },
   {
     "code": "T077",
@@ -1314,7 +1389,8 @@
       "lump",
       "circle",
       "hairy"
-    ]
+    ],
+    "icon": "icons/trinkets/T077.png"
   },
   {
     "code": "T078",
@@ -1332,7 +1408,8 @@
       "dynamite",
       "tnt",
       "rod"
-    ]
+    ],
+    "icon": "icons/trinkets/T078.png"
   },
   {
     "code": "T079",
@@ -1350,7 +1427,8 @@
       "black",
       "infinity",
       "oo"
-    ]
+    ],
+    "icon": "icons/trinkets/T079.png"
   },
   {
     "code": "T080",
@@ -1366,7 +1444,8 @@
       "grey",
       "gray",
       "leaf"
-    ]
+    ],
+    "icon": "icons/trinkets/T080.png"
   },
   {
     "code": "T081",
@@ -1384,7 +1463,8 @@
       "white",
       "knot",
       "blindfold"
-    ]
+    ],
+    "icon": "icons/trinkets/T081.png"
   },
   {
     "code": "T082",
@@ -1400,7 +1480,8 @@
       "yellow",
       "u",
       "magnet"
-    ]
+    ],
+    "icon": "icons/trinkets/T082.png"
   },
   {
     "code": "T083",
@@ -1417,7 +1498,8 @@
       "grey",
       "gray",
       "metal"
-    ]
+    ],
+    "icon": "icons/trinkets/T083.png"
   },
   {
     "code": "T084",
@@ -1433,7 +1515,8 @@
       "white",
       "trunk",
       "bent"
-    ]
+    ],
+    "icon": "icons/trinkets/T084.png"
   },
   {
     "code": "T085",
@@ -1449,7 +1532,8 @@
       "black",
       "three",
       "spiral"
-    ]
+    ],
+    "icon": "icons/trinkets/T085.png"
   },
   {
     "code": "T086",
@@ -1466,7 +1550,8 @@
       "grey",
       "gray",
       "bent"
-    ]
+    ],
+    "icon": "icons/trinkets/T086.png"
   },
   {
     "code": "T087",
@@ -1486,7 +1571,8 @@
       "necklace",
       "moms locket",
       "mom locket"
-    ]
+    ],
+    "icon": "icons/trinkets/T087.png"
   },
   {
     "code": "T088",
@@ -1506,7 +1592,8 @@
       "cross",
       "entry",
       "warning"
-    ]
+    ],
+    "icon": "icons/trinkets/T088.png"
   },
   {
     "code": "T089",
@@ -1522,7 +1609,8 @@
       "ribbon",
       "green",
       "blue"
-    ]
+    ],
+    "icon": "icons/trinkets/T089.png"
   },
   {
     "code": "T090",
@@ -1537,7 +1625,8 @@
     "tags": [
       "circle",
       "rectangle"
-    ]
+    ],
+    "icon": "icons/trinkets/T090.png"
   },
   {
     "code": "T091",
@@ -1554,7 +1643,8 @@
       "grey",
       "gray",
       "poop"
-    ]
+    ],
+    "icon": "icons/trinkets/T091.png"
   },
   {
     "code": "T092",
@@ -1571,7 +1661,8 @@
       "damaged",
       "yellow",
       "golden"
-    ]
+    ],
+    "icon": "icons/trinkets/T092.png"
   },
   {
     "code": "T093",
@@ -1589,7 +1680,8 @@
       "fly",
       "brown",
       "poop"
-    ]
+    ],
+    "icon": "icons/trinkets/T093.png"
   },
   {
     "code": "T094",
@@ -1608,7 +1700,8 @@
       "arrow",
       "flower",
       "plant"
-    ]
+    ],
+    "icon": "icons/trinkets/T094.png"
   },
   {
     "code": "T095",
@@ -1624,7 +1717,8 @@
       "grey",
       "gray",
       "horn"
-    ]
+    ],
+    "icon": "icons/trinkets/T095.png"
   },
   {
     "code": "T096",
@@ -1642,7 +1736,8 @@
       "brown",
       "circle",
       "snake"
-    ]
+    ],
+    "icon": "icons/trinkets/T096.png"
   },
   {
     "code": "T097",
@@ -1658,7 +1753,8 @@
       "pink",
       "bloody",
       "brain"
-    ]
+    ],
+    "icon": "icons/trinkets/T097.png"
   },
   {
     "code": "T098",
@@ -1676,7 +1772,8 @@
       "booger",
       "bogey",
       "slime"
-    ]
+    ],
+    "icon": "icons/trinkets/T098.png"
   },
   {
     "code": "T099",
@@ -1694,7 +1791,8 @@
       "red",
       "circle",
       "stripe"
-    ]
+    ],
+    "icon": "icons/trinkets/T099.png"
   },
   {
     "code": "T100",
@@ -1709,7 +1807,8 @@
     "tags": [
       "yellow",
       "light"
-    ]
+    ],
+    "icon": "icons/trinkets/T100.png"
   },
   {
     "code": "T101",
@@ -1725,7 +1824,8 @@
       "grey",
       "gray",
       "light"
-    ]
+    ],
+    "icon": "icons/trinkets/T101.png"
   },
   {
     "code": "T102",
@@ -1744,7 +1844,8 @@
       "paper",
       "page",
       "poster"
-    ]
+    ],
+    "icon": "icons/trinkets/T102.png"
   },
   {
     "code": "T103",
@@ -1760,7 +1861,8 @@
       "red",
       "lines",
       "redpill"
-    ]
+    ],
+    "icon": "icons/trinkets/T103.png"
   },
   {
     "code": "T104",
@@ -1777,7 +1879,8 @@
       "gray",
       "claw",
       "rib"
-    ]
+    ],
+    "icon": "icons/trinkets/T104.png"
   },
   {
     "code": "T105",
@@ -1793,7 +1896,8 @@
       "brown",
       "sack",
       "hoof"
-    ]
+    ],
+    "icon": "icons/trinkets/T105.png"
   },
   {
     "code": "T106",
@@ -1810,7 +1914,8 @@
       "yellow",
       "orange",
       "black"
-    ]
+    ],
+    "icon": "icons/trinkets/T106.png"
   },
   {
     "code": "T107",
@@ -1827,7 +1932,8 @@
       "purple",
       "blue",
       "bloody"
-    ]
+    ],
+    "icon": "icons/trinkets/T107.png"
   },
   {
     "code": "T108",
@@ -1844,7 +1950,8 @@
       "brain",
       "stone",
       "rock"
-    ]
+    ],
+    "icon": "icons/trinkets/T108.png"
   },
   {
     "code": "T109",
@@ -1864,7 +1971,8 @@
       "paper",
       "roll",
       "silver"
-    ]
+    ],
+    "icon": "icons/trinkets/T109.png"
   },
   {
     "code": "T110",
@@ -1881,7 +1989,8 @@
       "money",
       "cash",
       "cent"
-    ]
+    ],
+    "icon": "icons/trinkets/T110.png"
   },
   {
     "code": "T111",
@@ -1896,7 +2005,8 @@
     "tags": [
       "red",
       "dripping"
-    ]
+    ],
+    "icon": "icons/trinkets/T111.png"
   },
   {
     "code": "T112",
@@ -1917,7 +2027,8 @@
       "blue",
       "green",
       "p2w"
-    ]
+    ],
+    "icon": "icons/trinkets/T112.png"
   },
   {
     "code": "T113",
@@ -1934,7 +2045,8 @@
       "wings",
       "fly",
       "locust of wrath"
-    ]
+    ],
+    "icon": "icons/trinkets/T113.png"
   },
   {
     "code": "T114",
@@ -1950,7 +2062,8 @@
       "green",
       "wings",
       "fly"
-    ]
+    ],
+    "icon": "icons/trinkets/T114.png"
   },
   {
     "code": "T115",
@@ -1966,7 +2079,8 @@
       "brown",
       "wings",
       "fly"
-    ]
+    ],
+    "icon": "icons/trinkets/T115.png"
   },
   {
     "code": "T116",
@@ -1984,7 +2098,8 @@
       "black",
       "wings",
       "fly"
-    ]
+    ],
+    "icon": "icons/trinkets/T116.png"
   },
   {
     "code": "T117",
@@ -2000,7 +2115,8 @@
       "white",
       "wings",
       "fly"
-    ]
+    ],
+    "icon": "icons/trinkets/T117.png"
   },
   {
     "code": "T118",
@@ -2016,7 +2132,8 @@
       "black",
       "grey",
       "gray"
-    ]
+    ],
+    "icon": "icons/trinkets/T118.png"
   },
   {
     "code": "T119",
@@ -2034,7 +2151,8 @@
       "orange",
       "eye",
       "circle"
-    ]
+    ],
+    "icon": "icons/trinkets/T119.png"
   },
   {
     "code": "T120",
@@ -2051,7 +2169,8 @@
       "whip",
       "glow",
       "black"
-    ]
+    ],
+    "icon": "icons/trinkets/T120.png"
   },
   {
     "code": "T121",
@@ -2066,7 +2185,8 @@
     "tags": [
       "brown",
       "crucifix"
-    ]
+    ],
+    "icon": "icons/trinkets/T121.png"
   },
   {
     "code": "T122",
@@ -2085,7 +2205,8 @@
       "block",
       "square",
       "cube"
-    ]
+    ],
+    "icon": "icons/trinkets/T122.png"
   },
   {
     "code": "T123",
@@ -2103,7 +2224,8 @@
       "gray",
       "white",
       "quill"
-    ]
+    ],
+    "icon": "icons/trinkets/T123.png"
   },
   {
     "code": "T124",
@@ -2125,7 +2247,8 @@
       "hodor",
       "game of thrones",
       "Wylis"
-    ]
+    ],
+    "icon": "icons/trinkets/T124.png"
   },
   {
     "code": "T125",
@@ -2137,7 +2260,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T125.png"
   },
   {
     "code": "T126",
@@ -2149,7 +2273,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T126.png"
   },
   {
     "code": "T127",
@@ -2163,7 +2288,8 @@
     "quality": null,
     "tags": [
       "baby bender babybender"
-    ]
+    ],
+    "icon": "icons/trinkets/T127.png"
   },
   {
     "code": "T128",
@@ -2175,7 +2301,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T128.png"
   },
   {
     "code": "T129",
@@ -2187,7 +2314,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T129.png"
   },
   {
     "code": "T130",
@@ -2199,7 +2327,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T130.png"
   },
   {
     "code": "T131",
@@ -2211,7 +2340,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T131.png"
   },
   {
     "code": "T132",
@@ -2223,7 +2353,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T132.png"
   },
   {
     "code": "T133",
@@ -2235,7 +2366,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T133.png"
   },
   {
     "code": "T134",
@@ -2247,7 +2379,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T134.png"
   },
   {
     "code": "T135",
@@ -2259,7 +2392,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T135.png"
   },
   {
     "code": "T136",
@@ -2271,7 +2405,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T136.png"
   },
   {
     "code": "T137",
@@ -2289,7 +2424,8 @@
       "petal",
       "leaf",
       "mysotis"
-    ]
+    ],
+    "icon": "icons/trinkets/T137.png"
   },
   {
     "code": "T138",
@@ -2301,7 +2437,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T138.png"
   },
   {
     "code": "T139",
@@ -2313,7 +2450,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T139.png"
   },
   {
     "code": "T140",
@@ -2325,7 +2463,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T140.png"
   },
   {
     "code": "T141",
@@ -2337,7 +2476,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T141.png"
   },
   {
     "code": "T142",
@@ -2351,7 +2491,8 @@
     "quality": null,
     "tags": [
       "beths faith"
-    ]
+    ],
+    "icon": "icons/trinkets/T142.png"
   },
   {
     "code": "T143",
@@ -2363,7 +2504,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T143.png"
   },
   {
     "code": "T144",
@@ -2375,7 +2517,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T144.png"
   },
   {
     "code": "T145",
@@ -2387,7 +2530,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T145.png"
   },
   {
     "code": "T146",
@@ -2401,7 +2545,8 @@
     "quality": null,
     "tags": [
       "devils crown"
-    ]
+    ],
+    "icon": "icons/trinkets/T146.png"
   },
   {
     "code": "T147",
@@ -2413,7 +2558,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T147.png"
   },
   {
     "code": "T148",
@@ -2425,7 +2571,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T148.png"
   },
   {
     "code": "T149",
@@ -2437,7 +2584,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T149.png"
   },
   {
     "code": "T150",
@@ -2449,7 +2597,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T150.png"
   },
   {
     "code": "T151",
@@ -2461,7 +2610,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T151.png"
   },
   {
     "code": "T152",
@@ -2473,7 +2623,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T152.png"
   },
   {
     "code": "T153",
@@ -2487,7 +2638,8 @@
     "quality": null,
     "tags": [
       "moms lock"
-    ]
+    ],
+    "icon": "icons/trinkets/T153.png"
   },
   {
     "code": "T154",
@@ -2499,7 +2651,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T154.png"
   },
   {
     "code": "T155",
@@ -2511,7 +2664,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T155.png"
   },
   {
     "code": "T156",
@@ -2525,7 +2679,8 @@
     "quality": null,
     "tags": [
       "mothers kiss"
-    ]
+    ],
+    "icon": "icons/trinkets/T156.png"
   },
   {
     "code": "T157",
@@ -2537,7 +2692,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T157.png"
   },
   {
     "code": "T158",
@@ -2549,7 +2705,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T158.png"
   },
   {
     "code": "T159",
@@ -2561,7 +2718,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T159.png"
   },
   {
     "code": "T160",
@@ -2573,7 +2731,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T160.png"
   },
   {
     "code": "T161",
@@ -2585,7 +2744,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T161.png"
   },
   {
     "code": "T162",
@@ -2599,7 +2759,8 @@
     "quality": null,
     "tags": [
       "azazels stump"
-    ]
+    ],
+    "icon": "icons/trinkets/T162.png"
   },
   {
     "code": "T163",
@@ -2611,7 +2772,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T163.png"
   },
   {
     "code": "T164",
@@ -2623,7 +2785,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T164.png"
   },
   {
     "code": "T165",
@@ -2635,7 +2798,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T165.png"
   },
   {
     "code": "T166",
@@ -2647,7 +2811,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T166.png"
   },
   {
     "code": "T167",
@@ -2659,7 +2824,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T167.png"
   },
   {
     "code": "T168",
@@ -2671,7 +2837,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T168.png"
   },
   {
     "code": "T169",
@@ -2685,7 +2852,8 @@
     "quality": null,
     "tags": [
       "kids drawing"
-    ]
+    ],
+    "icon": "icons/trinkets/T169.png"
   },
   {
     "code": "T170",
@@ -2697,7 +2865,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T170.png"
   },
   {
     "code": "T171",
@@ -2712,7 +2881,8 @@
     "tags": [
       "keepers bargain",
       "keeper bargain"
-    ]
+    ],
+    "icon": "icons/trinkets/T171.png"
   },
   {
     "code": "T172",
@@ -2724,7 +2894,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T172.png"
   },
   {
     "code": "T173",
@@ -2736,7 +2907,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T173.png"
   },
   {
     "code": "T174",
@@ -2748,7 +2920,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T174.png"
   },
   {
     "code": "T175",
@@ -2760,7 +2933,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T175.png"
   },
   {
     "code": "T176",
@@ -2774,7 +2948,8 @@
     "quality": null,
     "tags": [
       "mini clot"
-    ]
+    ],
+    "icon": "icons/trinkets/T176.png"
   },
   {
     "code": "T177",
@@ -2786,7 +2961,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T177.png"
   },
   {
     "code": "T178",
@@ -2798,7 +2974,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T178.png"
   },
   {
     "code": "T179",
@@ -2810,7 +2987,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T179.png"
   },
   {
     "code": "T180",
@@ -2822,7 +3000,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T180.png"
   },
   {
     "code": "T181",
@@ -2834,7 +3013,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T181.png"
   },
   {
     "code": "T182",
@@ -2848,7 +3028,8 @@
     "quality": null,
     "tags": [
       "beths essence"
-    ]
+    ],
+    "icon": "icons/trinkets/T182.png"
   },
   {
     "code": "T183",
@@ -2860,7 +3041,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T183.png"
   },
   {
     "code": "T184",
@@ -2872,7 +3054,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T184.png"
   },
   {
     "code": "T185",
@@ -2884,7 +3067,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T185.png"
   },
   {
     "code": "T186",
@@ -2898,7 +3082,8 @@
     "quality": null,
     "tags": [
       "apollyons best friend"
-    ]
+    ],
+    "icon": "icons/trinkets/T186.png"
   },
   {
     "code": "T187",
@@ -2910,7 +3095,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T187.png"
   },
   {
     "code": "T188",
@@ -2922,7 +3108,8 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T188.png"
   },
   {
     "code": "T189",
@@ -2934,6 +3121,7 @@
     "type": null,
     "pool": null,
     "quality": null,
-    "tags": []
+    "tags": [],
+    "icon": "icons/trinkets/T189.png"
   }
 ]
