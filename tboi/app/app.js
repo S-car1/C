@@ -23,7 +23,7 @@ let synergyIndex = new Map(); // code -> [synergy,...]
 let state = {
   query: "",
   category: "all",
-  quality: null, // null | 0-4
+  quality: new Set(), // empty = all qualities; otherwise set of selected 0-4
   view: "list", // "list" | "grid"
   sort: "id", // "id" | "color" | "name"
   selectedCode: null, // "category:code" shown in the detail panel (grid mode)
@@ -153,8 +153,8 @@ function getFiltered() {
   if (state.category !== "all") {
     list = list.filter((e) => e.category === state.category);
   }
-  if (state.quality !== null) {
-    list = list.filter((e) => e.quality === state.quality);
+  if (state.quality.size > 0) {
+    list = list.filter((e) => state.quality.has(e.quality));
   }
   if (state.query) {
     const nq = normalizeText(state.query);
@@ -380,7 +380,7 @@ function renderCategoryChips() {
   el.querySelectorAll(".chip").forEach((chip) => {
     chip.addEventListener("click", () => {
       state.category = chip.dataset.cat;
-      state.quality = null;
+      state.quality = new Set();
       renderCategoryChips();
       renderQualityChips();
       render();
@@ -397,17 +397,24 @@ function renderQualityChips() {
     return;
   }
   el.classList.remove("hidden");
+  const allActive = state.quality.size === 0;
   const options = [{ label: "Toda quality", val: null }, ...[0, 1, 2, 3, 4].map((q) => ({ label: `Q${q}`, val: q }))];
   el.innerHTML = options
-    .map(
-      (o) =>
-        `<div class="chip ${state.quality === o.val ? "active" : ""}" data-q="${o.val}">${o.label}</div>`
-    )
+    .map((o) => {
+      const active = o.val === null ? allActive : state.quality.has(o.val);
+      return `<div class="chip ${active ? "active" : ""}" data-q="${o.val}">${o.label}</div>`;
+    })
     .join("");
   el.querySelectorAll(".chip").forEach((chip) => {
     chip.addEventListener("click", () => {
       const v = chip.dataset.q;
-      state.quality = v === "null" ? null : Number(v);
+      if (v === "null") {
+        state.quality = new Set();
+      } else {
+        const q = Number(v);
+        if (state.quality.has(q)) state.quality.delete(q);
+        else state.quality.add(q);
+      }
       renderQualityChips();
       render();
     });
