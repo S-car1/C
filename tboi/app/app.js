@@ -24,7 +24,21 @@ let state = {
   query: "",
   category: "all",
   quality: null, // null | 0-4
+  view: "list", // "list" | "grid"
+  sort: "id", // "id" | "color" | "name"
+  selectedCode: null, // "category:code" shown in the detail panel (grid mode)
 };
+
+const COLOR_WORDS = [
+  "red", "blue", "green", "yellow", "purple", "pink", "orange",
+  "black", "white", "grey", "gray", "brown", "gold", "cyan",
+];
+
+function getColor(entry) {
+  const tags = (entry.raw && entry.raw.tags) || [];
+  const found = tags.find((t) => COLOR_WORDS.includes(t.toLowerCase()));
+  return found ? found.toLowerCase() : "zzz-sin color";
+}
 
 function normalizeText(s) {
   return (s || "")
@@ -150,7 +164,30 @@ function getFiltered() {
       .sort((a, b) => a.rank - b.rank || a.e.name.localeCompare(b.e.name))
       .map((x) => x.e);
   }
-  return list.slice(0, 200);
+  return state.view === "grid" ? list : list.slice(0, 200);
+}
+
+function sortEntries(list) {
+  const sorted = [...list];
+  if (state.sort === "color") {
+    sorted.sort((a, b) => getColor(a).localeCompare(getColor(b)) || (a.raw.id || 0) - (b.raw.id || 0));
+  } else if (state.sort === "name") {
+    sorted.sort((a, b) => a.name.localeCompare(b.name));
+  } else {
+    sorted.sort((a, b) => (a.raw.id ?? 0) - (b.raw.id ?? 0));
+  }
+  return sorted;
+}
+
+function groupByQuality(list) {
+  const groups = new Map(); // quality (0-4 or "none") -> entries
+  for (const e of list) {
+    const key = e.quality === null || e.quality === undefined ? "none" : e.quality;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  }
+  const order = [4, 3, 2, 1, 0, "none"];
+  return order.filter((k) => groups.has(k)).map((k) => [k, groups.get(k)]);
 }
 
 function qualityBadgeHtml(q) {
@@ -219,6 +256,90 @@ function renderCard(entry) {
   </div>`;
 }
 
+function findEntry(categoryColonCode) {
+  return ALL_ENTRIES.find((e) => `${e.category}:${e.code}` === categoryColonCode);
+}
+
+function renderDetailPanel() {
+  const panel = document.getElementById("detailPanel");
+  if (!state.selectedCode) {
+    panel.classList.add("hidden");
+    panel.innerHTML = "";
+    return;
+  }
+  const entry = findEntry(state.selectedCode);
+  if (!entry) {
+    panel.classList.add("hidden");
+    return;
+  }
+  panel.classList.remove("hidden");
+  const detailHtml = entry.detail
+    .map((d) => `<div class="detail-label">${d.label}</div><div>${escapeHtml(d.value)}</div>`)
+    .join("");
+  const iconHtml = entry.icon
+    ? `<img class="card-icon" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : `<div class="card-icon card-icon-placeholder"></div>`;
+  panel.innerHTML = `
+    <div class="detail-panel-head">
+      ${iconHtml}
+      <div class="card-head-text">
+        <div class="card-title">${escapeHtml(entry.name)}</div>
+        ${entry.subtitle ? `<div class="card-quote">${escapeHtml(entry.subtitle)}</div>` : ""}
+      </div>
+      <div class="card-code">${entry.code}</div>
+      <button class="detail-close" id="detailClose">✕</button>
+    </div>
+    <div class="badges">
+      ${qualityBadgeHtml(entry.quality)}
+      ${entry.badges.map((b) => `<span class="badge">${escapeHtml(b)}</span>`).join("")}
+    </div>
+    <div class="card-detail expanded-always">
+      ${detailHtml}
+      ${renderSynergies(entry)}
+    </div>
+  `;
+  document.getElementById("detailClose").addEventListener("click", () => {
+    state.selectedCode = null;
+    renderDetailPanel();
+  });
+}
+
+function renderGridTile(entry) {
+  const iconHtml = entry.icon
+    ? `<img class="tile-icon" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : `<div class="tile-icon"></div>`;
+  const selected = state.selectedCode === `${entry.category}:${entry.code}` ? "selected" : "";
+  return `<div class="tile ${selected}" data-code="${entry.category}:${entry.code}" title="${escapeHtml(entry.name)}">${iconHtml}</div>`;
+}
+
+function renderGrid(results) {
+  const resultsEl = document.getElementById("results");
+  const groupable = state.category === "items" || state.category === "trinkets";
+
+  let html = `<div class="result-count">${results.length} resultado${results.length === 1 ? "" : "s"}</div>`;
+
+  if (groupable) {
+    const groups = groupByQuality(sortEntries(results));
+    for (const [q, entries] of groups) {
+      const label = q === "none" ? "Sin quality" : `Quality ${q}`;
+      html += `<div class="grid-section-label">${label} (${entries.length})</div>`;
+      html += `<div class="tile-grid">${entries.map(renderGridTile).join("")}</div>`;
+    }
+  } else {
+    html += `<div class="tile-grid">${sortEntries(results).map(renderGridTile).join("")}</div>`;
+  }
+
+  resultsEl.innerHTML = html;
+  resultsEl.querySelectorAll(".tile").forEach((el) => {
+    el.addEventListener("click", () => {
+      const code = el.dataset.code;
+      state.selectedCode = state.selectedCode === code ? null : code;
+      renderDetailPanel();
+      resultsEl.querySelectorAll(".tile").forEach((t) => t.classList.toggle("selected", t.dataset.code === state.selectedCode));
+    });
+  });
+}
+
 function render() {
   const results = getFiltered();
   const resultsEl = document.getElementById("results");
@@ -227,9 +348,16 @@ function render() {
   if (!results.length) {
     resultsEl.innerHTML = "";
     emptyEl.classList.remove("hidden");
+    renderDetailPanel();
     return;
   }
   emptyEl.classList.add("hidden");
+
+  if (state.view === "grid") {
+    renderGrid(results);
+    renderDetailPanel();
+    return;
+  }
 
   const countHtml = `<div class="result-count">${results.length} resultado${results.length === 1 ? "" : "s"}</div>`;
   resultsEl.innerHTML = countHtml + results.map(renderCard).join("");
@@ -286,6 +414,50 @@ function renderQualityChips() {
   });
 }
 
+function renderViewControls() {
+  const el = document.getElementById("viewControls");
+  const options = [
+    { label: "☰ Lista", val: "list" },
+    { label: "▦ Grilla", val: "grid" },
+  ];
+  el.innerHTML = options
+    .map((o) => `<div class="chip ${state.view === o.val ? "active" : ""}" data-view="${o.val}">${o.label}</div>`)
+    .join("");
+  el.querySelectorAll(".chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      state.view = chip.dataset.view;
+      renderViewControls();
+      renderSortControls();
+      render();
+    });
+  });
+}
+
+function renderSortControls() {
+  const el = document.getElementById("sortControls");
+  if (state.view !== "grid") {
+    el.classList.add("hidden");
+    el.innerHTML = "";
+    return;
+  }
+  el.classList.remove("hidden");
+  const options = [
+    { label: "Orden: ID", val: "id" },
+    { label: "Orden: Color", val: "color" },
+    { label: "Orden: Nombre", val: "name" },
+  ];
+  el.innerHTML = options
+    .map((o) => `<div class="chip ${state.sort === o.val ? "active" : ""}" data-sort="${o.val}">${o.label}</div>`)
+    .join("");
+  el.querySelectorAll(".chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      state.sort = chip.dataset.sort;
+      renderSortControls();
+      render();
+    });
+  });
+}
+
 async function loadData() {
   const entries = await Promise.all(
     Object.entries(DATA_FILES).map(async ([cat, path]) => {
@@ -315,6 +487,8 @@ async function init() {
 
   renderCategoryChips();
   renderQualityChips();
+  renderViewControls();
+  renderSortControls();
   render();
 
   const search = document.getElementById("search");
