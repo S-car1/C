@@ -81,7 +81,7 @@ header#top {
   background: rgba(111, 214, 111, 0.1);
 }
 
-#qualities.hidden, #categories.hidden { display: none; }
+#qualities.hidden, #categories.hidden, #viewControls.hidden, #sortControls.hidden { display: none; }
 
 main#results {
   flex: 1;
@@ -303,4 +303,58 @@ main#results {
   border-top: none !important;
   margin-top: 8px !important;
   padding-top: 8px !important;
+}
+
+/* Routes */
+
+.route-card .route-card-head {
+  cursor: pointer;
+}
+
+.route-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.route-step {
+  display: flex;
+  gap: 10px;
+}
+
+.route-step-num {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.route-step-body {
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.route-step-image {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin-top: 6px;
+}
+
+.route-step-caption {
+  color: var(--text-dim);
+  font-size: 11px;
+  margin-top: 3px;
 }

@@ -6,6 +6,7 @@ const DATA_FILES = {
   characters: "../data/characters.json",
 };
 const SYNERGIES_FILE = "../data/synergies.json";
+const ROUTES_FILE = "../data/routes.json";
 
 const CATEGORY_LABELS = {
   all: "Todo",
@@ -14,10 +15,12 @@ const CATEGORY_LABELS = {
   cards: "Cartas",
   pills: "Pills",
   characters: "Personajes",
+  routes: "Rutas",
 };
 
 let DATA = { items: [], trinkets: [], cards: [], pills: [], characters: [] };
 let SYNERGIES = [];
+let ROUTES = [];
 let synergyIndex = new Map(); // code -> [synergy,...]
 
 let state = {
@@ -340,7 +343,71 @@ function renderGrid(results) {
   });
 }
 
+function renderRoutes() {
+  const resultsEl = document.getElementById("results");
+  const emptyEl = document.getElementById("empty");
+  document.getElementById("detailPanel").classList.add("hidden");
+  emptyEl.classList.add("hidden");
+
+  const q = normalizeText(state.query);
+  const routes = q
+    ? ROUTES.filter((r) => normalizeText(r.name).includes(q) || normalizeText(r.summary).includes(q))
+    : ROUTES;
+
+  if (!routes.length) {
+    resultsEl.innerHTML = "";
+    emptyEl.classList.remove("hidden");
+    return;
+  }
+
+  resultsEl.innerHTML = routes.map(renderRouteCard).join("");
+
+  resultsEl.querySelectorAll(".route-card-head").forEach((el) => {
+    el.addEventListener("click", () => el.parentElement.classList.toggle("expanded"));
+  });
+}
+
+function renderRouteCard(route) {
+  const portraitHtml = route.portrait
+    ? `<img class="card-icon" src="../data/${route.portrait}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : `<div class="card-icon card-icon-placeholder"></div>`;
+  const stepsHtml = route.steps
+    .map(
+      (s, i) => `<div class="route-step">
+        <div class="route-step-num">${i + 1}</div>
+        <div class="route-step-body">
+          <div>${escapeHtml(s.text)}</div>
+          ${
+            s.image
+              ? `<img class="route-step-image" src="../data/${s.image}" alt="${escapeHtml(s.image_caption || "")}" loading="lazy">
+                 ${s.image_caption ? `<div class="route-step-caption">${escapeHtml(s.image_caption)}</div>` : ""}`
+              : ""
+          }
+        </div>
+      </div>`
+    )
+    .join("");
+
+  return `<div class="card route-card">
+    <div class="card-head route-card-head">
+      ${portraitHtml}
+      <div class="card-head-text">
+        <div class="card-title">${escapeHtml(route.name)}</div>
+        <div class="card-quote">${escapeHtml(route.summary)}</div>
+      </div>
+    </div>
+    <div class="card-detail route-steps">
+      ${stepsHtml}
+    </div>
+  </div>`;
+}
+
 function render() {
+  if (state.category === "routes") {
+    renderRoutes();
+    return;
+  }
+
   const results = getFiltered();
   const resultsEl = document.getElementById("results");
   const emptyEl = document.getElementById("empty");
@@ -383,6 +450,8 @@ function renderCategoryChips() {
       state.quality = new Set();
       renderCategoryChips();
       renderQualityChips();
+      renderViewControls();
+      renderSortControls();
       render();
     });
   });
@@ -423,6 +492,12 @@ function renderQualityChips() {
 
 function renderViewControls() {
   const el = document.getElementById("viewControls");
+  if (state.category === "routes") {
+    el.classList.add("hidden");
+    el.innerHTML = "";
+    return;
+  }
+  el.classList.remove("hidden");
   const options = [
     { label: "☰ Lista", val: "list" },
     { label: "▦ Grilla", val: "grid" },
@@ -479,6 +554,9 @@ async function loadData() {
   SYNERGIES = await synRes.json();
   buildSynergyIndex();
   buildEntries();
+
+  const routesRes = await fetch(ROUTES_FILE);
+  ROUTES = await routesRes.json();
 }
 
 async function init() {

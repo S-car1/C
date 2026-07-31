@@ -18,8 +18,8 @@ tboi/
     pills.json          # 50 pills, efecto normal + horse pill — wiki.gg
     characters.json      # 34 personajes (17 normales + 17 tainted) — wiki.gg
     synergies.json        # 406 combos de sinergia entre 28 items de tears — tboi.com
-    unlocks.json         # pendiente
-    routes.json          # pendiente (Mother, Beast, Delirium, Hush)
+    routes.json           # 4 rutas: Mother, Beast/Dogma, Hush, Delirium — wiki.gg
+    unlocks.json          # pendiente
 ```
 
 ## Usar la app
@@ -60,7 +60,7 @@ entre categorías (ej. item id 1 vs trinket id 1):
 | `P`     | pills       | `P00`–`P49` |
 | `PJ`    | characters (personajes) | `PJ01`–`PJ34` |
 | `U`     | unlocks (a futuro) | — |
-| `R`     | routes (a futuro) | — |
+| `R`     | routes      | `R01`–`R04` |
 
 Para items/trinkets/cards/pills el número del `code` es el `id` real del
 juego con padding. Characters no tiene ID nativo en el juego, así que el
@@ -130,6 +130,30 @@ consistentes, muchos vienen null).
 }
 ```
 
+### `routes.json`
+
+```jsonc
+{
+  "code": "R01",
+  "name": "Mother",
+  "portrait": "icons/routes/mother_portrait.png", // string|null
+  "summary": "Boss único de Corpse II...",
+  "steps": [
+    {
+      "text": "Descripción del paso",
+      "image": "icons/routes/corpse_room.jpg",   // opcional
+      "image_caption": "Corpse, el piso alternativo al Womb" // opcional
+    }
+  ]
+}
+```
+
+Pasos ordenados para llegar a un boss/evento especial (rutas alternas).
+Las imágenes son screenshots reales de wiki.gg (mapas de piso, retratos de
+boss), no capturas paso a paso de "hacé click acá" — la wiki no tiene ese
+tipo de contenido ilustrado, así que se usó lo más cercano y preciso
+disponible (texto verificado contra las páginas oficiales de cada piso/boss).
+
 ### `synergies.json`
 
 ```jsonc
@@ -164,7 +188,7 @@ strings) para permitir comparaciones/filtros numéricos directos.
 - **items.json, trinkets.json, cards-runes.json, synergies.json**: scrapeados
   de [tboi.com](https://www.tboi.com) (Platinum God — Isaac Cheat Sheet),
   vía HTML parseado directamente (sin protección anti-bot), el 2026-07-31.
-- **pills.json, characters.json**: scrapeados de
+- **pills.json, characters.json, routes.json**: scrapeados de
   [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg)
   vía la API de MediaWiki (`action=parse`), el 2026-07-31.
 
@@ -173,9 +197,8 @@ Estos son la capa de datos "genérica" — la fuente de verdad del usuario
 
 ## Pendiente
 
-- `unlocks.json` (achievements/desbloqueables generales) y `routes.json`
-  (Mother, Beast, Delirium, Hush) — a definir si se scrapean de la wiki o
-  se cargan a mano desde la base propia del usuario.
+- `unlocks.json` (achievements/desbloqueables generales) — a definir si se
+  scrapea de la wiki o se carga a mano desde la base propia del usuario.
 - Mecanismo de sync entre 3 dispositivos (JSON export/import u otro, a definir).
 - Posible scraper propio y actualizado de wiki.gg, construido dentro de
   Claude Code, para refrescar estos datos automáticamente en el futuro.

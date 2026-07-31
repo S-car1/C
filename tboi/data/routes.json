@@ -1,1 +1,93 @@
-[]
+[
+  {
+    "code": "R01",
+    "name": "Mother",
+    "portrait": "icons/routes/mother_portrait.png",
+    "summary": "Boss único de Corpse II, el piso alternativo al Womb en Repentance.",
+    "steps": [
+      {
+        "text": "Desbloqueá el camino alternativo derrotando a Hush 3 veces (esto desbloquea que Corpse pueda aparecer en vez del Womb normal)."
+      },
+      {
+        "text": "En una run, seguí el camino alternativo completo: Downpour/Dross → Mines/Ashpit → Mausoleum/Gehenna → Corpse.",
+        "image": "icons/routes/corpse_room.jpg",
+        "image_caption": "Corpse, el piso alternativo al Womb"
+      },
+      {
+        "text": "En Corpse II (el 2do piso), la boss room está vacía salvo por un agujero en el centro. Entrar al agujero te hace caer a la arena donde peleás con Mother."
+      }
+    ]
+  },
+  {
+    "code": "R02",
+    "name": "The Beast (y Dogma)",
+    "portrait": "icons/routes/beast_portrait.png",
+    "summary": "Dogma y The Beast se pelean seguidos, al final de \"The Ascent\", en Home.",
+    "steps": [
+      {
+        "text": "Requisito: haber derrotado a Mother al menos una vez en una run anterior."
+      },
+      {
+        "text": "En una run posterior, al llegar a Depths II (o su variante Mausoleum II/Gehenna II), aparece una puerta especial negra en la sala inicial del piso."
+      },
+      {
+        "text": "Esa puerta lleva a una versión especial de Mausoleum/Gehenna II. Buscá y agarrá el ítem \"Dad's Note\" (Nota de Papá) en ese piso — al agarrarlo empieza \"The Ascent\"."
+      },
+      {
+        "text": "Durante el Ascent subís de nuevo por versiones resumidas de cada piso que ya recorriste. Empezás en la boss room de cada piso y tenés que encontrar el haz de luz ubicado en la sala inicial correspondiente para subir al siguiente."
+      },
+      {
+        "text": "El haz de luz del Basement I te lleva a Home.",
+        "image": "icons/routes/home_room.jpg",
+        "image_caption": "Home, el destino final del Ascent"
+      },
+      {
+        "text": "En Home peleás primero contra Dogma. Al derrotarlo, automáticamente empieza la pelea contra The Beast en el mismo lugar — no hace falta salir ni buscar otra puerta."
+      }
+    ]
+  },
+  {
+    "code": "R03",
+    "name": "Hush",
+    "portrait": "icons/routes/hush_portrait.png",
+    "summary": "Único boss del piso ??? (Blue Womb), desbloqueado tras matar a Mom's Heart 10 veces.",
+    "steps": [
+      {
+        "text": "Desbloqueo permanente: derrotá a Mom's Heart (o It Lives!) por 10ma vez en total (progreso acumulado entre runs)."
+      },
+      {
+        "text": "Ya desbloqueado: en cualquier run, derrotá a Mom's Heart o It Lives! dentro de los primeros 30 minutos de esa run."
+      },
+      {
+        "text": "Si cumpliste el tiempo, aparece una entrada a ??? (Blue Womb) en la boss room donde mataste a Mom's Heart/It Lives!. Si salís y volvés a entrar después de pasados los 30 min, la entrada desaparece.",
+        "image": "icons/routes/blue_womb_room.jpg",
+        "image_caption": "??? / Blue Womb"
+      },
+      {
+        "text": "En Blue Womb, el único boss es Hush. Es de los más difíciles del juego — andá con buen equipo."
+      }
+    ]
+  },
+  {
+    "code": "R04",
+    "name": "Delirium",
+    "portrait": null,
+    "summary": "Se pelea dentro de The Void, en una boss room \"aislada\" del mapa.",
+    "steps": [
+      {
+        "text": "Primero necesitás entrar a The Void al menos una vez: después de derrotar a Hush, aparece una salida nueva en la esquina superior derecha de su boss room (2x2), con un portal. Ese portal es la entrada a The Void.",
+        "image": "icons/routes/void_room.jpg",
+        "image_caption": "The Void"
+      },
+      {
+        "text": "Una vez desbloqueado, el portal a The Void puede aparecer después de cualquier boss grande desde Mom en adelante (probabilidad creciente cuanto más profundo el boss). Derrotar a Hush, ???, The Lamb, Mega Satan o Mother garantiza el portal."
+      },
+      {
+        "text": "Dentro de The Void, para ubicar la sala de Delirium mirá el mapa: buscá una boss room que, si se expandiera a 2x2, NO se conectaría con otras salas ni se saldría del límite del mapa (máx. 13x13). Esa es la sala con Delirium."
+      },
+      {
+        "text": "Tip: entrar a las boss rooms con una carta de teletransporte (ej. The Fool) es más seguro por si te encontrás con Delirium de sorpresa."
+      }
+    ]
+  }
+]
