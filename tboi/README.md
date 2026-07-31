@@ -1,11 +1,16 @@
-# TBOI Companion — Datos
+# TBOI Companion
 
-Datos base para la app acompañante de The Binding of Isaac: Repentance(+).
+App acompañante de The Binding of Isaac: Repentance(+): consulta rápida de
+items, trinkets, cartas, pills, personajes y sinergias mientras jugás.
 
 ## Estructura
 
 ```
 tboi/
+  app/
+    index.html          # la app (buscador + filtros)
+    app.js
+    style.css
   data/
     items.json         # 719 items (activated + passive) — tboi.com
     trinkets.json       # 188 trinkets — tboi.com
@@ -16,6 +21,22 @@ tboi/
     unlocks.json         # pendiente
     routes.json          # pendiente (Mother, Beast, Delirium, Hush)
 ```
+
+## Usar la app
+
+Es HTML/JS puro, sin build ni dependencias. Busca por nombre en todas las
+categorías a la vez (o filtrá por categoría/quality con los chips), tocá
+un resultado para expandirlo y ver descripción, tags y sinergias conocidas.
+
+**Necesita servirse por HTTP** (no `file://`) porque carga los JSON con
+`fetch`. Opciones:
+
+- **GitHub Pages** (recomendado para usar desde el celu): activar Pages en
+  la config del repo, rama `main`, carpeta raíz. Quedaría en
+  `https://s-car1.github.io/C/tboi/app/`. Agregalo a la pantalla de inicio
+  del iPhone para que abra como una app.
+- **Local**, para probar: `python3 -m http.server 8000` parado en `tboi/`
+  y entrar a `http://localhost:8000/app/`.
 
 Un archivo JSON por categoría de dato del juego. Cada archivo es un array plano
 de objetos con un schema fijo (ver abajo). Esto permite:
