@@ -23,12 +23,34 @@ de objetos con un schema fijo (ver abajo). Esto permite:
 - Filtrar/ordenar en el cliente sin backend (ej. `items.filter(i => i.quality === 4)`).
 - Reemplazar el contenido de un archivo por tu propia fuente de verdad sin tocar el resto.
 
+## Códigos (`code`)
+
+Cada entrada de cada categoría tiene un `code` único con prefijo por tipo —
+sirve como clave global para referenciar cualquier entidad desde cualquier
+parte de la app (notas, checklist, sync entre dispositivos) sin ambigüedad
+entre categorías (ej. item id 1 vs trinket id 1):
+
+| Prefijo | Categoría   | Ejemplo |
+|---------|-------------|---------|
+| `C`     | items (coleccionables) | `C001`–`C719` |
+| `T`     | trinkets    | `T001`–`T188` |
+| `K`     | cards-runes (kartas)   | `K001`–`K097` |
+| `P`     | pills       | `P00`–`P49` |
+| `PJ`    | characters (personajes) | `PJ01`–`PJ34` |
+| `U`     | unlocks (a futuro) | — |
+| `R`     | routes (a futuro) | — |
+
+Para items/trinkets/cards/pills el número del `code` es el `id` real del
+juego con padding. Characters no tiene ID nativo en el juego, así que el
+número es un orden secuencial propio.
+
 ## Schemas
 
 ### `items.json`
 
 ```jsonc
 {
+  "code": "C001",               // string, ID global único (ver tabla de códigos)
   "name": "The Sad Onion",     // string
   "id": 1,                      // int, collectible ID del juego
   "dlc": "Rebirth",             // "Rebirth" | "Afterbirth" | "Afterbirth+" | "Repentance"
@@ -43,12 +65,14 @@ de objetos con un schema fijo (ver abajo). Esto permite:
 
 ### `trinkets.json`
 
-Mismo schema que `items.json` (sin `pool`/`type` consistentes, muchos vienen null).
+Mismo schema que `items.json` (`code` con prefijo `T`; sin `pool`/`type`
+consistentes, muchos vienen null).
 
 ### `cards-runes.json`
 
 ```jsonc
 {
+  "code": "K001",
   "name": "O - The Fool",
   "id": 1,
   "quote": "Where your journey begins",
@@ -63,6 +87,7 @@ Mismo schema que `items.json` (sin `pool`/`type` consistentes, muchos vienen nul
 
 ```jsonc
 {
+  "code": "P00",
   "id": 0,
   "name": "Bad Gas",
   "polarity": "N",              // "N" | "+" | "-"
@@ -76,6 +101,7 @@ Mismo schema que `items.json` (sin `pool`/`type` consistentes, muchos vienen nul
 
 ```jsonc
 {
+  "code": "PJ01",
   "name": "Isaac",
   "tainted": false,
   "unlock_requirement": "None; unlocked by default"

@@ -1,5 +1,6 @@
 [
   {
+    "code": "P00",
     "id": 0,
     "name": "Bad Gas",
     "polarity": "N",
@@ -8,6 +9,7 @@
     "horse_pill_effect": "The poison affects all enemies in the room."
   },
   {
+    "code": "P01",
     "id": 1,
     "name": "Bad Trip",
     "polarity": "-",
@@ -16,6 +18,7 @@
     "horse_pill_effect": "Deals two hearts of damage. If Isaac would not survive, the pill becomes Full Health."
   },
   {
+    "code": "P02",
     "id": 2,
     "name": "Balls of Steel",
     "polarity": "+",
@@ -24,6 +27,7 @@
     "horse_pill_effect": "Grants four soul hearts."
   },
   {
+    "code": "P03",
     "id": 3,
     "name": "Bombs Are Key",
     "polarity": "N",
@@ -32,6 +36,7 @@
     "horse_pill_effect": "The number of bombs and keys is increased by 50% while swapping."
   },
   {
+    "code": "P04",
     "id": 4,
     "name": "Explosive Diarrhea",
     "polarity": "N",
@@ -40,6 +45,7 @@
     "horse_pill_effect": "Spawns more bombs with the effects of Mr. Mega and Bobby-Bomb ."
   },
   {
+    "code": "P05",
     "id": 5,
     "name": "Full Health",
     "polarity": "+",
@@ -48,6 +54,7 @@
     "horse_pill_effect": "Fully heals and grants 3 soul hearts."
   },
   {
+    "code": "P06",
     "id": 6,
     "name": "Health Down",
     "polarity": "-",
@@ -56,6 +63,7 @@
     "horse_pill_effect": "Removes two heart containers. If Isaac has 0 or 1 heart containers, the pill becomes Health Up, and if he has 2 with no other types of health, they are removed and he is given half a soul heart."
   },
   {
+    "code": "P07",
     "id": 7,
     "name": "Health Up",
     "polarity": "+",
@@ -64,6 +72,7 @@
     "horse_pill_effect": "Adds two empty red heart containers."
   },
   {
+    "code": "P08",
     "id": 8,
     "name": "I Found Pills",
     "polarity": "N",
@@ -72,6 +81,7 @@
     "horse_pill_effect": "Isaac's face gets a permanent, very exaggerated expression resembling a horse."
   },
   {
+    "code": "P09",
     "id": 9,
     "name": "Puberty",
     "polarity": "N",
@@ -80,6 +90,7 @@
     "horse_pill_effect": "Isaac gains very fluffy hair covering his entire head and even face."
   },
   {
+    "code": "P10",
     "id": 10,
     "name": "Pretty Fly",
     "polarity": "+",
@@ -88,6 +99,7 @@
     "horse_pill_effect": "Spawns a Big Fan . There is no upper limit. These Big Fans do not contribute towards the Beelzebub transformation."
   },
   {
+    "code": "P11",
     "id": 11,
     "name": "Range Down",
     "polarity": "-",
@@ -96,6 +108,7 @@
     "horse_pill_effect": "-2.00 range."
   },
   {
+    "code": "P12",
     "id": 12,
     "name": "Range Up",
     "polarity": "+",
@@ -104,6 +117,7 @@
     "horse_pill_effect": "+2.50 range."
   },
   {
+    "code": "P13",
     "id": 13,
     "name": "Speed Down",
     "polarity": "-",
@@ -112,6 +126,7 @@
     "horse_pill_effect": "-0.24 speed."
   },
   {
+    "code": "P14",
     "id": 14,
     "name": "Speed Up",
     "polarity": "+",
@@ -120,6 +135,7 @@
     "horse_pill_effect": "+0.30 speed."
   },
   {
+    "code": "P15",
     "id": 15,
     "name": "Tears Down",
     "polarity": "-",
@@ -128,6 +144,7 @@
     "horse_pill_effect": "-0.56 tears."
   },
   {
+    "code": "P16",
     "id": 16,
     "name": "Tears Up",
     "polarity": "+",
@@ -136,6 +153,7 @@
     "horse_pill_effect": "+0.70 tears."
   },
   {
+    "code": "P17",
     "id": 17,
     "name": "Luck Down",
     "polarity": "-",
@@ -144,6 +162,7 @@
     "horse_pill_effect": "-2 luck."
   },
   {
+    "code": "P18",
     "id": 18,
     "name": "Luck Up",
     "polarity": "+",
@@ -152,6 +171,7 @@
     "horse_pill_effect": "+2 luck."
   },
   {
+    "code": "P19",
     "id": 19,
     "name": "Telepills",
     "polarity": "N",
@@ -160,6 +180,7 @@
     "horse_pill_effect": "No difference. Guarantees teleportation to a special room."
   },
   {
+    "code": "P20",
     "id": 20,
     "name": "48 Hour Energy",
     "polarity": "+",
@@ -168,6 +189,7 @@
     "horse_pill_effect": "Spawns 3-4 batteries."
   },
   {
+    "code": "P21",
     "id": 21,
     "name": "Hematemesis",
     "polarity": "N",
@@ -176,6 +198,7 @@
     "horse_pill_effect": "Spawns 4-7 hearts."
   },
   {
+    "code": "P22",
     "id": 22,
     "name": "Paralysis",
     "polarity": "-",
@@ -184,6 +207,7 @@
     "horse_pill_effect": "The effect lasts 4 seconds."
   },
   {
+    "code": "P23",
     "id": 23,
     "name": "I can see forever!",
     "polarity": "+",
@@ -192,6 +216,7 @@
     "horse_pill_effect": "In addition to the normal effect, fully reveals the map like The Mind ."
   },
   {
+    "code": "P24",
     "id": 24,
     "name": "Pheromones",
     "polarity": "+",
@@ -200,6 +225,7 @@
     "horse_pill_effect": "The charm is permanent, turning the enemies friendly ."
   },
   {
+    "code": "P25",
     "id": 25,
     "name": "Amnesia",
     "polarity": "-",
@@ -208,6 +234,7 @@
     "horse_pill_effect": "No difference. Unidentifies all previously identified pills."
   },
   {
+    "code": "P26",
     "id": 26,
     "name": "Lemon Party",
     "polarity": "+",
@@ -216,6 +243,7 @@
     "horse_pill_effect": "The puddle is larger, covering nearly the entire room if used near the center."
   },
   {
+    "code": "P27",
     "id": 27,
     "name": "R U a Wizard?",
     "polarity": "-",
@@ -224,6 +252,7 @@
     "horse_pill_effect": "The effect lasts for 60 seconds."
   },
   {
+    "code": "P28",
     "id": 28,
     "name": "Percs!",
     "polarity": "+",
@@ -232,6 +261,7 @@
     "horse_pill_effect": "No difference. Heals Isaac fully in addition to the usual effect."
   },
   {
+    "code": "P29",
     "id": 29,
     "name": "Addicted!",
     "polarity": "-",
@@ -240,6 +270,7 @@
     "horse_pill_effect": "No difference. Gives Isaac one Broken Heart in addition to the usual effect."
   },
   {
+    "code": "P30",
     "id": 30,
     "name": "Re-Lax",
     "polarity": "N",
@@ -248,6 +279,7 @@
     "horse_pill_effect": "The effect lasts much longer."
   },
   {
+    "code": "P31",
     "id": 31,
     "name": "???",
     "polarity": "-",
@@ -256,6 +288,7 @@
     "horse_pill_effect": "No difference. Gives Curse of the Maze and one other curse."
   },
   {
+    "code": "P32",
     "id": 32,
     "name": "One makes you larger",
     "polarity": "N",
@@ -264,6 +297,7 @@
     "horse_pill_effect": "Size increases by two steps."
   },
   {
+    "code": "P33",
     "id": 33,
     "name": "One makes you small",
     "polarity": "N",
@@ -272,6 +306,7 @@
     "horse_pill_effect": "Size decreases by two steps."
   },
   {
+    "code": "P34",
     "id": 34,
     "name": "Infested!",
     "polarity": "+",
@@ -280,6 +315,7 @@
     "horse_pill_effect": "Double the number of spiders spawned."
   },
   {
+    "code": "P35",
     "id": 35,
     "name": "Infested?",
     "polarity": "+",
@@ -288,6 +324,7 @@
     "horse_pill_effect": "Double the number of spiders spawned."
   },
   {
+    "code": "P36",
     "id": 36,
     "name": "Power Pill!",
     "polarity": "+",
@@ -296,6 +333,7 @@
     "horse_pill_effect": "In addition to the normal effect, grants Huge Growth for +7 flat damage and +3 range. The Huge Growth bonus persists after the Gamekid wears off."
   },
   {
+    "code": "P37",
     "id": 37,
     "name": "Retro Vision",
     "polarity": "-",
@@ -304,6 +342,7 @@
     "horse_pill_effect": "The effect lasts 90 seconds, with no breaks."
   },
   {
+    "code": "P38",
     "id": 38,
     "name": "Friends Till The End!",
     "polarity": "+",
@@ -312,6 +351,7 @@
     "horse_pill_effect": "Spawns 12 blue flies."
   },
   {
+    "code": "P39",
     "id": 39,
     "name": "X-Lax",
     "polarity": "-",
@@ -320,6 +360,7 @@
     "horse_pill_effect": "The pool lasts much longer."
   },
   {
+    "code": "P40",
     "id": 40,
     "name": "Something's wrong...",
     "polarity": "+",
@@ -328,6 +369,7 @@
     "horse_pill_effect": "The pool lasts much longer."
   },
   {
+    "code": "P41",
     "id": 41,
     "name": "I'm Drowsy...",
     "polarity": "N",
@@ -336,6 +378,7 @@
     "horse_pill_effect": "No difference. The effect applies for the whole floor."
   },
   {
+    "code": "P42",
     "id": 42,
     "name": "I'm Excited!!!",
     "polarity": "N",
@@ -344,6 +387,7 @@
     "horse_pill_effect": "No difference. The effect applies for the whole floor."
   },
   {
+    "code": "P43",
     "id": 43,
     "name": "Gulp!",
     "polarity": "+",
@@ -352,6 +396,7 @@
     "horse_pill_effect": "Heals one red heart per gulped trinket (Up to 2 at the same time with Mom's Purse ). No effect for characters who cannot have red hearts. This counts for two gulp pills toward the Marbles achievement. The gulped trinket will become a Golden Trinket ."
   },
   {
+    "code": "P44",
     "id": 44,
     "name": "Horf!",
     "polarity": "N",
@@ -360,6 +405,7 @@
     "horse_pill_effect": "Isaac shoots a cluster of 6 Horf! tears with 150-400 damage per tear, resulting in an average of 1650 damage if all tears or their explosions hit."
   },
   {
+    "code": "P45",
     "id": 45,
     "name": "Feels like I'm walking on sunshine!",
     "polarity": "+",
@@ -368,6 +414,7 @@
     "horse_pill_effect": "The effect is upgraded to The Gamekid 's."
   },
   {
+    "code": "P46",
     "id": 46,
     "name": "Vurp!",
     "polarity": "+",
@@ -376,6 +423,7 @@
     "horse_pill_effect": "If the last pill was a normal pill, it becomes a horse pill. No further difference on horse pills themselves."
   },
   {
+    "code": "P47",
     "id": 47,
     "name": "Shot Speed Down",
     "polarity": "-",
@@ -384,6 +432,7 @@
     "horse_pill_effect": "-0.30 shot speed."
   },
   {
+    "code": "P48",
     "id": 48,
     "name": "Shot Speed Up",
     "polarity": "+",
@@ -392,6 +441,7 @@
     "horse_pill_effect": "+0.30 shot speed."
   },
   {
+    "code": "P49",
     "id": 49,
     "name": "Experimental Pill",
     "polarity": "N",

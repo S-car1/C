@@ -1,5 +1,6 @@
 [
   {
+    "code": "T001",
     "name": "Swallowed Penny",
     "id": 1,
     "dlc": "Rebirth",
@@ -18,6 +19,7 @@
     ]
   },
   {
+    "code": "T002",
     "name": "Petrified Poop",
     "id": 2,
     "dlc": "Rebirth",
@@ -32,6 +34,7 @@
     ]
   },
   {
+    "code": "T003",
     "name": "AAA Battery",
     "id": 3,
     "dlc": "Rebirth",
@@ -48,6 +51,7 @@
     ]
   },
   {
+    "code": "T004",
     "name": "Broken Remote",
     "id": 4,
     "dlc": "Rebirth",
@@ -63,6 +67,7 @@
     ]
   },
   {
+    "code": "T005",
     "name": "Purple Heart",
     "id": 5,
     "dlc": "Rebirth",
@@ -74,6 +79,7 @@
     "tags": []
   },
   {
+    "code": "T006",
     "name": "Broken Magnet",
     "id": 6,
     "dlc": "Rebirth",
@@ -87,6 +93,7 @@
     ]
   },
   {
+    "code": "T007",
     "name": "Rosary Bead",
     "id": 7,
     "dlc": "Rebirth",
@@ -102,6 +109,7 @@
     ]
   },
   {
+    "code": "T008",
     "name": "Cartridge",
     "id": 8,
     "dlc": "Rebirth",
@@ -119,6 +127,7 @@
     ]
   },
   {
+    "code": "T009",
     "name": "Pulse Worm",
     "id": 9,
     "dlc": "Rebirth",
@@ -133,6 +142,7 @@
     ]
   },
   {
+    "code": "T010",
     "name": "Wiggle Worm",
     "id": 10,
     "dlc": "Rebirth",
@@ -148,6 +158,7 @@
     ]
   },
   {
+    "code": "T011",
     "name": "Ring Worm",
     "id": 11,
     "dlc": "Rebirth",
@@ -163,6 +174,7 @@
     ]
   },
   {
+    "code": "T012",
     "name": "Flat Worm",
     "id": 12,
     "dlc": "Rebirth",
@@ -178,6 +190,7 @@
     ]
   },
   {
+    "code": "T013",
     "name": "Store Credit",
     "id": 13,
     "dlc": "Rebirth",
@@ -197,6 +210,7 @@
     ]
   },
   {
+    "code": "T014",
     "name": "Callus",
     "id": 14,
     "dlc": "Rebirth",
@@ -215,6 +229,7 @@
     ]
   },
   {
+    "code": "T015",
     "name": "Lucky Rock",
     "id": 15,
     "dlc": "Rebirth",
@@ -231,6 +246,7 @@
     ]
   },
   {
+    "code": "T016",
     "name": "Mom's Toenail",
     "id": 16,
     "dlc": "Rebirth",
@@ -248,6 +264,7 @@
     ]
   },
   {
+    "code": "T017",
     "name": "Black Lipstick",
     "id": 17,
     "dlc": "Rebirth",
@@ -264,6 +281,7 @@
     ]
   },
   {
+    "code": "T018",
     "name": "Bible Tract",
     "id": 18,
     "dlc": "Rebirth",
@@ -281,6 +299,7 @@
     ]
   },
   {
+    "code": "T019",
     "name": "Paper Clip",
     "id": 19,
     "dlc": "Rebirth",
@@ -298,6 +317,7 @@
     ]
   },
   {
+    "code": "T020",
     "name": "Monkey Paw",
     "id": 20,
     "dlc": "Rebirth",
@@ -315,6 +335,7 @@
     ]
   },
   {
+    "code": "T021",
     "name": "Mysterious Paper",
     "id": 21,
     "dlc": "Rebirth",
@@ -331,6 +352,7 @@
     ]
   },
   {
+    "code": "T022",
     "name": "Daemon's Tail",
     "id": 22,
     "dlc": "Rebirth",
@@ -349,6 +371,7 @@
     ]
   },
   {
+    "code": "T023",
     "name": "Missing Poster",
     "id": 23,
     "dlc": "Rebirth",
@@ -366,6 +389,7 @@
     ]
   },
   {
+    "code": "T024",
     "name": "Butt Penny",
     "id": 24,
     "dlc": "Rebirth",
@@ -381,6 +405,7 @@
     ]
   },
   {
+    "code": "T025",
     "name": "Mysterious Candy",
     "id": 25,
     "dlc": "Rebirth",
@@ -396,6 +421,7 @@
     ]
   },
   {
+    "code": "T026",
     "name": "Hook Worm",
     "id": 26,
     "dlc": "Rebirth",
@@ -411,6 +437,7 @@
     ]
   },
   {
+    "code": "T027",
     "name": "Whip Worm",
     "id": 27,
     "dlc": "Rebirth",
@@ -425,6 +452,7 @@
     ]
   },
   {
+    "code": "T028",
     "name": "Broken Ankh",
     "id": 28,
     "dlc": "Rebirth",
@@ -440,6 +468,7 @@
     ]
   },
   {
+    "code": "T029",
     "name": "Fish Head",
     "id": 29,
     "dlc": "Rebirth",
@@ -457,6 +486,7 @@
     ]
   },
   {
+    "code": "T030",
     "name": "Pinky Eye",
     "id": 30,
     "dlc": "Rebirth",
@@ -470,6 +500,7 @@
     ]
   },
   {
+    "code": "T031",
     "name": "Push Pin",
     "id": 31,
     "dlc": "Rebirth",
@@ -483,6 +514,7 @@
     ]
   },
   {
+    "code": "T032",
     "name": "Liberty Cap",
     "id": 32,
     "dlc": "Rebirth",
@@ -501,6 +533,7 @@
     ]
   },
   {
+    "code": "T033",
     "name": "Umbilical Cord",
     "id": 33,
     "dlc": "Rebirth",
@@ -519,6 +552,7 @@
     ]
   },
   {
+    "code": "T034",
     "name": "Child's Heart",
     "id": 34,
     "dlc": "Rebirth",
@@ -536,6 +570,7 @@
     ]
   },
   {
+    "code": "T035",
     "name": "Curved Horn",
     "id": 35,
     "dlc": "Rebirth",
@@ -551,6 +586,7 @@
     ]
   },
   {
+    "code": "T036",
     "name": "Rusted Key",
     "id": 36,
     "dlc": "Rebirth",
@@ -566,6 +602,7 @@
     ]
   },
   {
+    "code": "T037",
     "name": "Goat Hoof",
     "id": 37,
     "dlc": "Rebirth",
@@ -582,6 +619,7 @@
     ]
   },
   {
+    "code": "T038",
     "name": "Mom's Pearl",
     "id": 38,
     "dlc": "Rebirth",
@@ -601,6 +639,7 @@
     ]
   },
   {
+    "code": "T039",
     "name": "Cancer",
     "id": 39,
     "dlc": "Rebirth",
@@ -618,6 +657,7 @@
     ]
   },
   {
+    "code": "T040",
     "name": "Red Patch",
     "id": 40,
     "dlc": "Rebirth",
@@ -631,6 +671,7 @@
     ]
   },
   {
+    "code": "T041",
     "name": "Match Stick",
     "id": 41,
     "dlc": "Rebirth",
@@ -645,6 +686,7 @@
     ]
   },
   {
+    "code": "T042",
     "name": "Lucky Toe",
     "id": 42,
     "dlc": "Rebirth",
@@ -661,6 +703,7 @@
     ]
   },
   {
+    "code": "T043",
     "name": "Cursed Skull",
     "id": 43,
     "dlc": "Rebirth",
@@ -678,6 +721,7 @@
     ]
   },
   {
+    "code": "T044",
     "name": "Safety Cap",
     "id": 44,
     "dlc": "Rebirth",
@@ -692,6 +736,7 @@
     ]
   },
   {
+    "code": "T045",
     "name": "Ace of Spades",
     "id": 45,
     "dlc": "Rebirth",
@@ -705,6 +750,7 @@
     ]
   },
   {
+    "code": "T046",
     "name": "Isaac's Fork",
     "id": 46,
     "dlc": "Rebirth",
@@ -723,6 +769,7 @@
     ]
   },
   {
+    "code": "T048",
     "name": "A Missing Page",
     "id": 48,
     "dlc": "Rebirth",
@@ -740,6 +787,7 @@
     ]
   },
   {
+    "code": "T049",
     "name": "Bloody Penny",
     "id": 49,
     "dlc": "Rebirth",
@@ -757,6 +805,7 @@
     ]
   },
   {
+    "code": "T050",
     "name": "Burnt Penny",
     "id": 50,
     "dlc": "Rebirth",
@@ -776,6 +825,7 @@
     ]
   },
   {
+    "code": "T051",
     "name": "Flat Penny",
     "id": 51,
     "dlc": "Rebirth",
@@ -795,6 +845,7 @@
     ]
   },
   {
+    "code": "T052",
     "name": "Counterfeit Penny",
     "id": 52,
     "dlc": "Rebirth",
@@ -814,6 +865,7 @@
     ]
   },
   {
+    "code": "T053",
     "name": "Tick",
     "id": 53,
     "dlc": "Rebirth",
@@ -833,6 +885,7 @@
     ]
   },
   {
+    "code": "T054",
     "name": "Isaac's Head",
     "id": 54,
     "dlc": "Rebirth",
@@ -848,6 +901,7 @@
     ]
   },
   {
+    "code": "T055",
     "name": "Maggy's Faith",
     "id": 55,
     "dlc": "Rebirth",
@@ -866,6 +920,7 @@
     ]
   },
   {
+    "code": "T056",
     "name": "Judas' Tongue",
     "id": 56,
     "dlc": "Rebirth",
@@ -884,6 +939,7 @@
     ]
   },
   {
+    "code": "T057",
     "name": "???'s Soul",
     "id": 57,
     "dlc": "Rebirth",
@@ -902,6 +958,7 @@
     ]
   },
   {
+    "code": "T058",
     "name": "Samson's Lock",
     "id": 58,
     "dlc": "Rebirth",
@@ -920,6 +977,7 @@
     ]
   },
   {
+    "code": "T059",
     "name": "Cain's Eye",
     "id": 59,
     "dlc": "Rebirth",
@@ -935,6 +993,7 @@
     ]
   },
   {
+    "code": "T060",
     "name": "Eve's Bird Foot",
     "id": 60,
     "dlc": "Rebirth",
@@ -952,6 +1011,7 @@
     ]
   },
   {
+    "code": "T061",
     "name": "The Left Hand",
     "id": 61,
     "dlc": "Rebirth",
@@ -971,6 +1031,7 @@
     ]
   },
   {
+    "code": "T062",
     "name": "Shiny Rock",
     "id": 62,
     "dlc": "Afterbirth",
@@ -989,6 +1050,7 @@
     ]
   },
   {
+    "code": "T063",
     "name": "Safety Scissors",
     "id": 63,
     "dlc": "Afterbirth",
@@ -1004,6 +1066,7 @@
     ]
   },
   {
+    "code": "T064",
     "name": "Rainbow Worm",
     "id": 64,
     "dlc": "Afterbirth",
@@ -1022,6 +1085,7 @@
     ]
   },
   {
+    "code": "T065",
     "name": "Tape Worm",
     "id": 65,
     "dlc": "Afterbirth",
@@ -1037,6 +1101,7 @@
     ]
   },
   {
+    "code": "T066",
     "name": "Lazy Worm",
     "id": 66,
     "dlc": "Afterbirth",
@@ -1053,6 +1118,7 @@
     ]
   },
   {
+    "code": "T067",
     "name": "Cracked Dice",
     "id": 67,
     "dlc": "Afterbirth",
@@ -1074,6 +1140,7 @@
     ]
   },
   {
+    "code": "T068",
     "name": "Super Magnet",
     "id": 68,
     "dlc": "Afterbirth",
@@ -1092,6 +1159,7 @@
     ]
   },
   {
+    "code": "T069",
     "name": "Faded Polaroid",
     "id": 69,
     "dlc": "Afterbirth",
@@ -1107,6 +1175,7 @@
     ]
   },
   {
+    "code": "T070",
     "name": "Louse",
     "id": 70,
     "dlc": "Afterbirth",
@@ -1123,6 +1192,7 @@
     ]
   },
   {
+    "code": "T071",
     "name": "Bob's Bladder",
     "id": 71,
     "dlc": "Afterbirth",
@@ -1141,6 +1211,7 @@
     ]
   },
   {
+    "code": "T072",
     "name": "Watch Battery",
     "id": 72,
     "dlc": "Afterbirth",
@@ -1159,6 +1230,7 @@
     ]
   },
   {
+    "code": "T073",
     "name": "Blasting Cap",
     "id": 73,
     "dlc": "Afterbirth",
@@ -1174,6 +1246,7 @@
     ]
   },
   {
+    "code": "T074",
     "name": "Stud Finder",
     "id": 74,
     "dlc": "Afterbirth",
@@ -1194,6 +1267,7 @@
     ]
   },
   {
+    "code": "T075",
     "name": "Error",
     "id": 75,
     "dlc": "Afterbirth",
@@ -1208,6 +1282,7 @@
     ]
   },
   {
+    "code": "T076",
     "name": "Poker Chip",
     "id": 76,
     "dlc": "Afterbirth",
@@ -1225,6 +1300,7 @@
     ]
   },
   {
+    "code": "T077",
     "name": "Blister",
     "id": 77,
     "dlc": "Afterbirth",
@@ -1241,6 +1317,7 @@
     ]
   },
   {
+    "code": "T078",
     "name": "Second Hand",
     "id": 78,
     "dlc": "Afterbirth",
@@ -1258,6 +1335,7 @@
     ]
   },
   {
+    "code": "T079",
     "name": "Endless Nameless",
     "id": 79,
     "dlc": "Afterbirth",
@@ -1275,6 +1353,7 @@
     ]
   },
   {
+    "code": "T080",
     "name": "Black Feather",
     "id": 80,
     "dlc": "Afterbirth",
@@ -1290,6 +1369,7 @@
     ]
   },
   {
+    "code": "T081",
     "name": "Blind Rage",
     "id": 81,
     "dlc": "Afterbirth",
@@ -1307,6 +1387,7 @@
     ]
   },
   {
+    "code": "T082",
     "name": "Golden Horse Shoe",
     "id": 82,
     "dlc": "Afterbirth",
@@ -1322,6 +1403,7 @@
     ]
   },
   {
+    "code": "T083",
     "name": "Store Key",
     "id": 83,
     "dlc": "Afterbirth",
@@ -1338,6 +1420,7 @@
     ]
   },
   {
+    "code": "T084",
     "name": "Rib of Greed",
     "id": 84,
     "dlc": "Afterbirth",
@@ -1353,6 +1436,7 @@
     ]
   },
   {
+    "code": "T085",
     "name": "Karma",
     "id": 85,
     "dlc": "Afterbirth",
@@ -1368,6 +1452,7 @@
     ]
   },
   {
+    "code": "T086",
     "name": "Lil Larva",
     "id": 86,
     "dlc": "Afterbirth",
@@ -1384,6 +1469,7 @@
     ]
   },
   {
+    "code": "T087",
     "name": "Mom's Locket",
     "id": 87,
     "dlc": "Afterbirth",
@@ -1403,6 +1489,7 @@
     ]
   },
   {
+    "code": "T088",
     "name": "NO!",
     "id": 88,
     "dlc": "Afterbirth",
@@ -1422,6 +1509,7 @@
     ]
   },
   {
+    "code": "T089",
     "name": "Child Leash",
     "id": 89,
     "dlc": "Afterbirth",
@@ -1437,6 +1525,7 @@
     ]
   },
   {
+    "code": "T090",
     "name": "Brown Cap",
     "id": 90,
     "dlc": "Afterbirth",
@@ -1451,6 +1540,7 @@
     ]
   },
   {
+    "code": "T091",
     "name": "Meconium",
     "id": 91,
     "dlc": "Afterbirth+",
@@ -1467,6 +1557,7 @@
     ]
   },
   {
+    "code": "T092",
     "name": "Cracked Crown",
     "id": 92,
     "dlc": "Afterbirth+",
@@ -1483,6 +1574,7 @@
     ]
   },
   {
+    "code": "T093",
     "name": "Used Diaper",
     "id": 93,
     "dlc": "Afterbirth+",
@@ -1500,6 +1592,7 @@
     ]
   },
   {
+    "code": "T094",
     "name": "Fish Tail",
     "id": 94,
     "dlc": "Afterbirth+",
@@ -1518,6 +1611,7 @@
     ]
   },
   {
+    "code": "T095",
     "name": "Black Tooth",
     "id": 95,
     "dlc": "Afterbirth+",
@@ -1533,6 +1627,7 @@
     ]
   },
   {
+    "code": "T096",
     "name": "Ouroboros Worm",
     "id": 96,
     "dlc": "Afterbirth+",
@@ -1550,6 +1645,7 @@
     ]
   },
   {
+    "code": "T097",
     "name": "Tonsil",
     "id": 97,
     "dlc": "Afterbirth+",
@@ -1565,6 +1661,7 @@
     ]
   },
   {
+    "code": "T098",
     "name": "Nose Goblin",
     "id": 98,
     "dlc": "Afterbirth+",
@@ -1582,6 +1679,7 @@
     ]
   },
   {
+    "code": "T099",
     "name": "Super Ball",
     "id": 99,
     "dlc": "Afterbirth+",
@@ -1599,6 +1697,7 @@
     ]
   },
   {
+    "code": "T100",
     "name": "Vibrant Bulb",
     "id": 100,
     "dlc": "Afterbirth+",
@@ -1613,6 +1712,7 @@
     ]
   },
   {
+    "code": "T101",
     "name": "Dim Bulb",
     "id": 101,
     "dlc": "Afterbirth+",
@@ -1628,6 +1728,7 @@
     ]
   },
   {
+    "code": "T102",
     "name": "Fragmented Card",
     "id": 102,
     "dlc": "Afterbirth+",
@@ -1646,6 +1747,7 @@
     ]
   },
   {
+    "code": "T103",
     "name": "Equality!",
     "id": 103,
     "dlc": "Afterbirth+",
@@ -1661,6 +1763,7 @@
     ]
   },
   {
+    "code": "T104",
     "name": "Wish Bone",
     "id": 104,
     "dlc": "Afterbirth+",
@@ -1677,6 +1780,7 @@
     ]
   },
   {
+    "code": "T105",
     "name": "Bag Lunch",
     "id": 105,
     "dlc": "Afterbirth+",
@@ -1692,6 +1796,7 @@
     ]
   },
   {
+    "code": "T106",
     "name": "Lost Cork",
     "id": 106,
     "dlc": "Afterbirth+",
@@ -1708,6 +1813,7 @@
     ]
   },
   {
+    "code": "T107",
     "name": "Crow Heart",
     "id": 107,
     "dlc": "Afterbirth+",
@@ -1724,6 +1830,7 @@
     ]
   },
   {
+    "code": "T108",
     "name": "Walnut",
     "id": 108,
     "dlc": "Afterbirth+",
@@ -1740,6 +1847,7 @@
     ]
   },
   {
+    "code": "T109",
     "name": "Duct Tape",
     "id": 109,
     "dlc": "Afterbirth+",
@@ -1759,6 +1867,7 @@
     ]
   },
   {
+    "code": "T110",
     "name": "Silver Dollar",
     "id": 110,
     "dlc": "Afterbirth+",
@@ -1775,6 +1884,7 @@
     ]
   },
   {
+    "code": "T111",
     "name": "Bloody Crown",
     "id": 111,
     "dlc": "Afterbirth+",
@@ -1789,6 +1899,7 @@
     ]
   },
   {
+    "code": "T112",
     "name": "Pay To Win",
     "id": 112,
     "dlc": "Afterbirth+",
@@ -1809,6 +1920,7 @@
     ]
   },
   {
+    "code": "T113",
     "name": "Locust of War",
     "id": 113,
     "dlc": "Afterbirth+",
@@ -1825,6 +1937,7 @@
     ]
   },
   {
+    "code": "T114",
     "name": "Locust of Pestilence",
     "id": 114,
     "dlc": "Afterbirth+",
@@ -1840,6 +1953,7 @@
     ]
   },
   {
+    "code": "T115",
     "name": "Locust of Famine",
     "id": 115,
     "dlc": "Afterbirth+",
@@ -1855,6 +1969,7 @@
     ]
   },
   {
+    "code": "T116",
     "name": "Locust of Death",
     "id": 116,
     "dlc": "Afterbirth+",
@@ -1872,6 +1987,7 @@
     ]
   },
   {
+    "code": "T117",
     "name": "Locust of Conquest",
     "id": 117,
     "dlc": "Afterbirth+",
@@ -1887,6 +2003,7 @@
     ]
   },
   {
+    "code": "T118",
     "name": "Bat Wing",
     "id": 118,
     "dlc": "Afterbirth+",
@@ -1902,6 +2019,7 @@
     ]
   },
   {
+    "code": "T119",
     "name": "Stem Cell",
     "id": 119,
     "dlc": "Afterbirth+",
@@ -1919,6 +2037,7 @@
     ]
   },
   {
+    "code": "T120",
     "name": "Hairpin",
     "id": 120,
     "dlc": "Afterbirth+",
@@ -1935,6 +2054,7 @@
     ]
   },
   {
+    "code": "T121",
     "name": "Wooden Cross",
     "id": 121,
     "dlc": "Afterbirth+",
@@ -1949,6 +2069,7 @@
     ]
   },
   {
+    "code": "T122",
     "name": "Butter!",
     "id": 122,
     "dlc": "Afterbirth+",
@@ -1967,6 +2088,7 @@
     ]
   },
   {
+    "code": "T123",
     "name": "Filigree Feather",
     "id": 123,
     "dlc": "Afterbirth+",
@@ -1984,6 +2106,7 @@
     ]
   },
   {
+    "code": "T124",
     "name": "Door Stop",
     "id": 124,
     "dlc": "Afterbirth+",
@@ -2005,6 +2128,7 @@
     ]
   },
   {
+    "code": "T125",
     "name": "Extension Cord",
     "id": 125,
     "dlc": "Afterbirth+",
@@ -2016,6 +2140,7 @@
     "tags": []
   },
   {
+    "code": "T126",
     "name": "Rotten Penny",
     "id": 126,
     "dlc": "Afterbirth+",
@@ -2027,6 +2152,7 @@
     "tags": []
   },
   {
+    "code": "T127",
     "name": "Baby-Bender",
     "id": 127,
     "dlc": "Afterbirth+",
@@ -2040,6 +2166,7 @@
     ]
   },
   {
+    "code": "T128",
     "name": "Finger Bone",
     "id": 128,
     "dlc": "Afterbirth+",
@@ -2051,6 +2178,7 @@
     "tags": []
   },
   {
+    "code": "T129",
     "name": "Jawbreaker",
     "id": 129,
     "dlc": "Repentance",
@@ -2062,6 +2190,7 @@
     "tags": []
   },
   {
+    "code": "T130",
     "name": "Chewed Pen",
     "id": 130,
     "dlc": "Repentance",
@@ -2073,6 +2202,7 @@
     "tags": []
   },
   {
+    "code": "T131",
     "name": "Blessed Penny",
     "id": 131,
     "dlc": "Repentance",
@@ -2084,6 +2214,7 @@
     "tags": []
   },
   {
+    "code": "T132",
     "name": "Broken Syringe",
     "id": 132,
     "dlc": "Repentance",
@@ -2095,6 +2226,7 @@
     "tags": []
   },
   {
+    "code": "T133",
     "name": "Short Fuse",
     "id": 133,
     "dlc": "Repentance",
@@ -2106,6 +2238,7 @@
     "tags": []
   },
   {
+    "code": "T134",
     "name": "Gigante Bean",
     "id": 134,
     "dlc": "Repentance",
@@ -2117,6 +2250,7 @@
     "tags": []
   },
   {
+    "code": "T135",
     "name": "A Lighter",
     "id": 135,
     "dlc": "Repentance",
@@ -2128,6 +2262,7 @@
     "tags": []
   },
   {
+    "code": "T136",
     "name": "Broken Padlock",
     "id": 136,
     "dlc": "Repentance",
@@ -2139,6 +2274,7 @@
     "tags": []
   },
   {
+    "code": "T137",
     "name": "Myosotis",
     "id": 137,
     "dlc": "Repentance",
@@ -2156,6 +2292,7 @@
     ]
   },
   {
+    "code": "T138",
     "name": "'M",
     "id": 138,
     "dlc": "Repentance",
@@ -2167,6 +2304,7 @@
     "tags": []
   },
   {
+    "code": "T139",
     "name": "Teardrop Charm",
     "id": 139,
     "dlc": "Repentance",
@@ -2178,6 +2316,7 @@
     "tags": []
   },
   {
+    "code": "T140",
     "name": "Apple of Sodom",
     "id": 140,
     "dlc": "Repentance",
@@ -2189,6 +2328,7 @@
     "tags": []
   },
   {
+    "code": "T141",
     "name": "Forgotten Lullaby",
     "id": 141,
     "dlc": "Repentance",
@@ -2200,6 +2340,7 @@
     "tags": []
   },
   {
+    "code": "T142",
     "name": "Beth's Faith",
     "id": 142,
     "dlc": "Repentance",
@@ -2213,6 +2354,7 @@
     ]
   },
   {
+    "code": "T143",
     "name": "Old Capacitor",
     "id": 143,
     "dlc": "Repentance",
@@ -2224,6 +2366,7 @@
     "tags": []
   },
   {
+    "code": "T144",
     "name": "Brain Worm",
     "id": 144,
     "dlc": "Repentance",
@@ -2235,6 +2378,7 @@
     "tags": []
   },
   {
+    "code": "T145",
     "name": "Perfection",
     "id": 145,
     "dlc": "Repentance",
@@ -2246,6 +2390,7 @@
     "tags": []
   },
   {
+    "code": "T146",
     "name": "Devil's Crown",
     "id": 146,
     "dlc": "Repentance",
@@ -2259,6 +2404,7 @@
     ]
   },
   {
+    "code": "T147",
     "name": "Charged Penny",
     "id": 147,
     "dlc": "Repentance",
@@ -2270,6 +2416,7 @@
     "tags": []
   },
   {
+    "code": "T148",
     "name": "Friendship Necklace",
     "id": 148,
     "dlc": "Repentance",
@@ -2281,6 +2428,7 @@
     "tags": []
   },
   {
+    "code": "T149",
     "name": "Panic Button",
     "id": 149,
     "dlc": "Repentance",
@@ -2292,6 +2440,7 @@
     "tags": []
   },
   {
+    "code": "T150",
     "name": "Blue Key",
     "id": 150,
     "dlc": "Repentance",
@@ -2303,6 +2452,7 @@
     "tags": []
   },
   {
+    "code": "T151",
     "name": "Flat File",
     "id": 151,
     "dlc": "Repentance",
@@ -2314,6 +2464,7 @@
     "tags": []
   },
   {
+    "code": "T152",
     "name": "Telescope Lens",
     "id": 152,
     "dlc": "Repentance",
@@ -2325,6 +2476,7 @@
     "tags": []
   },
   {
+    "code": "T153",
     "name": "Mom's Lock",
     "id": 153,
     "dlc": "Repentance",
@@ -2338,6 +2490,7 @@
     ]
   },
   {
+    "code": "T154",
     "name": "Dice Bag",
     "id": 154,
     "dlc": "Repentance",
@@ -2349,6 +2502,7 @@
     "tags": []
   },
   {
+    "code": "T155",
     "name": "Holy Crown",
     "id": 155,
     "dlc": "Repentance",
@@ -2360,6 +2514,7 @@
     "tags": []
   },
   {
+    "code": "T156",
     "name": "Mother's Kiss",
     "id": 156,
     "dlc": "Repentance",
@@ -2373,6 +2528,7 @@
     ]
   },
   {
+    "code": "T157",
     "name": "Torn Card",
     "id": 157,
     "dlc": "Repentance",
@@ -2384,6 +2540,7 @@
     "tags": []
   },
   {
+    "code": "T158",
     "name": "Torn Pocket",
     "id": 158,
     "dlc": "Repentance",
@@ -2395,6 +2552,7 @@
     "tags": []
   },
   {
+    "code": "T159",
     "name": "Gilded Key",
     "id": 159,
     "dlc": "Repentance",
@@ -2406,6 +2564,7 @@
     "tags": []
   },
   {
+    "code": "T160",
     "name": "Lucky Sack",
     "id": 160,
     "dlc": "Repentance",
@@ -2417,6 +2576,7 @@
     "tags": []
   },
   {
+    "code": "T161",
     "name": "Wicked Crown",
     "id": 161,
     "dlc": "Repentance",
@@ -2428,6 +2588,7 @@
     "tags": []
   },
   {
+    "code": "T162",
     "name": "Azazel's Stump",
     "id": 162,
     "dlc": "Repentance",
@@ -2441,6 +2602,7 @@
     ]
   },
   {
+    "code": "T163",
     "name": "Dingle Berry",
     "id": 163,
     "dlc": "Repentance",
@@ -2452,6 +2614,7 @@
     "tags": []
   },
   {
+    "code": "T164",
     "name": "Ring Cap",
     "id": 164,
     "dlc": "Repentance",
@@ -2463,6 +2626,7 @@
     "tags": []
   },
   {
+    "code": "T165",
     "name": "Nuh Uh!",
     "id": 165,
     "dlc": "Repentance",
@@ -2474,6 +2638,7 @@
     "tags": []
   },
   {
+    "code": "T166",
     "name": "Modeling Clay",
     "id": 166,
     "dlc": "Repentance",
@@ -2485,6 +2650,7 @@
     "tags": []
   },
   {
+    "code": "T167",
     "name": "Polished Bone",
     "id": 167,
     "dlc": "Repentance",
@@ -2496,6 +2662,7 @@
     "tags": []
   },
   {
+    "code": "T168",
     "name": "Hollow Heart",
     "id": 168,
     "dlc": "Repentance",
@@ -2507,6 +2674,7 @@
     "tags": []
   },
   {
+    "code": "T169",
     "name": "Kid's Drawing",
     "id": 169,
     "dlc": "Repentance",
@@ -2520,6 +2688,7 @@
     ]
   },
   {
+    "code": "T170",
     "name": "Crystal Key",
     "id": 170,
     "dlc": "Repentance",
@@ -2531,6 +2700,7 @@
     "tags": []
   },
   {
+    "code": "T171",
     "name": "Keeper's Bargain",
     "id": 171,
     "dlc": "Repentance",
@@ -2545,6 +2715,7 @@
     ]
   },
   {
+    "code": "T172",
     "name": "Cursed Penny",
     "id": 172,
     "dlc": "Repentance",
@@ -2556,6 +2727,7 @@
     "tags": []
   },
   {
+    "code": "T173",
     "name": "Your Soul",
     "id": 173,
     "dlc": "Repentance",
@@ -2567,6 +2739,7 @@
     "tags": []
   },
   {
+    "code": "T174",
     "name": "Number Magnet",
     "id": 174,
     "dlc": "Repentance",
@@ -2578,6 +2751,7 @@
     "tags": []
   },
   {
+    "code": "T175",
     "name": "Strange Key",
     "id": 175,
     "dlc": "Repentance",
@@ -2589,6 +2763,7 @@
     "tags": []
   },
   {
+    "code": "T176",
     "name": "Lil Clot",
     "id": 176,
     "dlc": "Repentance",
@@ -2602,6 +2777,7 @@
     ]
   },
   {
+    "code": "T177",
     "name": "Temporary Tattoo",
     "id": 177,
     "dlc": "Repentance",
@@ -2613,6 +2789,7 @@
     "tags": []
   },
   {
+    "code": "T178",
     "name": "Swallowed M80",
     "id": 178,
     "dlc": "Repentance",
@@ -2624,6 +2801,7 @@
     "tags": []
   },
   {
+    "code": "T179",
     "name": "RC Remote",
     "id": 179,
     "dlc": "Repentance",
@@ -2635,6 +2813,7 @@
     "tags": []
   },
   {
+    "code": "T180",
     "name": "Found Soul",
     "id": 180,
     "dlc": "Repentance",
@@ -2646,6 +2825,7 @@
     "tags": []
   },
   {
+    "code": "T181",
     "name": "Expansion Pack",
     "id": 181,
     "dlc": "Repentance",
@@ -2657,6 +2837,7 @@
     "tags": []
   },
   {
+    "code": "T182",
     "name": "Beth's Essence",
     "id": 182,
     "dlc": "Repentance",
@@ -2670,6 +2851,7 @@
     ]
   },
   {
+    "code": "T183",
     "name": "The Twins",
     "id": 183,
     "dlc": "Repentance",
@@ -2681,6 +2863,7 @@
     "tags": []
   },
   {
+    "code": "T184",
     "name": "Adoption Papers",
     "id": 184,
     "dlc": "Repentance",
@@ -2692,6 +2875,7 @@
     "tags": []
   },
   {
+    "code": "T185",
     "name": "Cricket Leg",
     "id": 185,
     "dlc": "Repentance",
@@ -2703,6 +2887,7 @@
     "tags": []
   },
   {
+    "code": "T186",
     "name": "Apollyon's Best Friend",
     "id": 186,
     "dlc": "Repentance",
@@ -2716,6 +2901,7 @@
     ]
   },
   {
+    "code": "T187",
     "name": "Broken Glasses",
     "id": 187,
     "dlc": "Repentance",
@@ -2727,6 +2913,7 @@
     "tags": []
   },
   {
+    "code": "T188",
     "name": "Ice Cube",
     "id": 188,
     "dlc": "Repentance",
@@ -2738,6 +2925,7 @@
     "tags": []
   },
   {
+    "code": "T189",
     "name": "Sigil of Baphomet",
     "id": 189,
     "dlc": "Repentance",

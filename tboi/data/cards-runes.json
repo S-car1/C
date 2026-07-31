@@ -1,5 +1,6 @@
 [
   {
+    "code": "K001",
     "name": "O - The Fool",
     "id": 1,
     "quote": "Where your journey begins",
@@ -13,6 +14,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K002",
     "name": "I - The Magician",
     "id": 2,
     "quote": "May you never miss your goal",
@@ -26,6 +28,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K003",
     "name": "II - The High Priestess",
     "id": 3,
     "quote": "Mother is watching you",
@@ -39,6 +42,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K004",
     "name": "III - The Empress",
     "id": 4,
     "quote": "May your rage bring power",
@@ -54,6 +58,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K005",
     "name": "IV - The Emperor",
     "id": 5,
     "quote": "Challenge me!",
@@ -67,6 +72,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K006",
     "name": "V - The Hierophant",
     "id": 6,
     "quote": "Two prayers for the lost",
@@ -82,6 +88,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K007",
     "name": "VI - The Lovers",
     "id": 7,
     "quote": "May you prosper and be in good health",
@@ -96,6 +103,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K008",
     "name": "VII - The Chariot",
     "id": 8,
     "quote": "May nothing stand before you",
@@ -109,6 +117,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K009",
     "name": "VIII - Justice",
     "id": 9,
     "quote": "May your future become balanced",
@@ -122,6 +131,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K010",
     "name": "IX - The Hermit",
     "id": 10,
     "quote": "May you see what life has to offer",
@@ -135,6 +145,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K011",
     "name": "X - Wheel of Fortune",
     "id": 11,
     "quote": "Spin the wheel of destiny",
@@ -148,6 +159,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K012",
     "name": "XI - Strength",
     "id": 12,
     "quote": "May your power bring rage",
@@ -161,6 +173,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K013",
     "name": "XII - The Hanged Man",
     "id": 13,
     "quote": "May you find enlightenment",
@@ -176,6 +189,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K014",
     "name": "XIII - Death",
     "id": 14,
     "quote": "Lay waste to all that oppose you",
@@ -190,6 +204,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K015",
     "name": "XIV - Temperance",
     "id": 15,
     "quote": "May you be pure in heart",
@@ -205,6 +220,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K016",
     "name": "XV - The Devil",
     "id": 16,
     "quote": "Revel in the power of your darkness",
@@ -219,6 +235,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K017",
     "name": "XVI - The Tower",
     "id": 17,
     "quote": "Destruction brings creation",
@@ -232,6 +249,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K018",
     "name": "XVII - The Stars",
     "id": 18,
     "quote": "May you find what you desire",
@@ -245,6 +263,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K019",
     "name": "XVIII - The Moon",
     "id": 19,
     "quote": "May you find all you have lost",
@@ -258,6 +277,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K020",
     "name": "XIX - The Sun",
     "id": 20,
     "quote": "May the light heal and enlighten you",
@@ -271,6 +291,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K021",
     "name": "XX - Judgement",
     "id": 21,
     "quote": "Judge lest ye be judged",
@@ -284,6 +305,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K022",
     "name": "XXI - The World",
     "id": 22,
     "quote": "Open your eyes and see",
@@ -297,6 +319,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K023",
     "name": "2 of Clubs",
     "id": 23,
     "quote": "Item multiplier",
@@ -311,6 +334,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K024",
     "name": "2 of Diamonds",
     "id": 24,
     "quote": "Item multiplier",
@@ -325,6 +349,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K025",
     "name": "2 of Spades",
     "id": 25,
     "quote": "Item multiplier",
@@ -339,6 +364,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K026",
     "name": "2 of Hearts",
     "id": 26,
     "quote": "Item multiplier",
@@ -354,6 +380,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K027",
     "name": "Ace of Clubs",
     "id": 27,
     "quote": "Convert all",
@@ -368,6 +395,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K028",
     "name": "Ace of Diamonds",
     "id": 28,
     "quote": "Convert all",
@@ -382,6 +410,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K029",
     "name": "Ace of Spades",
     "id": 29,
     "quote": "Convert all",
@@ -396,6 +425,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K030",
     "name": "Ace of Hearts",
     "id": 30,
     "quote": "Convert all",
@@ -410,6 +440,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K031",
     "name": "The Joker",
     "id": 31,
     "quote": "???",
@@ -424,6 +455,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K046",
     "name": "Suicide King",
     "id": 46,
     "quote": "A true ending?",
@@ -437,6 +469,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K079",
     "name": "Queen of Hearts",
     "id": 79,
     "quote": "<3",
@@ -446,6 +479,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K042",
     "name": "Chaos Card",
     "id": 42,
     "quote": "???",
@@ -461,6 +495,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K052",
     "name": "Huge Growth",
     "id": 52,
     "quote": "Become immense!",
@@ -478,6 +513,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K053",
     "name": "Ancient Recall",
     "id": 53,
     "quote": "Draw 3 cards",
@@ -493,6 +529,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K054",
     "name": "Era Walk",
     "id": 54,
     "quote": "Savor the moment",
@@ -508,6 +545,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K043",
     "name": "Credit Card",
     "id": 43,
     "quote": "Charge it!",
@@ -520,6 +558,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K044",
     "name": "Rules Card",
     "id": 44,
     "quote": "???",
@@ -533,6 +572,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K045",
     "name": "Card Against Humanity",
     "id": 45,
     "quote": "Something stinks...",
@@ -546,6 +586,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K047",
     "name": "Get Out Of Jail Free Card",
     "id": 47,
     "quote": "Open sesame",
@@ -558,6 +599,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K048",
     "name": "? Card",
     "id": 48,
     "quote": "Double active",
@@ -572,6 +614,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K032",
     "name": "Rune of Hagalaz",
     "id": 32,
     "quote": "Destruction",
@@ -584,6 +627,7 @@
     "kind": "rune"
   },
   {
+    "code": "K033",
     "name": "Rune of Jera",
     "id": 33,
     "quote": "Abundance",
@@ -596,6 +640,7 @@
     "kind": "rune"
   },
   {
+    "code": "K034",
     "name": "Rune of Ehwaz",
     "id": 34,
     "quote": "Passage",
@@ -608,6 +653,7 @@
     "kind": "rune"
   },
   {
+    "code": "K035",
     "name": "Rune of Dagaz",
     "id": 35,
     "quote": "Purity",
@@ -620,6 +666,7 @@
     "kind": "rune"
   },
   {
+    "code": "K036",
     "name": "Rune of Ansuz",
     "id": 36,
     "quote": "Vision",
@@ -632,6 +679,7 @@
     "kind": "rune"
   },
   {
+    "code": "K037",
     "name": "Rune of Perthro",
     "id": 37,
     "quote": "Change",
@@ -644,6 +692,7 @@
     "kind": "rune"
   },
   {
+    "code": "K038",
     "name": "Rune of Berkano",
     "id": 38,
     "quote": "Companionship",
@@ -656,6 +705,7 @@
     "kind": "rune"
   },
   {
+    "code": "K039",
     "name": "Rune of Algiz",
     "id": 39,
     "quote": "Resistance",
@@ -668,6 +718,7 @@
     "kind": "rune"
   },
   {
+    "code": "K040",
     "name": "Blank Rune",
     "id": 40,
     "quote": "???",
@@ -677,6 +728,7 @@
     "kind": "rune"
   },
   {
+    "code": "K041",
     "name": "Black Rune",
     "id": 41,
     "quote": "Void",
@@ -689,6 +741,7 @@
     "kind": "rune"
   },
   {
+    "code": "K055",
     "name": "Rune Shard",
     "id": 55,
     "quote": "It still glows faintly",
@@ -700,6 +753,7 @@
     "kind": "rune"
   },
   {
+    "code": "K049",
     "name": "Dice Shard",
     "id": 49,
     "quote": null,
@@ -713,6 +767,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K050",
     "name": "Emergency Contact",
     "id": 50,
     "quote": "Help from above",
@@ -727,6 +782,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K051",
     "name": "Holy Card",
     "id": 51,
     "quote": "You feel protected",
@@ -742,6 +798,7 @@
     "kind": "playing_card"
   },
   {
+    "code": "K078",
     "name": "Cracked Key",
     "id": 78,
     "quote": "???",
@@ -753,6 +810,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K056",
     "name": "O - The Fool?",
     "id": 56,
     "quote": "Let go and move on",
@@ -766,6 +824,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K057",
     "name": "I - The Magician?",
     "id": 57,
     "quote": "May no harm come to you",
@@ -779,6 +838,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K058",
     "name": "II - The High Priestess?",
     "id": 58,
     "quote": "Run",
@@ -792,6 +852,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K059",
     "name": "III - The Empress?",
     "id": 59,
     "quote": "May your love bring protection",
@@ -807,6 +868,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K060",
     "name": "IV - The Emperor?",
     "id": 60,
     "quote": "May you find a worthy opponent",
@@ -820,6 +882,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K061",
     "name": "V - The Hierophant?",
     "id": 61,
     "quote": "Two prayers for the forgotten",
@@ -835,6 +898,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K062",
     "name": "VI - The Lovers?",
     "id": 62,
     "quote": "May your heart shatter to pieces",
@@ -849,6 +913,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K063",
     "name": "VII - The Chariot?",
     "id": 63,
     "quote": "May nothing walk past you",
@@ -862,6 +927,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K064",
     "name": "VIII - Justice?",
     "id": 64,
     "quote": "May your sins come back to torment you",
@@ -875,6 +941,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K065",
     "name": "IX - The Hermit?",
     "id": 65,
     "quote": "May you see the value of all things in life",
@@ -888,6 +955,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K066",
     "name": "X - Wheel of Fortune?",
     "id": 66,
     "quote": "Throw the dice of fate",
@@ -901,6 +969,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K067",
     "name": "XI - Strength?",
     "id": 67,
     "quote": "May you break their resolve",
@@ -914,6 +983,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K068",
     "name": "XII - The Hanged Man?",
     "id": 68,
     "quote": "May your greed know no bounds",
@@ -929,6 +999,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K069",
     "name": "XIII - Death?",
     "id": 69,
     "quote": "May life spring forth from the fallen",
@@ -943,6 +1014,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K070",
     "name": "XIV - Temperance?",
     "id": 70,
     "quote": "May your hunger be satiated",
@@ -958,6 +1030,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K071",
     "name": "XV - The Devil?",
     "id": 71,
     "quote": "Bask in the light of your mercy",
@@ -972,6 +1045,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K072",
     "name": "XVI - The Tower?",
     "id": 72,
     "quote": "Creation brings destruction",
@@ -985,6 +1059,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K073",
     "name": "XVII - The Stars?",
     "id": 73,
     "quote": "May your loss bring fortune",
@@ -998,6 +1073,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K074",
     "name": "XVIII - The Moon?",
     "id": 74,
     "quote": "May you remember lost memories",
@@ -1011,6 +1087,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K075",
     "name": "XIX - The Sun?",
     "id": 75,
     "quote": "May the darkness swallow all around you",
@@ -1024,6 +1101,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K076",
     "name": "XX - Judgement?",
     "id": 76,
     "quote": "May you redeem those found wanting",
@@ -1037,6 +1115,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K077",
     "name": "XXI - The World?",
     "id": 77,
     "quote": "Step into the abyss",
@@ -1050,6 +1129,7 @@
     "kind": "tarot"
   },
   {
+    "code": "K080",
     "name": "Wild Card",
     "id": 80,
     "quote": "Again",
@@ -1061,6 +1141,7 @@
     "kind": "special_card"
   },
   {
+    "code": "K081",
     "name": "Soul of Isaac",
     "id": 81,
     "quote": "Reroll... or not",
@@ -1072,6 +1153,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K082",
     "name": "Soul of Magdalene",
     "id": 82,
     "quote": "Give me your love!",
@@ -1083,6 +1165,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K083",
     "name": "Soul of Cain",
     "id": 83,
     "quote": "Opens the unopenable",
@@ -1094,6 +1177,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K084",
     "name": "Soul of Judas",
     "id": 84,
     "quote": "Right behind you",
@@ -1105,6 +1189,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K085",
     "name": "Soul of ???",
     "id": 85,
     "quote": "Chemical warfare",
@@ -1116,6 +1201,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K086",
     "name": "Soul of Eve",
     "id": 86,
     "quote": "Your very own murder",
@@ -1127,6 +1213,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K087",
     "name": "Soul of Samson",
     "id": 87,
     "quote": "Slay a thousand",
@@ -1138,6 +1225,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K088",
     "name": "Soul of Azazel",
     "id": 88,
     "quote": "Demon rage!",
@@ -1149,6 +1237,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K089",
     "name": "Soul of Lazarus",
     "id": 89,
     "quote": "Life after death",
@@ -1160,6 +1249,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K090",
     "name": "Soul of Eden",
     "id": 90,
     "quote": "Embrace chaos",
@@ -1171,6 +1261,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K091",
     "name": "Soul of the Lost",
     "id": 91,
     "quote": "Leave your body behind",
@@ -1182,6 +1273,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K092",
     "name": "Soul of Lilith",
     "id": 92,
     "quote": "Motherhood",
@@ -1193,6 +1285,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K093",
     "name": "Soul of the Keeper",
     "id": 93,
     "quote": "$$$",
@@ -1204,6 +1297,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K094",
     "name": "Soul of Apollyon",
     "id": 94,
     "quote": "Bringer of calamity",
@@ -1215,6 +1309,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K095",
     "name": "Soul of the Forgotten",
     "id": 95,
     "quote": "Skeletal protector",
@@ -1226,6 +1321,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K096",
     "name": "Soul of Bethany",
     "id": 96,
     "quote": "Friends from beyond",
@@ -1237,6 +1333,7 @@
     "kind": "soul_stone"
   },
   {
+    "code": "K097",
     "name": "Soul of Jacob and Esau",
     "id": 97,
     "quote": "Bound by blood",
