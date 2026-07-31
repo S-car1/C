@@ -148,7 +148,7 @@
   },
   {
     "code": "PJ22",
-    "name": "Tainted ???",
+    "name": "Tainted ???",
     "tainted": true,
     "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as ???",
     "icon": "icons/characters/PJ22.png"

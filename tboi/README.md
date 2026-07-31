@@ -19,6 +19,7 @@ tboi/
     characters.json      # 34 personajes (17 normales + 17 tainted) — wiki.gg
     synergies.json        # 406 combos de sinergia entre 28 items de tears — tboi.com
     routes.json           # 4 rutas: Mother, Beast/Dogma, Hush, Delirium — wiki.gg
+    marks.json             # 22 marcas de completación (13 base + 9 tainted) — wiki.gg
     unlocks.json          # pendiente
 ```
 
@@ -154,6 +155,34 @@ boss), no capturas paso a paso de "hacé click acá" — la wiki no tiene ese
 tipo de contenido ilustrado, así que se usó lo más cercano y preciso
 disponible (texto verificado contra las páginas oficiales de cada piso/boss).
 
+### `marks.json`
+
+```jsonc
+{
+  "code": "M01",
+  "name": "Heart",
+  "boss": "Mom's Heart or It Lives!",
+  "tainted": false,           // true = aplica a personajes tainted (set MT01-MT09)
+  "unlocks": {
+    "Isaac": "Lost Baby",      // nombre de personaje (matchea characters.json) -> item que desbloquea
+    "Magdalene": "Cute Baby",
+    // ... uno por cada personaje del mismo grupo (base o tainted)
+  }
+}
+```
+
+13 marcas para los 17 personajes base (`M01`-`M13`) + 9 marcas para los 17
+tainted (`MT01`-`MT09`) = 22 definiciones × sus personajes aplicables. El
+**progreso del usuario** (qué marca ya tiene con qué personaje) no vive acá
+— se guarda en el navegador (`localStorage`, clave `tboi_marks_progress_v1`),
+como pares `"<character.code>:<mark.code>": true`. Si cambiás de dispositivo
+o borrás datos del navegador, se pierde (ver sync pendiente más abajo).
+
+En la app, la sección **Marcas** muestra un checklist expandible por
+personaje y un botón "Sortear run pendiente" que elige al azar una
+combinación personaje+marca que todavía no esté marcada como completa,
+mostrando el boss objetivo y el ítem que desbloquea.
+
 ### `synergies.json`
 
 ```jsonc
@@ -188,7 +217,7 @@ strings) para permitir comparaciones/filtros numéricos directos.
 - **items.json, trinkets.json, cards-runes.json, synergies.json**: scrapeados
   de [tboi.com](https://www.tboi.com) (Platinum God — Isaac Cheat Sheet),
   vía HTML parseado directamente (sin protección anti-bot), el 2026-07-31.
-- **pills.json, characters.json, routes.json**: scrapeados de
+- **pills.json, characters.json, routes.json, marks.json**: scrapeados de
   [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg)
   vía la API de MediaWiki (`action=parse`), el 2026-07-31.
 

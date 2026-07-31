@@ -7,6 +7,8 @@ const DATA_FILES = {
 };
 const SYNERGIES_FILE = "../data/synergies.json";
 const ROUTES_FILE = "../data/routes.json";
+const MARKS_FILE = "../data/marks.json";
+const MARKS_PROGRESS_KEY = "tboi_marks_progress_v1";
 
 const CATEGORY_LABELS = {
   all: "Todo",
@@ -16,11 +18,14 @@ const CATEGORY_LABELS = {
   pills: "Pills",
   characters: "Personajes",
   routes: "Rutas",
+  marks: "Marcas",
 };
 
 let DATA = { items: [], trinkets: [], cards: [], pills: [], characters: [] };
 let SYNERGIES = [];
 let ROUTES = [];
+let MARKS = [];
+let marksProgress = {}; // "PJ01:M01" -> true
 let synergyIndex = new Map(); // code -> [synergy,...]
 
 let state = {
@@ -30,6 +35,8 @@ let state = {
   view: "list", // "list" | "grid"
   sort: "id", // "id" | "color" | "name"
   selectedCode: null, // "category:code" shown in the detail panel (grid mode)
+  expandedCharCode: null, // which character's mark checklist is open (marks view)
+  lastDraw: null, // { charCode, markCode } from the last "sortear" roll
 };
 
 const COLOR_WORDS = [
@@ -402,7 +409,175 @@ function renderRouteCard(route) {
   </div>`;
 }
 
+// ---- Marks (completion marks per character) ----
+
+function loadMarksProgress() {
+  try {
+    marksProgress = JSON.parse(localStorage.getItem(MARKS_PROGRESS_KEY) || "{}");
+  } catch {
+    marksProgress = {};
+  }
+}
+
+function saveMarksProgress() {
+  localStorage.setItem(MARKS_PROGRESS_KEY, JSON.stringify(marksProgress));
+}
+
+function progressKey(charCode, markCode) {
+  return `${charCode}:${markCode}`;
+}
+
+function marksForCharacter(character) {
+  return MARKS.filter((m) => m.tainted === character.tainted);
+}
+
+function isMarkDone(charCode, markCode) {
+  return !!marksProgress[progressKey(charCode, markCode)];
+}
+
+function charProgressCount(character) {
+  const applicable = marksForCharacter(character);
+  const done = applicable.filter((m) => isMarkDone(character.code, m.code)).length;
+  return { done, total: applicable.length };
+}
+
+function getMissingCombos() {
+  const combos = [];
+  for (const character of DATA.characters) {
+    for (const mark of marksForCharacter(character)) {
+      if (!isMarkDone(character.code, mark.code)) {
+        combos.push({ character, mark });
+      }
+    }
+  }
+  return combos;
+}
+
+function renderDrawResult() {
+  const el = document.getElementById("marksDraw");
+  if (!state.lastDraw) {
+    el.innerHTML = "";
+    return;
+  }
+  const character = DATA.characters.find((c) => c.code === state.lastDraw.charCode);
+  const mark = MARKS.find((m) => m.code === state.lastDraw.markCode);
+  if (!character || !mark) {
+    el.innerHTML = "";
+    return;
+  }
+  const unlock = mark.unlocks[character.name];
+  const iconHtml = character.icon
+    ? `<img class="draw-icon" src="../data/${character.icon}" alt="" loading="lazy">`
+    : "";
+  el.innerHTML = `
+    <div class="draw-card">
+      ${iconHtml}
+      <div class="draw-text">
+        <div class="draw-line">Ahora juega con <b>${escapeHtml(character.name)}</b></div>
+        <div class="draw-line">Objetivo: <b>${escapeHtml(mark.boss)}</b> <span class="text-dim">(marca: ${escapeHtml(mark.name)})</span></div>
+        ${unlock ? `<div class="draw-line draw-unlock">Desbloquea: <b>${escapeHtml(unlock)}</b></div>` : ""}
+      </div>
+    </div>
+  `;
+}
+
+function drawRandomRun() {
+  const missing = getMissingCombos();
+  if (!missing.length) {
+    state.lastDraw = null;
+    document.getElementById("marksDraw").innerHTML =
+      `<div class="draw-card"><div class="draw-text">¡No quedan marcas pendientes! Marca menos cosas como completadas si esto es un error.</div></div>`;
+    return;
+  }
+  const pick = missing[Math.floor(Math.random() * missing.length)];
+  state.lastDraw = { charCode: pick.character.code, markCode: pick.mark.code };
+  renderDrawResult();
+}
+
+function renderMarksCharCard(character) {
+  const { done, total } = charProgressCount(character);
+  const expanded = state.expandedCharCode === character.code;
+  const iconHtml = character.icon
+    ? `<img class="card-icon" src="../data/${character.icon}" alt="" loading="lazy">`
+    : `<div class="card-icon card-icon-placeholder"></div>`;
+  const marksHtml = marksForCharacter(character)
+    .map((mark) => {
+      const checked = isMarkDone(character.code, mark.code);
+      const unlock = mark.unlocks[character.name];
+      return `<label class="mark-row">
+        <input type="checkbox" data-char="${character.code}" data-mark="${mark.code}" ${checked ? "checked" : ""}>
+        <span class="mark-row-text">
+          <b>${escapeHtml(mark.name)}</b> — ${escapeHtml(mark.boss)}
+          ${unlock ? `<span class="text-dim"> · desbloquea ${escapeHtml(unlock)}</span>` : ""}
+        </span>
+      </label>`;
+    })
+    .join("");
+
+  return `<div class="card ${expanded ? "expanded" : ""}" data-char-code="${character.code}">
+    <div class="card-head marks-card-head">
+      ${iconHtml}
+      <div class="card-head-text">
+        <div class="card-title">${escapeHtml(character.name)}</div>
+        <div class="card-quote">${done} / ${total} marcas</div>
+      </div>
+    </div>
+    <div class="card-detail mark-list">
+      ${marksHtml}
+    </div>
+  </div>`;
+}
+
+function renderMarks() {
+  document.getElementById("detailPanel").classList.add("hidden");
+  document.getElementById("empty").classList.add("hidden");
+  const resultsEl = document.getElementById("results");
+
+  const q = normalizeText(state.query);
+  const characters = q
+    ? DATA.characters.filter((c) => normalizeText(c.name).includes(q))
+    : DATA.characters;
+
+  const totalDone = DATA.characters.reduce((sum, c) => sum + charProgressCount(c).done, 0);
+  const totalMarks = DATA.characters.reduce((sum, c) => sum + charProgressCount(c).total, 0);
+
+  resultsEl.innerHTML = `
+    <div class="marks-header">
+      <div class="result-count">${totalDone} / ${totalMarks} marcas completadas en total</div>
+      <button id="drawBtn" class="draw-btn">🎲 Sortear run pendiente</button>
+      <div id="marksDraw"></div>
+    </div>
+    ${characters.map(renderMarksCharCard).join("")}
+  `;
+
+  document.getElementById("drawBtn").addEventListener("click", drawRandomRun);
+  renderDrawResult();
+
+  resultsEl.querySelectorAll(".marks-card-head").forEach((el) => {
+    el.addEventListener("click", () => {
+      const code = el.closest(".card").dataset.charCode;
+      state.expandedCharCode = state.expandedCharCode === code ? null : code;
+      renderMarks();
+    });
+  });
+
+  resultsEl.querySelectorAll('input[type="checkbox"][data-char]').forEach((cb) => {
+    cb.addEventListener("click", (e) => e.stopPropagation());
+    cb.addEventListener("change", () => {
+      const key = progressKey(cb.dataset.char, cb.dataset.mark);
+      if (cb.checked) marksProgress[key] = true;
+      else delete marksProgress[key];
+      saveMarksProgress();
+      renderMarks();
+    });
+  });
+}
+
 function render() {
+  if (state.category === "marks") {
+    renderMarks();
+    return;
+  }
   if (state.category === "routes") {
     renderRoutes();
     return;
@@ -492,7 +667,7 @@ function renderQualityChips() {
 
 function renderViewControls() {
   const el = document.getElementById("viewControls");
-  if (state.category === "routes") {
+  if (state.category === "routes" || state.category === "marks") {
     el.classList.add("hidden");
     el.innerHTML = "";
     return;
@@ -557,6 +732,10 @@ async function loadData() {
 
   const routesRes = await fetch(ROUTES_FILE);
   ROUTES = await routesRes.json();
+
+  const marksRes = await fetch(MARKS_FILE);
+  MARKS = await marksRes.json();
+  loadMarksProgress();
 }
 
 async function init() {
