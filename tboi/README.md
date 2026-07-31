@@ -12,6 +12,7 @@ tboi/
     cards-runes.json    # 97 cartas de tarot/baraja, runas y soul stones — tboi.com
     pills.json          # 50 pills, efecto normal + horse pill — wiki.gg
     characters.json      # 34 personajes (17 normales + 17 tainted) — wiki.gg
+    synergies.json        # 406 combos de sinergia entre 28 items de tears — tboi.com
     unlocks.json         # pendiente
     routes.json          # pendiente (Mother, Beast, Delirium, Hush)
 ```
@@ -108,13 +109,39 @@ consistentes, muchos vienen null).
 }
 ```
 
+### `synergies.json`
+
+```jsonc
+{
+  "item_a_code": "C002",
+  "item_a_name": "The Inner Eye",
+  "item_b_code": "C002",
+  "item_b_name": "The Inner Eye",
+  "text": "Taking multiple Inner Eye items will give +3 tears per item taken..."
+}
+```
+
+Matriz de sinergias entre pares de items, extraída de la herramienta
+interactiva de tboi.com/afterbirth-synergies (selecciona 2 items y muestra
+el texto de su interacción). **Cobertura limitada**: son 406 combos entre
+solo 28 items — los que más modifican el tipo/forma de las lágrimas
+(Brimstone, Tech, Ipecac, Monstro's Lung, Ludovico, etc.), que es donde las
+sinergias son más impredecibles y vale la pena consultarlas. No cubre items
+de Repentance ni la mayoría de items pasivos simples (esos no tienen
+interacciones "raras" que documentar). Cuando `item_a_code == item_b_code`,
+describe qué pasa al tener 2 copias del mismo item.
+
+Para uso en la app: al consultar un item, buscar en este archivo por
+`item_a_code` o `item_b_code` igual a su `code` para listar todas sus
+sinergias conocidas.
+
 Ordenado por `id` ascendente donde aplica. `id`/`quality` son enteros (no
 strings) para permitir comparaciones/filtros numéricos directos.
 
 ## Fuentes
 
-- **items.json, trinkets.json, cards-runes.json**: scrapeados de
-  [tboi.com](https://www.tboi.com) (Platinum God — Isaac Cheat Sheet),
+- **items.json, trinkets.json, cards-runes.json, synergies.json**: scrapeados
+  de [tboi.com](https://www.tboi.com) (Platinum God — Isaac Cheat Sheet),
   vía HTML parseado directamente (sin protección anti-bot), el 2026-07-31.
 - **pills.json, characters.json**: scrapeados de
   [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg)
