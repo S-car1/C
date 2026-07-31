@@ -1,1 +1,172 @@
-[]
+[
+  {
+    "name": "Isaac",
+    "tainted": false,
+    "unlock_requirement": "None; unlocked by default"
+  },
+  {
+    "name": "Magdalene",
+    "tainted": false,
+    "unlock_requirement": "Have 7 or more Red Heart Containers at one time"
+  },
+  {
+    "name": "Cain",
+    "tainted": false,
+    "unlock_requirement": "Hold 55 Coins at one time"
+  },
+  {
+    "name": "Judas",
+    "tainted": false,
+    "unlock_requirement": "Defeat Satan"
+  },
+  {
+    "name": "???",
+    "tainted": false,
+    "unlock_requirement": "Defeat Mom's Heart 10 times"
+  },
+  {
+    "name": "Eve",
+    "tainted": false,
+    "unlock_requirement": "Don't pick up any hearts for 2 floors in a row"
+  },
+  {
+    "name": "Samson",
+    "tainted": false,
+    "unlock_requirement": "Complete 2 floors in a row without taking damage"
+  },
+  {
+    "name": "Azazel",
+    "tainted": false,
+    "unlock_requirement": "Make 3 Deals with the Devil in one run"
+  },
+  {
+    "name": "Lazarus",
+    "tainted": false,
+    "unlock_requirement": "Have 4 or more Soul Hearts at one time"
+  },
+  {
+    "name": "Eden",
+    "tainted": false,
+    "unlock_requirement": "Complete Chapter 4"
+  },
+  {
+    "name": "The Lost",
+    "tainted": false,
+    "unlock_requirement": "It's complicated Die in a Sacrifice Room while holding Missing Poster"
+  },
+  {
+    "name": "Lilith",
+    "tainted": false,
+    "unlock_requirement": "Defeat Ultra Greed as Azazel"
+  },
+  {
+    "name": "Keeper",
+    "tainted": false,
+    "unlock_requirement": "Donate 1000 Coins to the Greed Donation Machine"
+  },
+  {
+    "name": "Apollyon",
+    "tainted": false,
+    "unlock_requirement": "Defeat Mega Satan"
+  },
+  {
+    "name": "The Forgotten",
+    "tainted": false,
+    "unlock_requirement": "It's complicated"
+  },
+  {
+    "name": "Bethany",
+    "tainted": false,
+    "unlock_requirement": "Defeat Mom's Heart or It Lives! on hard mode as Lazarus , without dying at all"
+  },
+  {
+    "name": "Jacob and Esau",
+    "tainted": false,
+    "unlock_requirement": "Defeat Mother"
+  },
+  {
+    "name": "Tainted Isaac",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Isaac"
+  },
+  {
+    "name": "Tainted Magdalene",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene"
+  },
+  {
+    "name": "Tainted Cain",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Cain"
+  },
+  {
+    "name": "Tainted Judas",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Judas"
+  },
+  {
+    "name": "Tainted ???",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as ???"
+  },
+  {
+    "name": "Tainted Eve",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Eve"
+  },
+  {
+    "name": "Tainted Samson",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Samson"
+  },
+  {
+    "name": "Tainted Azazel",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Azazel"
+  },
+  {
+    "name": "Tainted Lazarus",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus"
+  },
+  {
+    "name": "Tainted Eden",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Eden"
+  },
+  {
+    "name": "Tainted Lost",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as The Lost"
+  },
+  {
+    "name": "Tainted Lilith",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Lilith"
+  },
+  {
+    "name": "Tainted Keeper",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Keeper"
+  },
+  {
+    "name": "Tainted Apollyon",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon"
+  },
+  {
+    "name": "Tainted Forgotten",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten"
+  },
+  {
+    "name": "Tainted Bethany",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Bethany"
+  },
+  {
+    "name": "Tainted Jacob",
+    "tainted": true,
+    "unlock_requirement": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau"
+  }
+]

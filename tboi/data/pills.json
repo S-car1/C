@@ -1,1 +1,402 @@
-[]
+[
+  {
+    "id": 0,
+    "name": "Bad Gas",
+    "polarity": "N",
+    "class": "1",
+    "effect": "Isaac farts, dealing 5 damage and poisoning enemies around him.",
+    "horse_pill_effect": "The poison affects all enemies in the room."
+  },
+  {
+    "id": 1,
+    "name": "Bad Trip",
+    "polarity": "-",
+    "class": "2",
+    "effect": "Deals a full heart of damage to Isaac. Using a Bad Trip pill while Isaac only has a single heart left or less turns it into a Full Health pill. This doesn't count as damage for the purposes of Devil Room / Angel Room generation odds or score reduction.",
+    "horse_pill_effect": "Deals two hearts of damage. If Isaac would not survive, the pill becomes Full Health."
+  },
+  {
+    "id": 2,
+    "name": "Balls of Steel",
+    "polarity": "+",
+    "class": "2",
+    "effect": "Grants Isaac two soul hearts.",
+    "horse_pill_effect": "Grants four soul hearts."
+  },
+  {
+    "id": 3,
+    "name": "Bombs Are Key",
+    "polarity": "N",
+    "class": "2",
+    "effect": "Swaps the values of Isaac's Bombs and Keys . The effects of Golden Bombs and Golden Keys are also swapped.",
+    "horse_pill_effect": "The number of bombs and keys is increased by 50% while swapping."
+  },
+  {
+    "id": 4,
+    "name": "Explosive Diarrhea",
+    "polarity": "N",
+    "class": "1",
+    "effect": "Spawns a lit bomb behind Isaac every second for five seconds.",
+    "horse_pill_effect": "Spawns more bombs with the effects of Mr. Mega and Bobby-Bomb ."
+  },
+  {
+    "id": 5,
+    "name": "Full Health",
+    "polarity": "+",
+    "class": "2",
+    "effect": "Refills every empty red heart container.",
+    "horse_pill_effect": "Fully heals and grants 3 soul hearts."
+  },
+  {
+    "id": 6,
+    "name": "Health Down",
+    "polarity": "-",
+    "class": "3",
+    "effect": "Removes one red heart container. Acts as a Health Up pill if Isaac has one or fewer red heart containers. Characters who cannot have red heart containers will lose one heart.",
+    "horse_pill_effect": "Removes two heart containers. If Isaac has 0 or 1 heart containers, the pill becomes Health Up, and if he has 2 with no other types of health, they are removed and he is given half a soul heart."
+  },
+  {
+    "id": 7,
+    "name": "Health Up",
+    "polarity": "+",
+    "class": "3",
+    "effect": "Adds one empty red heart container.",
+    "horse_pill_effect": "Adds two empty red heart containers."
+  },
+  {
+    "id": 8,
+    "name": "I Found Pills",
+    "polarity": "N",
+    "class": "0",
+    "effect": "Changes the appearance of Isaac's face. This pill is cosmetic only, and the effect disappears when Isaac leaves the room.",
+    "horse_pill_effect": "Isaac's face gets a permanent, very exaggerated expression resembling a horse."
+  },
+  {
+    "id": 9,
+    "name": "Puberty",
+    "polarity": "N",
+    "class": "0",
+    "effect": "Causes Isaac to grow four hairs from the top of his head and zits on his face. This pill is cosmetic only and will stay for the rest of the run. Consuming three puberty pills will grant the Adult transformation, granting one red heart container and making Isaac's voice slightly deeper (one time effect).",
+    "horse_pill_effect": "Isaac gains very fluffy hair covering his entire head and even face."
+  },
+  {
+    "id": 10,
+    "name": "Pretty Fly",
+    "polarity": "+",
+    "class": "2",
+    "effect": "Grants a fly orbital, up to 3 maximum, that circles the player, blocking projectiles and damaging fly-type enemies on touch.",
+    "horse_pill_effect": "Spawns a Big Fan . There is no upper limit. These Big Fans do not contribute towards the Beelzebub transformation."
+  },
+  {
+    "id": 11,
+    "name": "Range Down",
+    "polarity": "-",
+    "class": "3",
+    "effect": "-2.00 range . -1.00 range.",
+    "horse_pill_effect": "-2.00 range."
+  },
+  {
+    "id": 12,
+    "name": "Range Up",
+    "polarity": "+",
+    "class": "3",
+    "effect": "+2.50 range. +1.25 range.",
+    "horse_pill_effect": "+2.50 range."
+  },
+  {
+    "id": 13,
+    "name": "Speed Down",
+    "polarity": "-",
+    "class": "3",
+    "effect": "-0.12 speed .",
+    "horse_pill_effect": "-0.24 speed."
+  },
+  {
+    "id": 14,
+    "name": "Speed Up",
+    "polarity": "+",
+    "class": "3",
+    "effect": "+0.15 speed.",
+    "horse_pill_effect": "+0.30 speed."
+  },
+  {
+    "id": 15,
+    "name": "Tears Down",
+    "polarity": "-",
+    "class": "3",
+    "effect": "-0.28 tears .",
+    "horse_pill_effect": "-0.56 tears."
+  },
+  {
+    "id": 16,
+    "name": "Tears Up",
+    "polarity": "+",
+    "class": "3",
+    "effect": "+0.35 tears.",
+    "horse_pill_effect": "+0.70 tears."
+  },
+  {
+    "id": 17,
+    "name": "Luck Down",
+    "polarity": "-",
+    "class": "3",
+    "effect": "-1 luck .",
+    "horse_pill_effect": "-2 luck."
+  },
+  {
+    "id": 18,
+    "name": "Luck Up",
+    "polarity": "+",
+    "class": "3",
+    "effect": "+1 luck.",
+    "horse_pill_effect": "+2 luck."
+  },
+  {
+    "id": 19,
+    "name": "Telepills",
+    "polarity": "N",
+    "class": "1",
+    "effect": "Teleports Isaac to a random room . Has a small chance to teleport Isaac to the I AM ERROR room, and an extremely small chance to teleport him to the Black Market , like Undefined . Using a Telepills in the mirrored version of Downpour / Dross II has a chance to teleport Isaac to an Ultra Secret Room .",
+    "horse_pill_effect": "No difference. Guarantees teleportation to a special room."
+  },
+  {
+    "id": 20,
+    "name": "48 Hour Energy",
+    "polarity": "+",
+    "class": "2",
+    "effect": "Drops one to two Lil' Batteries and fully charges the spacebar item . Can be used with Placebo or D1 to generate infinite batteries.",
+    "horse_pill_effect": "Spawns 3-4 batteries."
+  },
+  {
+    "id": 21,
+    "name": "Hematemesis",
+    "polarity": "N",
+    "class": "2",
+    "effect": "Sets Isaac's red heart health to 1, then spawns 1-4 Red Hearts . This fills Isaac's first red heart container (even if Isaac's red health is less than 1) and empties the rest, including Bone Hearts . This effect does not count as damage. If used without any red heart containers, no health will be deducted, but red hearts will still spawn. If used in a Super Secret Room containing a Black Heart or Eternal Heart , it will spawn those types of hearts instead. If used by Keeper , will spawn pennies instead.",
+    "horse_pill_effect": "Spawns 4-7 hearts."
+  },
+  {
+    "id": 22,
+    "name": "Paralysis",
+    "polarity": "-",
+    "class": "1",
+    "effect": "Prevents Isaac from moving and shooting for 2 seconds.",
+    "horse_pill_effect": "The effect lasts 4 seconds."
+  },
+  {
+    "id": 23,
+    "name": "I can see forever!",
+    "polarity": "+",
+    "class": "2",
+    "effect": "Opens all entrances to the Secret Room and Super Secret Room for the current floor.",
+    "horse_pill_effect": "In addition to the normal effect, fully reveals the map like The Mind ."
+  },
+  {
+    "id": 24,
+    "name": "Pheromones",
+    "polarity": "+",
+    "class": "1",
+    "effect": "Charms all enemies in the room for a short period of time.",
+    "horse_pill_effect": "The charm is permanent, turning the enemies friendly ."
+  },
+  {
+    "id": 25,
+    "name": "Amnesia",
+    "polarity": "-",
+    "class": "2",
+    "effect": "Replaces the floor map with a ? for the rest of the floor, identical to the effect of Curse of the Lost. If no other curses are active for the floor, the Curse of the Lost will appear under the level name when the map key is held. This effect can be negated by picking up Black Candle , but will not prevent future uses of the Amnesia pill from giving the Curse of the Lost effect. Also the only pill to have its flavor text appear on a piece of paper as curses do.",
+    "horse_pill_effect": "No difference. Unidentifies all previously identified pills."
+  },
+  {
+    "id": 26,
+    "name": "Lemon Party",
+    "polarity": "+",
+    "class": "1",
+    "effect": "Spawns a large yellow pool (similar to Lemon Mishap ) around Isaac. Greatly damages any enemy that steps on it, for 22 damage per tick or 66 damage per second.",
+    "horse_pill_effect": "The puddle is larger, covering nearly the entire room if used near the center."
+  },
+  {
+    "id": 27,
+    "name": "R U a Wizard?",
+    "polarity": "-",
+    "class": "1",
+    "effect": "Tears are shot diagonally outwards for 30 seconds, making it much harder to aim. This effect will persist between rooms until it wears off.",
+    "horse_pill_effect": "The effect lasts for 60 seconds."
+  },
+  {
+    "id": 28,
+    "name": "Percs!",
+    "polarity": "+",
+    "class": "1",
+    "effect": "For the duration of the room, taking damage only removes a half-heart from Isaac's HP, regardless of the source of the damage. (Similar effect to The Wafer 's) Unlocked by: Complete PAY TO PLAY (challenge #24) .",
+    "horse_pill_effect": "No difference. Heals Isaac fully in addition to the usual effect."
+  },
+  {
+    "id": 29,
+    "name": "Addicted!",
+    "polarity": "-",
+    "class": "1",
+    "effect": "For the duration of the room, taking damage removes a full heart from Isaac's HP, regardless of the source of the damage. Also changes Isaac's appearance for the room. Unlocked by: Complete PAY TO PLAY (challenge #24) .",
+    "horse_pill_effect": "No difference. Gives Isaac one Broken Heart in addition to the usual effect."
+  },
+  {
+    "id": 30,
+    "name": "Re-Lax",
+    "polarity": "N",
+    "class": "0",
+    "effect": "Spawns Poop at Isaac's position for a few seconds. A higher speed stat means Isaac can cover more tiles in poop in the same time. A pun on laxatives. Unlocked by: Complete Have a Heart (challenge #25) .",
+    "horse_pill_effect": "The effect lasts much longer."
+  },
+  {
+    "id": 31,
+    "name": "???",
+    "polarity": "-",
+    "class": "1",
+    "effect": "Gives the Curse of the Maze effect for the remainder of the floor. The effect can stack with other curses . If no other curses are active for the floor, Curse of the Maze will appear under the level name when Tab is held. This effect can be negated by picking up Black Candle , but will not prevent future uses of the ??? pill from giving the Curse of the Maze effect. As the pill's name is \"???\", the same as what unidentified pills are referred to, it is easy to accidentally use it more than once per run. It is recommended to memorize its color upon first using it. Using more than one ??? pill on a floor will add more curses. Unlocked by: Complete Have a Heart (challenge #25) .",
+    "horse_pill_effect": "No difference. Gives Curse of the Maze and one other curse."
+  },
+  {
+    "id": 32,
+    "name": "One makes you larger",
+    "polarity": "N",
+    "class": "1",
+    "effect": "Increases Isaac's size and decreases the pitch of his voice. This effect does not increase the size of Isaac's hitbox, but increases the size of The Forgotten 's bone club. These pills contribute to the Stompy transformation.",
+    "horse_pill_effect": "Size increases by two steps."
+  },
+  {
+    "id": 33,
+    "name": "One makes you small",
+    "polarity": "N",
+    "class": "1",
+    "effect": "Decreases Isaac's size and increases the pitch of his voice. This effect decreases the size of Isaac's hitbox; a small enough hitbox allows Isaac to walk \"under\" certain projectiles to avoid them.",
+    "horse_pill_effect": "Size decreases by two steps."
+  },
+  {
+    "id": 34,
+    "name": "Infested!",
+    "polarity": "+",
+    "class": "1",
+    "effect": "Destroys all poop in the room and spawns a single blue spider under Isaac and on each destroyed poop.",
+    "horse_pill_effect": "Double the number of spiders spawned."
+  },
+  {
+    "id": 35,
+    "name": "Infested?",
+    "polarity": "+",
+    "class": "1",
+    "effect": "Spawns blue spiders equal to the number of enemies in the room. If there are no enemies in the room, spawns 1-3 Blue Spiders.",
+    "horse_pill_effect": "Double the number of spiders spawned."
+  },
+  {
+    "id": 36,
+    "name": "Power Pill!",
+    "polarity": "+",
+    "class": "1",
+    "effect": "Temporarily grants invulnerability , inflicts fear on enemies in the room, lets Isaac deal contact damage, and has a chance to replenish a Half Red Heart every time an enemy is killed, similar to The Gamekid .",
+    "horse_pill_effect": "In addition to the normal effect, grants Huge Growth for +7 flat damage and +3 range. The Huge Growth bonus persists after the Gamekid wears off."
+  },
+  {
+    "id": 37,
+    "name": "Retro Vision",
+    "polarity": "-",
+    "class": "1",
+    "effect": "Applies a pixelating filter on the screen 3 times over 30 seconds. The effect continues between floors. Pixelates the screen and degrades colors for 30 seconds.",
+    "horse_pill_effect": "The effect lasts 90 seconds, with no breaks."
+  },
+  {
+    "id": 38,
+    "name": "Friends Till The End!",
+    "polarity": "+",
+    "class": "1",
+    "effect": "Spawns three blue flies .",
+    "horse_pill_effect": "Spawns 12 blue flies."
+  },
+  {
+    "id": 39,
+    "name": "X-Lax",
+    "polarity": "-",
+    "class": "0",
+    "effect": "Creates a pool of slippery brown creep underneath Isaac.",
+    "horse_pill_effect": "The pool lasts much longer."
+  },
+  {
+    "id": 40,
+    "name": "Something's wrong...",
+    "polarity": "+",
+    "class": "0",
+    "effect": "Creates a pool of black creep beneath Isaac that slows enemies.",
+    "horse_pill_effect": "The pool lasts much longer."
+  },
+  {
+    "id": 41,
+    "name": "I'm Drowsy...",
+    "polarity": "N",
+    "class": "1",
+    "effect": "Slows all enemies for the duration of the room. Applies the Stop Watch effect, slowing all enemies, Isaac, and the background music as well as additionally applying the Slowness status effect on every enemy for the duration of the room.",
+    "horse_pill_effect": "No difference. The effect applies for the whole floor."
+  },
+  {
+    "id": 42,
+    "name": "I'm Excited!!!",
+    "polarity": "N",
+    "class": "1",
+    "effect": "Increases the speed of all enemies for the duration of the room. Increases the speed of all enemies, Isaac, and the background music for the duration of the room. The effect triggers again three additional times.",
+    "horse_pill_effect": "No difference. The effect applies for the whole floor."
+  },
+  {
+    "id": 43,
+    "name": "Gulp!",
+    "polarity": "+",
+    "class": "2",
+    "effect": "Destroys any trinkets held by Isaac and grants their effects permanently. Unlocked by: Complete a Victory Lap by defeating The Lamb .",
+    "horse_pill_effect": "Heals one red heart per gulped trinket (Up to 2 at the same time with Mom's Purse ). No effect for characters who cannot have red hearts. This counts for two gulp pills toward the Marbles achievement. The gulped trinket will become a Golden Trinket ."
+  },
+  {
+    "id": 44,
+    "name": "Horf!",
+    "polarity": "N",
+    "class": "0",
+    "effect": "Isaac shoots an explosive tear with the Ipecac effect that always deals 200 damage. Unlocked by: Participate in 31 Daily Challenges .",
+    "horse_pill_effect": "Isaac shoots a cluster of 6 Horf! tears with 150-400 damage per tear, resulting in an average of 1650 damage if all tears or their explosions hit."
+  },
+  {
+    "id": 45,
+    "name": "Feels like I'm walking on sunshine!",
+    "polarity": "+",
+    "class": "1",
+    "effect": "Makes Isaac fast and invincible, similar to Unicorn Stump , for 6 seconds or until Isaac leaves the room. Unlocked by: Collect every entry in the Bestiary .",
+    "horse_pill_effect": "The effect is upgraded to The Gamekid 's."
+  },
+  {
+    "id": 46,
+    "name": "Vurp!",
+    "polarity": "+",
+    "class": "2",
+    "effect": "Spawns the last pill used. Will spawn itself if no other pills were taken beforehand, or if Vurp! was the last pill used. Unlocked by: Obtain 50 items in a run.",
+    "horse_pill_effect": "If the last pill was a normal pill, it becomes a horse pill. No further difference on horse pills themselves."
+  },
+  {
+    "id": 47,
+    "name": "Shot Speed Down",
+    "polarity": "-",
+    "class": "1",
+    "effect": "-0.15 shot speed .",
+    "horse_pill_effect": "-0.30 shot speed."
+  },
+  {
+    "id": 48,
+    "name": "Shot Speed Up",
+    "polarity": "+",
+    "class": "1",
+    "effect": "+0.15 shot speed.",
+    "horse_pill_effect": "+0.30 shot speed."
+  },
+  {
+    "id": 49,
+    "name": "Experimental Pill",
+    "polarity": "N",
+    "class": "3",
+    "effect": "Increases one attribute and decreases another randomly, with the same power as normal attribute up/down pills. Will not reduce any attributes if taken with Lucky Foot , PHD or Virgo . Will not increase any attribute if taken with False PHD . If a pill-improving item is combined with False PHD, the pill gives an attribute increase, a decrease and a damage up.",
+    "horse_pill_effect": "The two effects are doubled in power."
+  }
+]
