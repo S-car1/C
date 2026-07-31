@@ -564,7 +564,7 @@ async function init() {
     await loadData();
   } catch (err) {
     document.getElementById("loading").textContent =
-      "Error cargando datos. Si abriste el archivo directamente (file://), servilo con un servidor local o GitHub Pages.";
+      "Error cargando datos. Si abriste el archivo directamente (file://), sírvelo con un servidor local o GitHub Pages.";
     console.error(err);
     return;
   }
