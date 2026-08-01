@@ -1,0 +1,1162 @@
+[
+ {
+  "rbd": 9583,
+  "nombre": "Centro Educacional Municipal Mariano Latorre",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Punta de Horcón 12346",
+  "lat": -33.57828062,
+  "lon": -70.64184013,
+  "aproximado": false
+ },
+ {
+  "rbd": 9591,
+  "nombre": "Liceo N° 523 Parque Las Américas",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Pasaje General Belgrano 12389",
+  "lat": -33.57761485,
+  "lon": -70.636358,
+  "aproximado": false
+ },
+ {
+  "rbd": 9595,
+  "nombre": "Escuela Capitán Ávalos",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Teniente Montt Salamanca 12220",
+  "lat": -33.57591274,
+  "lon": -70.65680774,
+  "aproximado": false
+ },
+ {
+  "rbd": 9597,
+  "nombre": "Escuela Pablo de Rokha",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "José Toribio Medina 12816",
+  "lat": -33.58026544,
+  "lon": -70.65106011,
+  "aproximado": false
+ },
+ {
+  "rbd": 9598,
+  "nombre": "Escuela Municipal Violeta Parra",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Pedro Prado 12351",
+  "lat": -33.57706995,
+  "lon": -70.64923849,
+  "aproximado": false
+ },
+ {
+  "rbd": 9602,
+  "nombre": "Colegio Neruda",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Profesor Julio Chávez 12846",
+  "lat": -33.58015447,
+  "lon": -70.657241,
+  "aproximado": false
+ },
+ {
+  "rbd": 9604,
+  "nombre": "Liceo Municipalizado Centro Educacional La Pintana",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Padre Hurtado 13132",
+  "lat": -33.58411073,
+  "lon": -70.65356126,
+  "aproximado": false
+ },
+ {
+  "rbd": 9616,
+  "nombre": "Liceo Víctor Jara",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "El Raulí 12951",
+  "lat": -33.58327103,
+  "lon": -70.64240597,
+  "aproximado": false
+ },
+ {
+  "rbd": 9620,
+  "nombre": "Escuela Básica Juan de Dios Aldea",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Miguel Ángel 3471",
+  "lat": -33.58585162,
+  "lon": -70.61302916,
+  "aproximado": false
+ },
+ {
+  "rbd": 9687,
+  "nombre": "Liceo Christa McAuliffe",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Gran Avenida José Miguel Carrera 9730",
+  "lat": -33.54888401,
+  "lon": -70.67061204,
+  "aproximado": false
+ },
+ {
+  "rbd": 9688,
+  "nombre": "Liceo Juan Gómez Millas",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Gran Avenida José Miguel Carrera 9740",
+  "lat": -33.54948001,
+  "lon": -70.67110271,
+  "aproximado": false
+ },
+ {
+  "rbd": 9698,
+  "nombre": "Escuela Básica Aviadores",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Baquedano 9820",
+  "lat": -33.55008996,
+  "lon": -70.66441069,
+  "aproximado": false
+ },
+ {
+  "rbd": 9702,
+  "nombre": "Escuela Básica Mario Arce Gatica",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Los Avellanos 10958",
+  "lat": -33.56250224,
+  "lon": -70.66464414,
+  "aproximado": false
+ },
+ {
+  "rbd": 9713,
+  "nombre": "Complejo Educacional Felipe Herrera Lane",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Los Cuervos 866",
+  "lat": -33.56033158,
+  "lon": -70.66630028,
+  "aproximado": false
+ },
+ {
+  "rbd": 9714,
+  "nombre": "Escuela Básica José Martí",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "18 de Septiembre 1080",
+  "lat": -33.54192616,
+  "lon": -70.68393605,
+  "aproximado": false
+ },
+ {
+  "rbd": 9715,
+  "nombre": "Escuela Básica Villa Santa Elena",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Pasaje Los Platinos 11169",
+  "lat": -33.56490614,
+  "lon": -70.66691155,
+  "aproximado": false
+ },
+ {
+  "rbd": 9717,
+  "nombre": "Escuela Ciudad de Lyon",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Almirante Riveros 10122",
+  "lat": -33.55604055,
+  "lon": -70.65696541,
+  "aproximado": false
+ },
+ {
+  "rbd": 9718,
+  "nombre": "Escuela Básica Paul Harris",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Los Pinares",
+  "lat": -33.56638898,
+  "lon": -70.65996378,
+  "aproximado": false
+ },
+ {
+  "rbd": 9721,
+  "nombre": "Escuela Nemesio Antúnez",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "El Libertador 1001",
+  "lat": -33.57130292,
+  "lon": -70.66353185,
+  "aproximado": false
+ },
+ {
+  "rbd": 9728,
+  "nombre": "Escuela Diferencial para Niños Sordos",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Pasaje Laura León",
+  "lat": -33.54979,
+  "lon": -70.66715,
+  "aproximado": false
+ },
+ {
+  "rbd": 10542,
+  "nombre": "Centro Educacional Baldomero Lillo",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Calderón de la Barca 272",
+  "lat": -33.58039894,
+  "lon": -70.68901981,
+  "aproximado": false
+ },
+ {
+  "rbd": 10543,
+  "nombre": "Liceo Polivalente Fidel Pinochet Le-Brun",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Bulnes 984",
+  "lat": -33.60161529,
+  "lon": -70.70430809,
+  "aproximado": false
+ },
+ {
+  "rbd": 10544,
+  "nombre": "Liceo Elvira Brady Maldonado San Bernardo",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Bulnes 902",
+  "lat": -33.60004662,
+  "lon": -70.70386476,
+  "aproximado": false
+ },
+ {
+  "rbd": 10545,
+  "nombre": "Liceo Industrial Miguel Aylwin Gajardo",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "12 de Febrero 495",
+  "lat": -33.58766572,
+  "lon": -70.70023881,
+  "aproximado": false
+ },
+ {
+  "rbd": 10546,
+  "nombre": "Escuela Pilar Moliner de Nuez",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida Covadonga 681",
+  "lat": -33.59428638,
+  "lon": -70.70694806,
+  "aproximado": false
+ },
+ {
+  "rbd": 10547,
+  "nombre": "Escuela República del Brasil",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Nogales 34",
+  "lat": -33.60402366,
+  "lon": -70.69876828,
+  "aproximado": false
+ },
+ {
+  "rbd": 10548,
+  "nombre": "Escuela Isabel Riquelme",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida Colón Sur 0191",
+  "lat": -33.59246927,
+  "lon": -70.69451769,
+  "aproximado": false
+ },
+ {
+  "rbd": 10550,
+  "nombre": "Escuela Libertador General Bernardo O'Higgins",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida Colón Sur 0145",
+  "lat": -33.59237225,
+  "lon": -70.69495127,
+  "aproximado": false
+ },
+ {
+  "rbd": 10551,
+  "nombre": "Liceo Polivalente Lucila Godoy Alcayaga",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida Central 017",
+  "lat": -33.58416715,
+  "lon": -70.70943792,
+  "aproximado": false
+ },
+ {
+  "rbd": 10553,
+  "nombre": "Escuela Marcial Martínez Ferrari",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Gran Avenida José Miguel Carrera 12552",
+  "lat": -33.57062591,
+  "lon": -70.68771908,
+  "aproximado": false
+ },
+ {
+  "rbd": 10554,
+  "nombre": "Escuela General René Schneider Chereau",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Pedro de Valdivia 0208",
+  "lat": -33.58365644,
+  "lon": -70.69237978,
+  "aproximado": false
+ },
+ {
+  "rbd": 10555,
+  "nombre": "Escuela Básica Base El Bosque",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Mariano Latorre 11600",
+  "lat": -33.56213461,
+  "lon": -70.67533683,
+  "aproximado": false
+ },
+ {
+  "rbd": 10556,
+  "nombre": "Escuela Alemania",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Santiago 0320",
+  "lat": -33.58097813,
+  "lon": -70.70619126,
+  "aproximado": false
+ },
+ {
+  "rbd": 10557,
+  "nombre": "Escuela General Alberto A. Bachelet Martínez",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Albéniz 12021",
+  "lat": -33.56626066,
+  "lon": -70.68113354,
+  "aproximado": false
+ },
+ {
+  "rbd": 10558,
+  "nombre": "Escuela República de los EE. UU. de América",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Mendoza 0785",
+  "lat": -33.57665711,
+  "lon": -70.70382197,
+  "aproximado": false
+ },
+ {
+  "rbd": 10559,
+  "nombre": "Escuela Bernardo Leighton",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Pedro Sancho de la Hoz 12630",
+  "lat": -33.5744692,
+  "lon": -70.67959837,
+  "aproximado": false
+ },
+ {
+  "rbd": 10560,
+  "nombre": "Escuela Javiera Carrera Verdugo",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Martin Monje 450",
+  "lat": -33.58403713,
+  "lon": -70.68637883,
+  "aproximado": false
+ },
+ {
+  "rbd": 10561,
+  "nombre": "Escuela Claudio Arrau León",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Los Carolinos 530",
+  "lat": -33.57174781,
+  "lon": -70.68081411,
+  "aproximado": false
+ },
+ {
+  "rbd": 10563,
+  "nombre": "Escuela Manuel Magallanes Moure",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Francisco Aranda 578",
+  "lat": -33.58902018,
+  "lon": -70.70352673,
+  "aproximado": false
+ },
+ {
+  "rbd": 10564,
+  "nombre": "Escuela República del Perú",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Nogales 7",
+  "lat": -33.60429845,
+  "lon": -70.69771244,
+  "aproximado": false
+ },
+ {
+  "rbd": 10565,
+  "nombre": "Escuela Diego Portales",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida San José 1100",
+  "lat": -33.60390273,
+  "lon": -70.68466792,
+  "aproximado": false
+ },
+ {
+  "rbd": 10567,
+  "nombre": "Escuela Mahuida",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "San Alfonso 751",
+  "lat": -33.59828611,
+  "lon": -70.71021102,
+  "aproximado": false
+ },
+ {
+  "rbd": 10568,
+  "nombre": "Escuela Canciller Orlando Letelier",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "El Pillán 1224",
+  "lat": -33.55212415,
+  "lon": -70.68780458,
+  "aproximado": false
+ },
+ {
+  "rbd": 10569,
+  "nombre": "Liceo Nuevo Porvenir",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Rodrigo de Quiroga 0924",
+  "lat": -33.5906608,
+  "lon": -70.68170621,
+  "aproximado": false
+ },
+ {
+  "rbd": 10570,
+  "nombre": "Escuela Básica Dr. Luis Sepúlveda Salvatierra",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Huelén 117",
+  "lat": -33.63890266,
+  "lon": -70.70923193,
+  "aproximado": false
+ },
+ {
+  "rbd": 10571,
+  "nombre": "Escuela Escritora Marcela Paz",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Ramón Liborio Carvallo 736",
+  "lat": -33.60630484,
+  "lon": -70.70662136,
+  "aproximado": false
+ },
+ {
+  "rbd": 10572,
+  "nombre": "Liceo Fray Luis Beltrán",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Víctor Plaza Mayorga 1049",
+  "lat": -33.54678296,
+  "lon": -70.68437761,
+  "aproximado": false
+ },
+ {
+  "rbd": 10573,
+  "nombre": "Centro Educacional Matías Cousiño",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "General Korner 234",
+  "lat": -33.55054841,
+  "lon": -70.67636413,
+  "aproximado": false
+ },
+ {
+  "rbd": 10574,
+  "nombre": "Escuela España",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Chile 225",
+  "lat": -33.57767116,
+  "lon": -70.69594467,
+  "aproximado": false
+ },
+ {
+  "rbd": 10576,
+  "nombre": "Escuela Básica Brisas de Chena",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Camino El Mariscal",
+  "lat": -33.60496632,
+  "lon": -70.68212793,
+  "aproximado": false
+ },
+ {
+  "rbd": 10577,
+  "nombre": "Escuela de Educación Diferencial",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "12 de Febrero 495",
+  "lat": -33.58811,
+  "lon": -70.70066,
+  "aproximado": false
+ },
+ {
+  "rbd": 10578,
+  "nombre": "Escuela Santa Teresa de los Morros",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida Padre Hurtado 13820",
+  "lat": -33.58863574,
+  "lon": -70.67813984,
+  "aproximado": false
+ },
+ {
+  "rbd": 10579,
+  "nombre": "Escuela José Nuez Martín",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Isla Juan Fernández 394",
+  "lat": -33.61635551,
+  "lon": -70.69273977,
+  "aproximado": false
+ },
+ {
+  "rbd": 10580,
+  "nombre": "Escuela Abraham Lincoln",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida Central 531",
+  "lat": -33.61982174,
+  "lon": -70.69227511,
+  "aproximado": false
+ },
+ {
+  "rbd": 10581,
+  "nombre": "Escuela Básica Antupillán",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Eyzaguirre 0485",
+  "lat": -33.58064077,
+  "lon": -70.70120398,
+  "aproximado": false
+ },
+ {
+  "rbd": 10584,
+  "nombre": "Liceo de Adultos Pucará de Chena",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida San José 270",
+  "lat": -33.596607,
+  "lon": -70.70192,
+  "aproximado": false
+ },
+ {
+  "rbd": 10586,
+  "nombre": "Escuela Eliodoro Yáñez Ponce de León",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Eliodoro Yáñez 1900",
+  "lat": -33.66880609,
+  "lon": -70.74256407,
+  "aproximado": false
+ },
+ {
+  "rbd": 10588,
+  "nombre": "Liceo Cardenal Antonio Samoré",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Arturo Gordon 12251",
+  "lat": -33.5643348,
+  "lon": -70.70628385,
+  "aproximado": false
+ },
+ {
+  "rbd": 10589,
+  "nombre": "Escuela Haras Los Cóndores",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Camino Nos a Los Morros",
+  "lat": -33.63910357,
+  "lon": -70.67546514,
+  "aproximado": false
+ },
+ {
+  "rbd": 10590,
+  "nombre": "Escuela Teresa García Huidobro",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Rinconada de Chena",
+  "lat": -33.5675308495786,
+  "lon": -70.7270845049611,
+  "aproximado": false
+ },
+ {
+  "rbd": 10592,
+  "nombre": "Centro Educacional Clara Solovera",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Camino Padre Hurtado 24823",
+  "lat": -33.64869065,
+  "lon": -70.66313639,
+  "aproximado": false
+ },
+ {
+  "rbd": 10686,
+  "nombre": "Liceo Municipal Poetisa Gabriela Mistral",
+  "comuna": "Calera De Tango",
+  "tipo": "escolar",
+  "direccion": "Avenida Calera de Tango 213",
+  "lat": -33.63056435,
+  "lon": -70.76014643,
+  "aproximado": false
+ },
+ {
+  "rbd": 10687,
+  "nombre": "Escuela Básica F-N° 798 Calera de Tango",
+  "comuna": "Calera De Tango",
+  "tipo": "escolar",
+  "direccion": "Camino El Sauce",
+  "lat": -33.63701714,
+  "lon": -70.81222029,
+  "aproximado": false
+ },
+ {
+  "rbd": 10688,
+  "nombre": "Liceo Lonquén",
+  "comuna": "Calera De Tango",
+  "tipo": "escolar",
+  "direccion": "Camino Santa Filomena",
+  "lat": -33.60713319,
+  "lon": -70.7892535,
+  "aproximado": false
+ },
+ {
+  "rbd": 12079,
+  "nombre": "Escuela Hernán Merino Correa",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Martín de Solís 15147",
+  "lat": -33.59525441,
+  "lon": -70.68632585,
+  "aproximado": false
+ },
+ {
+  "rbd": 12251,
+  "nombre": "Colegio Batalla de la Concepción",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Vecinal Sur 1380",
+  "lat": -33.58034729,
+  "lon": -70.66967191,
+  "aproximado": false
+ },
+ {
+  "rbd": 24403,
+  "nombre": "Colegio Simón Bolívar",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "El Ombú 02669",
+  "lat": -33.59529215,
+  "lon": -70.6255541,
+  "aproximado": false
+ },
+ {
+  "rbd": 24444,
+  "nombre": "Liceo Industrial Hardware",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Martín de Solís 15011",
+  "lat": -33.59617345,
+  "lon": -70.6867155,
+  "aproximado": false
+ },
+ {
+  "rbd": 24445,
+  "nombre": "Liceo Municipal El Roble",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Avenida Observatorio 1753",
+  "lat": -33.56361519,
+  "lon": -70.64955424,
+  "aproximado": false
+ },
+ {
+  "rbd": 24654,
+  "nombre": "Escuela Básica Cinco Pinos",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida Portales Oriente 3087",
+  "lat": -33.62681603,
+  "lon": -70.70183381,
+  "aproximado": false
+ },
+ {
+  "rbd": 24822,
+  "nombre": "Escuela Básica Presidente Salvador Allende Gossens",
+  "comuna": "El Bosque",
+  "tipo": "escolar",
+  "direccion": "Nueva Imperial 956",
+  "lat": -33.57698398,
+  "lon": -70.66591897,
+  "aproximado": false
+ },
+ {
+  "rbd": 24876,
+  "nombre": "Escuela Básica Profesora Aurelia Rojas Burgos",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Aníbal Huneeus 820",
+  "lat": -33.56050798,
+  "lon": -70.61999307,
+  "aproximado": false
+ },
+ {
+  "rbd": 25009,
+  "nombre": "Liceo Valle de Lluta",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Avenida Lo Blanco 1665",
+  "lat": -33.58448464,
+  "lon": -70.66789661,
+  "aproximado": false
+ },
+ {
+  "rbd": 25078,
+  "nombre": "Escuela Comandante Carlos Condell",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Ernesto Riquelme 1170",
+  "lat": -33.59813583,
+  "lon": -70.6784637,
+  "aproximado": false
+ },
+ {
+  "rbd": 25698,
+  "nombre": "Colegio Cordillera de los Andes",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Volcán Maipo 14489",
+  "lat": -33.59556607,
+  "lon": -70.67585805,
+  "aproximado": false
+ },
+ {
+  "rbd": 25824,
+  "nombre": "Liceo Sergio Silva Bascuñán",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Avenida Observatorio 1885",
+  "lat": -33.56434498,
+  "lon": -70.64427002,
+  "aproximado": false
+ },
+ {
+  "rbd": 25938,
+  "nombre": "Liceo de Adultos CEIA de La Pintana",
+  "comuna": "La Pintana",
+  "tipo": "escolar",
+  "direccion": "Pío X 10739",
+  "lat": -33.5598,
+  "lon": -70.62844,
+  "aproximado": false
+ },
+ {
+  "rbd": 25960,
+  "nombre": "Centro Educacional Padre Alberto Hurtado de San Bernardo",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Gustavo Campaña Gandarillas 1201",
+  "lat": -33.60390082,
+  "lon": -70.68000637,
+  "aproximado": false
+ },
+ {
+  "rbd": 31293,
+  "nombre": "Liceo Nacional Bicentenario de Excelencia",
+  "comuna": "San Bernardo",
+  "tipo": "escolar",
+  "direccion": "Bulnes 984",
+  "lat": -33.6011085,
+  "lon": -70.7043375,
+  "aproximado": false
+ },
+ {
+  "rbd": 35443,
+  "nombre": "Sala Cuna y Jardín Infantil Tennyson Ferrada - Trayén Ayún",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "OCEANO ATLANTICO 11978",
+  "lat": -33.577992,
+  "lon": -70.665398,
+  "aproximado": false
+ },
+ {
+  "rbd": 35444,
+  "nombre": "Sala Cuna y Jardín Infantil Mi Pequeño Mundo",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "EL PILLAN 1224",
+  "lat": -33.55279,
+  "lon": -70.688174,
+  "aproximado": false
+ },
+ {
+  "rbd": 35445,
+  "nombre": "Sala Cuna y Jardín Infantil San Alberto Hurtado",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "LA SERENA 601 POBL EL ALMENDRO",
+  "lat": -33.57483,
+  "lon": -70.674105,
+  "aproximado": false
+ },
+ {
+  "rbd": 35446,
+  "nombre": "Sala Cuna y Jardín Infantil Mágica Aventura",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "GENERAL SILVA 1285",
+  "lat": -33.577036,
+  "lon": -70.663681,
+  "aproximado": false
+ },
+ {
+  "rbd": 35447,
+  "nombre": "Sala Cuna y Jardín Infantil Paula Jaraquemada",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "LLANCAHUE 1361",
+  "lat": -33.547439,
+  "lon": -70.687978,
+  "aproximado": false
+ },
+ {
+  "rbd": 35448,
+  "nombre": "Sala Cuna y Jardín Infantil Mis Primeros Pasos",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "MAR MEDITERRANEO 1371",
+  "lat": -33.580929,
+  "lon": -70.670258,
+  "aproximado": false
+ },
+ {
+  "rbd": 35450,
+  "nombre": "Sala Cuna y Jardín Infantil San Francisco",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "SAN FRANCISCO 12235",
+  "lat": -33.575607,
+  "lon": -70.660709,
+  "aproximado": false
+ },
+ {
+  "rbd": 35451,
+  "nombre": "Sala Cuna y Jardín Infantil Marcial Martínez",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "JOSE MIGUEL CARRERA 12552",
+  "lat": -33.570091,
+  "lon": -70.687487,
+  "aproximado": false
+ },
+ {
+  "rbd": 35453,
+  "nombre": "Sala Cuna y Jardín Infantil Luz de Vida",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "LOS ANDES 11545",
+  "lat": -33.571638,
+  "lon": -70.662834,
+  "aproximado": false
+ },
+ {
+  "rbd": 35454,
+  "nombre": "Sala Cuna y Jardín Infantil Acuarela",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "STA CRUZ 10032",
+  "lat": -33.577758,
+  "lon": -70.678151,
+  "aproximado": false
+ },
+ {
+  "rbd": 35455,
+  "nombre": "Sala Cuna y Jardín Infantil Semillas del Bosque",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "VECINAL NORTE 817",
+  "lat": -33.579283,
+  "lon": -70.670028,
+  "aproximado": false
+ },
+ {
+  "rbd": 35456,
+  "nombre": "Sala Cuna y Jardín Infantil Anne Sullivan",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "PADRE HURTADO 9389",
+  "lat": -33.547939,
+  "lon": -70.667163,
+  "aproximado": false
+ },
+ {
+  "rbd": 35457,
+  "nombre": "Sala Cuna y Jardín Infantil Juan Gómez Millas",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "AVDA JOSE MIGUEL CARRERA 9740",
+  "lat": -33.549998,
+  "lon": -70.671185,
+  "aproximado": false
+ },
+ {
+  "rbd": 35557,
+  "nombre": "Jardín Infantil El Roble",
+  "comuna": "La Pintana",
+  "tipo": "jardin",
+  "direccion": "AVDA OBSERVATORIO 1765 LA PINTANA",
+  "lat": -33.564286,
+  "lon": -70.648636,
+  "aproximado": false
+ },
+ {
+  "rbd": 35558,
+  "nombre": "Jardín Infantil Mundo Activo",
+  "comuna": "La Pintana",
+  "tipo": "jardin",
+  "direccion": "APOSTOL SANTIAGO 0560 POB SANTO TOMAS",
+  "lat": -33.5588,
+  "lon": -70.623839,
+  "aproximado": false
+ },
+ {
+  "rbd": 35561,
+  "nombre": "Jardín Infantil San Daniel",
+  "comuna": "La Pintana",
+  "tipo": "jardin",
+  "direccion": "IGNACIO CARRERA PINTO 0770",
+  "lat": -33.576243,
+  "lon": -70.654262,
+  "aproximado": false
+ },
+ {
+  "rbd": 35971,
+  "nombre": "Jardín Infantil y Sala Cuna Rapa-Nui",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "MIGUEL DE UNAMUNO 02736",
+  "lat": -33.563085,
+  "lon": -70.705648,
+  "aproximado": false
+ },
+ {
+  "rbd": 35972,
+  "nombre": "Sala Cuna Rayén",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "VOLCAN GUALLATIRE N-8282, LO HERRERA",
+  "lat": -33.66622,
+  "lon": -70.74348,
+  "aproximado": false
+ },
+ {
+  "rbd": 35974,
+  "nombre": "Jardín Infantil y Sala Cuna Sillanki",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "OJOS DEL SALADO S/N",
+  "lat": -33.585856,
+  "lon": -70.666823,
+  "aproximado": false
+ },
+ {
+  "rbd": 35975,
+  "nombre": "Jardín Infantil y Sala Cuna Eluney",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "LAS MERCEDES 13350",
+  "lat": -33.584543,
+  "lon": -70.66968,
+  "aproximado": false
+ },
+ {
+  "rbd": 35976,
+  "nombre": "Jardín Infantil Millaray",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "VOLCAN MAIPO 14624POB ANDES III",
+  "lat": -33.597077,
+  "lon": -70.675942,
+  "aproximado": false
+ },
+ {
+  "rbd": 35977,
+  "nombre": "Jardín Infantil y Sala Cuna Sueño de Colores",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "MAURICIO RUGENDAS 180 VILLA PORTALES",
+  "lat": -33.625032,
+  "lon": -70.707134,
+  "aproximado": false
+ },
+ {
+  "rbd": 35978,
+  "nombre": "Jardín Infantil y Sala Cuna Todos los Santos",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "SAN MATIAS 1492",
+  "lat": -33.593388,
+  "lon": -70.670048,
+  "aproximado": false
+ },
+ {
+  "rbd": 35979,
+  "nombre": "Jardín Infantil y Sala Cuna Ayelén",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "SANTA MERCEDES 14988",
+  "lat": -33.599284,
+  "lon": -70.674362,
+  "aproximado": false
+ },
+ {
+  "rbd": 35980,
+  "nombre": "Jardín Infantil y Sala Cuna Paicaví",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "BRAULIO ARENAS 15365",
+  "lat": -33.601614,
+  "lon": -70.675797,
+  "aproximado": false
+ },
+ {
+  "rbd": 35981,
+  "nombre": "Jardín Infantil y Sala Cuna Mapu Pupeñi",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "SANATA MARTA 1101",
+  "lat": -33.590713,
+  "lon": -70.679594,
+  "aproximado": false
+ },
+ {
+  "rbd": 35982,
+  "nombre": "Jardín Infantil y Sala Cuna Inti-Suyai",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "CONCEJALA SONIA PRIETO 15080",
+  "lat": -33.601541,
+  "lon": -70.670329,
+  "aproximado": false
+ },
+ {
+  "rbd": 35983,
+  "nombre": "Jardín Infantil y Sala Cuna Tierra de Ángeles",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "HIMALAYAS 14337",
+  "lat": -33.593594,
+  "lon": -70.675485,
+  "aproximado": false
+ },
+ {
+  "rbd": 35985,
+  "nombre": "Jardín Infantil y Sala Cuna Color Esperanza",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "PASAJE CAÑETE 02753",
+  "lat": -33.571975,
+  "lon": -70.708494,
+  "aproximado": false
+ },
+ {
+  "rbd": 35999,
+  "nombre": "Jardín Infantil y Sala Cuna Poyentu-Mapu",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "CONDELL 1601",
+  "lat": -33.601094,
+  "lon": -70.674203,
+  "aproximado": false
+ },
+ {
+  "rbd": 36012,
+  "nombre": "Sala Cuna y Jardín Infantil Las Estrellitas",
+  "comuna": "Calera De Tango",
+  "tipo": "jardin",
+  "direccion": "CAMINO SANTA INES S/N, COMUNA CALERA DE TANGO",
+  "lat": -33.640547,
+  "lon": -70.766433,
+  "aproximado": false
+ },
+ {
+  "rbd": 36013,
+  "nombre": "Sala Cuna Girasoles",
+  "comuna": "Calera De Tango",
+  "tipo": "jardin",
+  "direccion": "CALLE BRISAS DEL SUR S/N VILLORIO VALLE DE TANGO",
+  "lat": -33.631002,
+  "lon": -70.819597,
+  "aproximado": false
+ },
+ {
+  "rbd": 36014,
+  "nombre": "Sala Cuna y Jardín Infantil Manitos de Ángel",
+  "comuna": "Calera De Tango",
+  "tipo": "jardin",
+  "direccion": "CALLE ORIENTE S/N VILLA JESUS",
+  "lat": -33.61089,
+  "lon": -70.81857,
+  "aproximado": false
+ },
+ {
+  "rbd": 37255,
+  "nombre": "Sala Cuna y Jardín Infantil El Tranque",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "El Bosque",
+  "lat": -33.5561468,
+  "lon": -70.6655679,
+  "aproximado": true
+ },
+ {
+  "rbd": 42324,
+  "nombre": "Jardín Infantil y Sala Cuna Elena Paut",
+  "comuna": "San Bernardo",
+  "tipo": "jardin",
+  "direccion": "Vicente Pérez Rosales",
+  "lat": -33.622749,
+  "lon": -70.7023904,
+  "aproximado": true
+ },
+ {
+  "rbd": 42325,
+  "nombre": "Sala Cuna y Jardín Infantil Felipe Herrera",
+  "comuna": "El Bosque",
+  "tipo": "jardin",
+  "direccion": "El Bosque",
+  "lat": -33.5561468,
+  "lon": -70.6655679,
+  "aproximado": true
+ },
+ {
+  "rbd": 42326,
+  "nombre": "Centro de Estimulación del Desarrollo Infantil (CEDIN)",
+  "comuna": "La Pintana",
+  "tipo": "jardin",
+  "direccion": "AVDA JUANITA",
+  "lat": -33.59422,
+  "lon": -70.618356,
+  "aproximado": false
+ }
+]

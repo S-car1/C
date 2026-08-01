@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa de Establecimientos Educacionales</title>
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <h1>Establecimientos Educacionales</h1>
+    <p class="subtitle">La Pintana · El Bosque · San Bernardo · Calera de Tango</p>
+  </header>
+
+  <div class="layout">
+    <aside class="panel">
+      <form id="search-form" class="search-form">
+        <label for="address-input">Ingresa tu dirección</label>
+        <input id="address-input" type="text" placeholder="Ej: Av. Padre Hurtado 1234, La Pintana" autocomplete="off" required>
+        <button type="submit">Buscar establecimientos cercanos</button>
+        <p id="search-status" class="search-status"></p>
+      </form>
+
+      <div class="filters">
+        <div class="filter-group">
+          <label for="filter-comuna">Comuna</label>
+          <select id="filter-comuna">
+            <option value="">Todas</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-tipo">Tipo</label>
+          <select id="filter-tipo">
+            <option value="">Todos</option>
+            <option value="escolar">Escuelas / Liceos</option>
+            <option value="jardin">Jardines / Salas cuna</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="results-summary" class="results-summary"></div>
+      <ul id="results-list" class="results-list"></ul>
+    </aside>
+
+    <main class="map-wrap">
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>
+      Datos: nómina de establecimientos y RBD (fuente interna), coordenadas del
+      <a href="https://datosabiertos.mineduc.cl/" target="_blank" rel="noopener">Directorio Oficial de Establecimientos Educacionales (Mineduc)</a>
+      y del <a href="https://geoportal.cl/" target="_blank" rel="noopener">catastro de Jardines Infantiles JUNJI (Geoportal Chile)</a>.
+      Direcciones de referencia obtenidas por geocodificación inversa (OpenStreetMap Nominatim) — pueden diferir levemente de la dirección oficial.
+      Prototipo en desarrollo, distancias son estimadas en línea recta.
+    </p>
+  </footer>
+</div>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
