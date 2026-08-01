@@ -621,6 +621,7 @@ function drawRandomRun() {
 
 function renderMarksCharCard(character) {
   const { done, total } = charProgressCount(character);
+  const pct = total ? Math.round((done / total) * 100) : 0;
   const expanded = state.expandedCharCode === character.code;
   const iconHtml = character.icon
     ? `<img class="card-icon" src="../data/${character.icon}" alt="" loading="lazy">`
@@ -651,7 +652,8 @@ function renderMarksCharCard(character) {
       ${iconHtml}
       <div class="card-head-text">
         <div class="card-title">${escapeHtml(character.name)}</div>
-        <div class="card-quote">${done} / ${total} marcas</div>
+        <div class="card-quote">${done} / ${total} marcas (${pct}%)</div>
+        <div class="mark-progress-bar"><div class="mark-progress-fill" style="width:${pct}%"></div></div>
       </div>
     </div>
     <div class="card-detail mark-list">
@@ -672,10 +674,26 @@ function renderMarks() {
 
   const totalDone = DATA.characters.reduce((sum, c) => sum + charProgressCount(c).done, 0);
   const totalMarks = DATA.characters.reduce((sum, c) => sum + charProgressCount(c).total, 0);
+  const marksPct = totalMarks ? Math.round((totalDone / totalMarks) * 100) : 0;
+
+  const charsCompleted = DATA.characters.filter((c) => {
+    const { done, total } = charProgressCount(c);
+    return total > 0 && done === total;
+  }).length;
+  const charsPct = DATA.characters.length ? Math.round((charsCompleted / DATA.characters.length) * 100) : 0;
 
   resultsEl.innerHTML = `
     <div class="marks-header">
-      <div class="result-count">${totalDone} / ${totalMarks} marcas completadas en total</div>
+      <div class="marks-summary">
+        <div class="marks-summary-item">
+          <div class="marks-summary-value">${totalDone}/${totalMarks} <span class="marks-summary-pct">(${marksPct}%)</span></div>
+          <div class="marks-summary-label">Marcas totales</div>
+        </div>
+        <div class="marks-summary-item">
+          <div class="marks-summary-value">${charsCompleted}/${DATA.characters.length} <span class="marks-summary-pct">(${charsPct}%)</span></div>
+          <div class="marks-summary-label">Personajes al 100%</div>
+        </div>
+      </div>
       <button id="drawBtn" class="draw-btn">🎲 Sortear run pendiente</button>
       <div id="marksDraw"></div>
     </div>

@@ -669,3 +669,53 @@ main#results {
 .stat-badge.stat-l { background: rgba(224, 193, 74, 0.15); color: var(--q3); border-color: var(--q3); }
 .stat-badge.stat-h { background: rgba(154, 155, 168, 0.15); color: var(--text-dim); border-color: var(--border); }
 .stat-badge.stat-hp { background: rgba(224, 90, 90, 0.15); color: var(--q4); border-color: var(--q4); }
+
+/* Marks completion percentages */
+
+.marks-summary {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.marks-summary-item {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  text-align: center;
+}
+
+.marks-summary-value {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.marks-summary-pct {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.marks-summary-label {
+  font-size: 11px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 2px;
+}
+
+.mark-progress-bar {
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--bg);
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.mark-progress-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+}
