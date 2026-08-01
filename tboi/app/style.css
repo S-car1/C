@@ -627,16 +627,32 @@ main#results {
 .challenge-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 10px;
   padding: 10px 8px;
   border-bottom: 1px solid var(--border);
   font-size: 14px;
+  cursor: pointer;
+}
+
+.challenge-row.challenge-done {
+  background: rgba(111, 214, 111, 0.06);
+}
+
+.challenge-check {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
 }
 
 .challenge-name {
   flex: 1;
   min-width: 0;
+}
+
+.challenge-done .challenge-name {
+  color: var(--text-dim);
+  text-decoration: line-through;
 }
 
 .challenge-unlock {

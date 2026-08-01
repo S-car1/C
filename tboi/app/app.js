@@ -12,6 +12,7 @@ const MARKS_PROGRESS_KEY = "tboi_marks_progress_v1";
 const STARTING_ITEMS_FILE = "../data/starting-items.json";
 const BUILD_KEY = "tboi_build_v1";
 const CHALLENGES_FILE = "../data/challenges.json";
+const CHALLENGES_PROGRESS_KEY = "tboi_challenges_progress_v1";
 
 const CATEGORY_LABELS = {
   all: "Todo",
@@ -34,6 +35,7 @@ let marksProgress = {}; // "PJ01:M01" -> true
 let STARTING_ITEMS = [];
 let build = { characterCode: null, itemCodes: [] }; // itemCodes are "items:C001" style keys
 let CHALLENGES = [];
+let challengesProgress = {}; // "CH01" -> true
 let synergyIndex = new Map(); // code -> [synergy,...]
 
 let state = {
@@ -907,6 +909,18 @@ function renderBuild() {
 
 // ---- Challenges ----
 
+function loadChallengesProgress() {
+  try {
+    challengesProgress = JSON.parse(localStorage.getItem(CHALLENGES_PROGRESS_KEY) || "{}");
+  } catch {
+    challengesProgress = {};
+  }
+}
+
+function saveChallengesProgress() {
+  localStorage.setItem(CHALLENGES_PROGRESS_KEY, JSON.stringify(challengesProgress));
+}
+
 function renderChallenges() {
   document.getElementById("detailPanel").classList.add("hidden");
   const resultsEl = document.getElementById("results");
@@ -924,19 +938,39 @@ function renderChallenges() {
   }
   emptyEl.classList.add("hidden");
 
+  const totalDone = CHALLENGES.filter((c) => challengesProgress[c.code]).length;
+  const totalPct = CHALLENGES.length ? Math.round((totalDone / CHALLENGES.length) * 100) : 0;
+
   const rows = challenges
-    .map(
-      (c) => `<div class="challenge-row">
+    .map((c) => {
+      const checked = !!challengesProgress[c.code];
+      return `<label class="challenge-row ${checked ? "challenge-done" : ""}">
+        <input type="checkbox" class="challenge-check" data-code="${c.code}" ${checked ? "checked" : ""}>
         <div class="challenge-name">${escapeHtml(c.name)}</div>
         <div class="challenge-unlock">${renderItemRef(pluralCategory(c.unlock_type), c.unlock_code, c.unlock_name)}</div>
-      </div>`
-    )
+      </label>`;
+    })
     .join("");
 
   resultsEl.innerHTML = `
+    <div class="marks-summary">
+      <div class="marks-summary-item">
+        <div class="marks-summary-value">${totalDone}/${CHALLENGES.length} <span class="marks-summary-pct">(${totalPct}%)</span></div>
+        <div class="marks-summary-label">Desafíos completados</div>
+      </div>
+    </div>
     <div class="result-count">${challenges.length} desafío${challenges.length === 1 ? "" : "s"}</div>
     <div class="challenge-list">${rows}</div>
   `;
+
+  resultsEl.querySelectorAll(".challenge-check").forEach((cb) => {
+    cb.addEventListener("change", () => {
+      if (cb.checked) challengesProgress[cb.dataset.code] = true;
+      else delete challengesProgress[cb.dataset.code];
+      saveChallengesProgress();
+      renderChallenges();
+    });
+  });
 }
 
 function render() {
@@ -1117,6 +1151,7 @@ async function loadData() {
 
   const challengesRes = await fetch(CHALLENGES_FILE);
   CHALLENGES = await challengesRes.json();
+  loadChallengesProgress();
 }
 
 async function init() {
