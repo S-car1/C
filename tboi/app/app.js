@@ -11,6 +11,7 @@ const MARKS_FILE = "../data/marks.json";
 const MARKS_PROGRESS_KEY = "tboi_marks_progress_v1";
 const STARTING_ITEMS_FILE = "../data/starting-items.json";
 const BUILD_KEY = "tboi_build_v1";
+const CHALLENGES_FILE = "../data/challenges.json";
 
 const CATEGORY_LABELS = {
   all: "Todo",
@@ -22,6 +23,7 @@ const CATEGORY_LABELS = {
   routes: "Rutas",
   marks: "Marcas",
   build: "Build",
+  challenges: "Desafíos",
 };
 
 let DATA = { items: [], trinkets: [], cards: [], pills: [], characters: [] };
@@ -31,6 +33,7 @@ let MARKS = [];
 let marksProgress = {}; // "PJ01:M01" -> true
 let STARTING_ITEMS = [];
 let build = { characterCode: null, itemCodes: [] }; // itemCodes are "items:C001" style keys
+let CHALLENGES = [];
 let synergyIndex = new Map(); // code -> [synergy,...]
 
 let state = {
@@ -210,6 +213,52 @@ function qualityBadgeHtml(q) {
   return `<span class="badge quality-${q}">Q${q}</span>`;
 }
 
+// Gold/silver/bronze frame for Q4/Q3/Q2 icons; no special frame for Q1/Q0/null.
+function qualityIconClass(q) {
+  if (q === 4) return "icon-gold";
+  if (q === 3) return "icon-silver";
+  if (q === 2) return "icon-bronze";
+  return "";
+}
+
+// starting-items.json / challenges.json store singular type names
+// ("item"/"trinket"/"card"); ALL_ENTRIES uses plural category keys.
+function pluralCategory(singular) {
+  if (singular === "item") return "items";
+  if (singular === "trinket") return "trinkets";
+  if (singular === "card") return "cards";
+  return singular;
+}
+
+// Looks up an item/trinket/card by exact display name (used for unlock
+// rewards in Marks/Challenges, which only give us a name string, not a
+// category+code). Many rewards are cosmetic (baby skins) with no matching
+// collectible, so callers must handle a null result.
+function findEntryByName(name) {
+  if (!name) return null;
+  return ALL_ENTRIES.find(
+    (e) => ["items", "trinkets", "cards"].includes(e.category) && e.name === name
+  );
+}
+
+// Small inline "icon + name" reference for an item/trinket/card by code,
+// used wherever an item is only *named* (unlocks, rewards) instead of
+// being the main subject of a card. Falls back to plain text if not found.
+function renderItemRef(category, code, fallbackName) {
+  if (!category || !code) {
+    return `<span class="item-ref-text">${escapeHtml(fallbackName || "?")}</span>`;
+  }
+  const entry = ALL_ENTRIES.find((e) => e.category === category && e.code === code);
+  if (!entry) {
+    return `<span class="item-ref-text">${escapeHtml(fallbackName || code)}</span>`;
+  }
+  const cls = qualityIconClass(entry.quality);
+  const iconHtml = entry.icon
+    ? `<img class="item-ref-icon ${cls}" src="${entry.icon}" alt="" loading="lazy">`
+    : "";
+  return `<span class="item-ref">${iconHtml}<span>${escapeHtml(entry.name)}</span></span>`;
+}
+
 function renderSynergies(entry) {
   if (entry.category !== "items") return "";
   const syns = synergyIndex.get(entry.code);
@@ -219,10 +268,12 @@ function renderSynergies(entry) {
       const partnerCode = s.item_a_code === entry.code ? s.item_b_code : s.item_a_code;
       const partnerName = s.item_a_code === entry.code ? s.item_b_name : s.item_a_name;
       const selfCombo = s.item_a_code === s.item_b_code;
+      const partnerEntry = ALL_ENTRIES.find((e) => e.category === "items" && e.code === partnerCode);
       const partnerIcon = `../data/icons/items/${partnerCode}.png`;
+      const iconCls = qualityIconClass(partnerEntry ? partnerEntry.quality : null);
       return `<div class="synergy-item">
         <div class="synergy-partner-row">
-          <img class="synergy-icon" src="${partnerIcon}" alt="" loading="lazy" onerror="this.style.display='none'">
+          <img class="synergy-icon ${iconCls}" src="${partnerIcon}" alt="" loading="lazy" onerror="this.style.display='none'">
           <div class="synergy-partner">${selfCombo ? "x2 (mismo item)" : partnerName}</div>
         </div>
         <div>${escapeHtml(s.text)}</div>
@@ -247,7 +298,7 @@ function renderCard(entry) {
   const synergiesHtml = renderSynergies(entry);
   const catTag = state.category === "all" ? `<span class="badge">${CATEGORY_LABELS[entry.category]}</span>` : "";
   const iconHtml = entry.icon
-    ? `<img class="card-icon" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    ? `<img class="card-icon ${qualityIconClass(entry.quality)}" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
     : `<div class="card-icon card-icon-placeholder"></div>`;
 
   return `<div class="card" data-code="${entry.category}:${entry.code}">
@@ -292,7 +343,7 @@ function renderDetailPanel() {
     .map((d) => `<div class="detail-label">${d.label}</div><div>${escapeHtml(d.value)}</div>`)
     .join("");
   const iconHtml = entry.icon
-    ? `<img class="card-icon" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    ? `<img class="card-icon ${qualityIconClass(entry.quality)}" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
     : `<div class="card-icon card-icon-placeholder"></div>`;
   panel.innerHTML = `
     <div class="detail-panel-head">
@@ -321,7 +372,7 @@ function renderDetailPanel() {
 
 function renderGridTile(entry) {
   const iconHtml = entry.icon
-    ? `<img class="tile-icon" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    ? `<img class="tile-icon ${qualityIconClass(entry.quality)}" src="${entry.icon}" alt="" loading="lazy" onerror="this.style.display='none'">`
     : `<div class="tile-icon"></div>`;
   const selected = state.selectedCode === `${entry.category}:${entry.code}` ? "selected" : "";
   return `<div class="tile ${selected}" data-code="${entry.category}:${entry.code}" title="${escapeHtml(entry.name)}">${iconHtml}</div>`;
@@ -471,6 +522,7 @@ function renderDrawResult() {
     return;
   }
   const unlock = mark.unlocks[character.name];
+  const unlockEntry = findEntryByName(unlock);
   const iconHtml = character.icon
     ? `<img class="draw-icon" src="../data/${character.icon}" alt="" loading="lazy">`
     : "";
@@ -480,7 +532,13 @@ function renderDrawResult() {
       <div class="draw-text">
         <div class="draw-line">Ahora juega con <b>${escapeHtml(character.name)}</b></div>
         <div class="draw-line">Objetivo: <b>${escapeHtml(mark.boss)}</b> <span class="text-dim">(marca: ${escapeHtml(mark.name)})</span></div>
-        ${unlock ? `<div class="draw-line draw-unlock">Desbloquea: <b>${escapeHtml(unlock)}</b></div>` : ""}
+        ${
+          unlock
+            ? `<div class="draw-line draw-unlock">Desbloquea: ${
+                unlockEntry ? renderItemRef(unlockEntry.category, unlockEntry.code) : `<b>${escapeHtml(unlock)}</b>`
+              }</div>`
+            : ""
+        }
       </div>
     </div>
   `;
@@ -509,11 +567,18 @@ function renderMarksCharCard(character) {
     .map((mark) => {
       const checked = isMarkDone(character.code, mark.code);
       const unlock = mark.unlocks[character.name];
+      const unlockEntry = findEntryByName(unlock);
       return `<label class="mark-row">
         <input type="checkbox" data-char="${character.code}" data-mark="${mark.code}" ${checked ? "checked" : ""}>
         <span class="mark-row-text">
           <b>${escapeHtml(mark.name)}</b> — ${escapeHtml(mark.boss)}
-          ${unlock ? `<span class="text-dim"> · desbloquea ${escapeHtml(unlock)}</span>` : ""}
+          ${
+            unlock
+              ? `<span class="text-dim"> · desbloquea </span>${
+                  unlockEntry ? renderItemRef(unlockEntry.category, unlockEntry.code) : `<span class="text-dim">${escapeHtml(unlock)}</span>`
+                }`
+              : ""
+          }
         </span>
       </label>`;
     })
@@ -654,7 +719,7 @@ function renderBuildEntry(key) {
   const entry = findByKey(key);
   if (!entry) return "";
   const iconHtml = entry.icon
-    ? `<img class="build-icon" src="${entry.icon}" alt="" loading="lazy">`
+    ? `<img class="build-icon ${qualityIconClass(entry.quality)}" src="${entry.icon}" alt="" loading="lazy">`
     : `<div class="build-icon card-icon-placeholder"></div>`;
   return `<div class="build-chip">
     ${iconHtml}
@@ -682,7 +747,8 @@ function renderBuild() {
           const bEntry = ALL_ENTRIES.find((e) => e.category === "items" && e.code === s.item_b_code);
           return `<div class="synergy-item">
             <div class="synergy-partner-row">
-              <img class="synergy-icon" src="${aEntry ? aEntry.icon : ""}" alt="" loading="lazy" onerror="this.style.display='none'">
+              <img class="synergy-icon ${qualityIconClass(aEntry ? aEntry.quality : null)}" src="${aEntry ? aEntry.icon : ""}" alt="" loading="lazy" onerror="this.style.display='none'">
+              <img class="synergy-icon ${qualityIconClass(bEntry ? bEntry.quality : null)}" src="${bEntry ? bEntry.icon : ""}" alt="" loading="lazy" onerror="this.style.display='none'">
               <div class="synergy-partner">${escapeHtml(aEntry ? aEntry.name : "?")} + ${escapeHtml(bEntry ? bEntry.name : "?")}</div>
             </div>
             <div>${escapeHtml(s.text)}</div>
@@ -711,7 +777,7 @@ function renderBuild() {
   const searchHtml = searchResults
     .map((e) => {
       const already = build.itemCodes.includes(buildEntryKey(e.category, e.code));
-      const iconHtml = e.icon ? `<img class="build-icon" src="${e.icon}" alt="" loading="lazy">` : "";
+      const iconHtml = e.icon ? `<img class="build-icon ${qualityIconClass(e.quality)}" src="${e.icon}" alt="" loading="lazy">` : "";
       return `<div class="build-search-row" data-category="${e.category}" data-code="${e.code}">
         ${iconHtml}
         <span>${escapeHtml(e.name)}</span>
@@ -759,7 +825,45 @@ function renderBuild() {
   });
 }
 
+// ---- Challenges ----
+
+function renderChallenges() {
+  document.getElementById("detailPanel").classList.add("hidden");
+  const resultsEl = document.getElementById("results");
+  const emptyEl = document.getElementById("empty");
+
+  const q = normalizeText(state.query);
+  const challenges = q
+    ? CHALLENGES.filter((c) => normalizeText(c.name).includes(q) || normalizeText(c.unlock_name).includes(q))
+    : CHALLENGES;
+
+  if (!challenges.length) {
+    resultsEl.innerHTML = "";
+    emptyEl.classList.remove("hidden");
+    return;
+  }
+  emptyEl.classList.add("hidden");
+
+  const rows = challenges
+    .map(
+      (c) => `<div class="challenge-row">
+        <div class="challenge-name">${escapeHtml(c.name)}</div>
+        <div class="challenge-unlock">${renderItemRef(pluralCategory(c.unlock_type), c.unlock_code, c.unlock_name)}</div>
+      </div>`
+    )
+    .join("");
+
+  resultsEl.innerHTML = `
+    <div class="result-count">${challenges.length} desafío${challenges.length === 1 ? "" : "s"}</div>
+    <div class="challenge-list">${rows}</div>
+  `;
+}
+
 function render() {
+  if (state.category === "challenges") {
+    renderChallenges();
+    return;
+  }
   if (state.category === "build") {
     renderBuild();
     return;
@@ -857,7 +961,7 @@ function renderQualityChips() {
 
 function renderViewControls() {
   const el = document.getElementById("viewControls");
-  if (state.category === "routes" || state.category === "marks" || state.category === "build") {
+  if (["routes", "marks", "build", "challenges"].includes(state.category)) {
     el.classList.add("hidden");
     el.innerHTML = "";
     return;
@@ -930,6 +1034,9 @@ async function loadData() {
   const startingRes = await fetch(STARTING_ITEMS_FILE);
   STARTING_ITEMS = await startingRes.json();
   loadBuild();
+
+  const challengesRes = await fetch(CHALLENGES_FILE);
+  CHALLENGES = await challengesRes.json();
 }
 
 async function init() {

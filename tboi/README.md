@@ -21,6 +21,7 @@ tboi/
     routes.json           # 4 rutas: Mother, Beast/Dogma, Hush, Delirium — wiki.gg
     marks.json             # 22 marcas de completación (13 base + 9 tainted) — wiki.gg
     starting-items.json    # ítems/trinkets/cartas iniciales de los 17 personajes base — wiki.gg
+    challenges.json         # 45 desafíos con el ítem que desbloquean — wiki.gg
     unlocks.json          # pendiente
 ```
 
@@ -37,6 +38,12 @@ navegador, no en el repo):
 - **Build**: elegí un personaje (precarga sus ítems iniciales), agregá
   ítems a medida que jugás y la app te muestra las sinergias conocidas
   entre lo que llevás.
+- **Desafíos**: lista de los 45 challenges con el ítem que desbloquean.
+
+Los íconos de items/trinkets/cartas llevan un marco de color según su
+`quality`: oro (Q4), plata (Q3), bronce (Q2); Q1/Q0 sin marco. Donde sea
+posible, la app prefiere mostrar ícono + nombre en vez de solo texto al
+referenciar un item (recompensas de marcas/desafíos, sinergias, build).
 
 **Necesita servirse por HTTP** (no `file://`) porque carga los JSON con
 `fetch`. Opciones:
@@ -212,6 +219,24 @@ casos especiales (Eden es aleatorio, Isaac no tiene ítem inicial propio
 pese a la creencia común). Usado por la sección **Build** de la app para
 precargar el punto de partida al elegir personaje.
 
+### `challenges.json`
+
+```jsonc
+{
+  "code": "CH01",
+  "name": "1. Pitch Black",
+  "unlock_type": "card",       // "item" | "trinket" | "card" | null
+  "unlock_code": "K032",       // código en la categoría correspondiente, o null
+  "unlock_name": "Rune of Hagalaz"
+}
+```
+
+45 desafíos con el ítem/trinket/carta que desbloquean al completarlos.
+37 de 45 matchean a un coleccionable real (con ícono); los otros 8 son
+recompensas especiales que no son ítems propiamente (variantes de pickup
+como Gold Heart, o mejoras cosméticas/de stats como "Laz Bleeds More!") —
+esos quedan con `unlock_type: null` y solo el nombre en texto.
+
 ### `synergies.json`
 
 ```jsonc
@@ -246,7 +271,7 @@ strings) para permitir comparaciones/filtros numéricos directos.
 - **items.json, trinkets.json, cards-runes.json, synergies.json**: scrapeados
   de [tboi.com](https://www.tboi.com) (Platinum God — Isaac Cheat Sheet),
   vía HTML parseado directamente (sin protección anti-bot), el 2026-07-31.
-- **pills.json, characters.json, routes.json, marks.json, starting-items.json**: scrapeados de
+- **pills.json, characters.json, routes.json, marks.json, starting-items.json, challenges.json**: scrapeados de
   [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg)
   vía la API de MediaWiki (`action=parse`), el 2026-07-31.
 

@@ -1,0 +1,317 @@
+[
+  {
+    "code": "CH01",
+    "name": "1. Pitch Black",
+    "unlock_type": "card",
+    "unlock_code": "K032",
+    "unlock_name": "Rune of Hagalaz"
+  },
+  {
+    "code": "CH02",
+    "name": "2. High Brow",
+    "unlock_type": "card",
+    "unlock_code": "K033",
+    "unlock_name": "Rune of Jera"
+  },
+  {
+    "code": "CH03",
+    "name": "3. Head Trauma",
+    "unlock_type": "card",
+    "unlock_code": "K034",
+    "unlock_name": "Rune of Ehwaz"
+  },
+  {
+    "code": "CH04",
+    "name": "4. Darkness Falls",
+    "unlock_type": "card",
+    "unlock_code": "K035",
+    "unlock_name": "Rune of Dagaz"
+  },
+  {
+    "code": "CH05",
+    "name": "5. The Tank",
+    "unlock_type": "card",
+    "unlock_code": "K036",
+    "unlock_name": "Rune of Ansuz"
+  },
+  {
+    "code": "CH06",
+    "name": "6. Solar System",
+    "unlock_type": "card",
+    "unlock_code": "K037",
+    "unlock_name": "Rune of Perthro"
+  },
+  {
+    "code": "CH07",
+    "name": "7. Suicide King",
+    "unlock_type": "card",
+    "unlock_code": "K046",
+    "unlock_name": "Suicide King"
+  },
+  {
+    "code": "CH08",
+    "name": "8. Cat Got Your Tongue",
+    "unlock_type": "card",
+    "unlock_code": "K039",
+    "unlock_name": "Rune of Algiz"
+  },
+  {
+    "code": "CH09",
+    "name": "9. Demo Man",
+    "unlock_type": "card",
+    "unlock_code": "K042",
+    "unlock_name": "Chaos Card"
+  },
+  {
+    "code": "CH10",
+    "name": "10. Cursed!",
+    "unlock_type": "card",
+    "unlock_code": "K043",
+    "unlock_name": "Credit Card"
+  },
+  {
+    "code": "CH11",
+    "name": "11. Glass Cannon",
+    "unlock_type": "card",
+    "unlock_code": "K044",
+    "unlock_name": "Rules Card"
+  },
+  {
+    "code": "CH12",
+    "name": "12. When Life Gives You Lemons",
+    "unlock_type": "card",
+    "unlock_code": "K045",
+    "unlock_name": "Card Against Humanity"
+  },
+  {
+    "code": "CH13",
+    "name": "13. Beans!",
+    "unlock_type": "trinket",
+    "unlock_code": "T050",
+    "unlock_name": "Burnt Penny"
+  },
+  {
+    "code": "CH14",
+    "name": "14. It's in the Cards",
+    "unlock_type": "item",
+    "unlock_code": "C189",
+    "unlock_name": "SMB Super Fan"
+  },
+  {
+    "code": "CH15",
+    "name": "15. Slow Roll",
+    "unlock_type": "trinket",
+    "unlock_code": "T001",
+    "unlock_name": "Swallowed Penny"
+  },
+  {
+    "code": "CH16",
+    "name": "16. Computer Savvy",
+    "unlock_type": "item",
+    "unlock_code": "C267",
+    "unlock_name": "Robo-Baby 2.0"
+  },
+  {
+    "code": "CH17",
+    "name": "17. Waka Waka",
+    "unlock_type": "item",
+    "unlock_code": "C237",
+    "unlock_name": "Death's Touch"
+  },
+  {
+    "code": "CH18",
+    "name": "18. The Host",
+    "unlock_type": "item",
+    "unlock_code": "C244",
+    "unlock_name": "Technology .5"
+  },
+  {
+    "code": "CH19",
+    "name": "19. The Family Man",
+    "unlock_type": "item",
+    "unlock_code": "C168",
+    "unlock_name": "Epic Fetus"
+  },
+  {
+    "code": "CH20",
+    "name": "20. Purist",
+    "unlock_type": "card",
+    "unlock_code": "K038",
+    "unlock_name": "Rune of Berkano"
+  },
+  {
+    "code": "CH21",
+    "name": "21. XXXXXXXXL",
+    "unlock_type": null,
+    "unlock_code": null,
+    "unlock_name": "Gold Heart"
+  },
+  {
+    "code": "CH22",
+    "name": "22. SPEED!",
+    "unlock_type": "card",
+    "unlock_code": "K047",
+    "unlock_name": "Get out of Jail Free Card"
+  },
+  {
+    "code": "CH23",
+    "name": "23. Blue Bomber",
+    "unlock_type": null,
+    "unlock_code": null,
+    "unlock_name": "Gold Bomb"
+  },
+  {
+    "code": "CH24",
+    "name": "24. PAY TO PLAY",
+    "unlock_type": null,
+    "unlock_code": null,
+    "unlock_name": "2 new pills"
+  },
+  {
+    "code": "CH25",
+    "name": "25. Have a Heart",
+    "unlock_type": null,
+    "unlock_code": null,
+    "unlock_name": "2 new pills"
+  },
+  {
+    "code": "CH26",
+    "name": "26. I RULE!",
+    "unlock_type": "trinket",
+    "unlock_code": "T076",
+    "unlock_name": "Poker Chip"
+  },
+  {
+    "code": "CH27",
+    "name": "27. BRAINS!",
+    "unlock_type": "trinket",
+    "unlock_code": "T074",
+    "unlock_name": "Stud Finder"
+  },
+  {
+    "code": "CH28",
+    "name": "28. PRIDE DAY!",
+    "unlock_type": "item",
+    "unlock_code": "C406",
+    "unlock_name": "D8"
+  },
+  {
+    "code": "CH29",
+    "name": "29. Onan's Streak",
+    "unlock_type": "item",
+    "unlock_code": "C440",
+    "unlock_name": "Kidney Stone"
+  },
+  {
+    "code": "CH30",
+    "name": "30. The Guardian",
+    "unlock_type": "card",
+    "unlock_code": "K040",
+    "unlock_name": "Blank Rune"
+  },
+  {
+    "code": "CH31",
+    "name": "31. Backasswards",
+    "unlock_type": null,
+    "unlock_code": null,
+    "unlock_name": "Laz Bleeds More!"
+  },
+  {
+    "code": "CH32",
+    "name": "32. Aprils Fool",
+    "unlock_type": null,
+    "unlock_code": null,
+    "unlock_name": "Maggy Now Holds a Pill!"
+  },
+  {
+    "code": "CH33",
+    "name": "33. Pokey Mans",
+    "unlock_type": null,
+    "unlock_code": null,
+    "unlock_name": "Charged Key"
+  },
+  {
+    "code": "CH34",
+    "name": "34. Ultra Hard",
+    "unlock_type": null,
+    "unlock_code": null,
+    "unlock_name": "Samson Feels Healthy!"
+  },
+  {
+    "code": "CH35",
+    "name": "35. Pong",
+    "unlock_type": "item",
+    "unlock_code": "C501",
+    "unlock_name": "Greed's Gullet"
+  },
+  {
+    "code": "CH36",
+    "name": "36. Scat Man",
+    "unlock_type": "item",
+    "unlock_code": "C576",
+    "unlock_name": "Dirty Mind"
+  },
+  {
+    "code": "CH37",
+    "name": "37. Bloody Mary",
+    "unlock_type": "trinket",
+    "unlock_code": "T189",
+    "unlock_name": "Sigil of Baphomet"
+  },
+  {
+    "code": "CH38",
+    "name": "38. Baptism by Fire",
+    "unlock_type": "item",
+    "unlock_code": "C634",
+    "unlock_name": "Purgatory"
+  },
+  {
+    "code": "CH39",
+    "name": "39. Isaac's Awakening",
+    "unlock_type": "item",
+    "unlock_code": "C579",
+    "unlock_name": "Spirit Sword"
+  },
+  {
+    "code": "CH40",
+    "name": "40. Seeing Double",
+    "unlock_type": "trinket",
+    "unlock_code": "T187",
+    "unlock_name": "Broken Glasses"
+  },
+  {
+    "code": "CH41",
+    "name": "41. Pica Run",
+    "unlock_type": "trinket",
+    "unlock_code": "T188",
+    "unlock_name": "Ice Cube"
+  },
+  {
+    "code": "CH42",
+    "name": "42. Hot Potato",
+    "unlock_type": "card",
+    "unlock_code": "K008",
+    "unlock_name": "The Chariot"
+  },
+  {
+    "code": "CH43",
+    "name": "43. Cantripped!",
+    "unlock_type": "card",
+    "unlock_code": "K009",
+    "unlock_name": "Justice"
+  },
+  {
+    "code": "CH44",
+    "name": "44. Red Redemption",
+    "unlock_type": "card",
+    "unlock_code": "K010",
+    "unlock_name": "The Hermit"
+  },
+  {
+    "code": "CH45",
+    "name": "45. DELETE THIS",
+    "unlock_type": "card",
+    "unlock_code": "K015",
+    "unlock_name": "Temperance"
+  }
+]

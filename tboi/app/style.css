@@ -576,3 +576,69 @@ main#results {
 .build-empty-msg {
   font-size: 13px;
 }
+
+/* Quality frames: gold Q4, silver Q3, bronze Q2. No frame for Q1/Q0. */
+
+.icon-gold {
+  border: 2px solid #e0b84a !important;
+  box-shadow: 0 0 5px rgba(224, 184, 74, 0.6);
+}
+
+.icon-silver {
+  border: 2px solid #c6c9cf !important;
+  box-shadow: 0 0 5px rgba(198, 201, 207, 0.5);
+}
+
+.icon-bronze {
+  border: 2px solid #b5793f !important;
+  box-shadow: 0 0 5px rgba(181, 121, 63, 0.5);
+}
+
+/* Inline icon+name reference for named unlocks (Marks, Challenges, draw result) */
+
+.item-ref {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  vertical-align: middle;
+}
+
+.item-ref-icon {
+  width: 20px;
+  height: 20px;
+  image-rendering: pixelated;
+  border-radius: 5px;
+  background: var(--bg);
+  flex: 0 0 auto;
+}
+
+.item-ref-text {
+  color: var(--text-dim);
+}
+
+/* Challenges */
+
+.challenge-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.challenge-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+
+.challenge-name {
+  flex: 1;
+  min-width: 0;
+}
+
+.challenge-unlock {
+  flex: 0 0 auto;
+}
