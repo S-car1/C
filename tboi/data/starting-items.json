@@ -1,0 +1,179 @@
+[
+  {
+    "character_code": "PJ01",
+    "character_name": "Isaac",
+    "starting_items": [],
+    "note": "Sin ítem inicial especial."
+  },
+  {
+    "character_code": "PJ02",
+    "character_name": "Magdalene",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C045",
+        "name": "Yum Heart"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ03",
+    "character_name": "Cain",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C046",
+        "name": "Lucky Foot"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ04",
+    "character_name": "Judas",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C034",
+        "name": "The Book of Belial"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ05",
+    "character_name": "???",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C036",
+        "name": "The Poop"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ06",
+    "character_name": "Eve",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C122",
+        "name": "Whore of Babylon"
+      },
+      {
+        "type": "item",
+        "code": "C117",
+        "name": "Dead Bird"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ07",
+    "character_name": "Samson",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C157",
+        "name": "Bloody Lust"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ08",
+    "character_name": "Azazel",
+    "starting_items": [
+      {
+        "type": "card",
+        "code": "K001",
+        "name": "O - The Fool"
+      }
+    ],
+    "note": "También empieza con vuelo y un Brimstone de corto alcance innatos (no son ítems recogibles)."
+  },
+  {
+    "character_code": "PJ09",
+    "character_name": "Lazarus",
+    "starting_items": [],
+    "note": "Empieza con una pill sin identificar."
+  },
+  {
+    "character_code": "PJ10",
+    "character_name": "Eden",
+    "starting_items": [],
+    "note": "Estadísticas y equipo inicial totalmente aleatorios en cada partida (activo + pasivo + trinket/pill/carta)."
+  },
+  {
+    "character_code": "PJ11",
+    "character_name": "The Lost",
+    "starting_items": [],
+    "note": "Sin ítem inicial. Sin vida — muere con cualquier golpe."
+  },
+  {
+    "character_code": "PJ12",
+    "character_name": "Lilith",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C357",
+        "name": "Box of Friends"
+      },
+      {
+        "type": "item",
+        "code": "C360",
+        "name": "Incubus"
+      },
+      {
+        "type": "item",
+        "code": "C412",
+        "name": "Cambion Conception"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ13",
+    "character_name": "Keeper",
+    "starting_items": [],
+    "note": "Sin ítem inicial. Tiene disparo triple innato (tipo Inner Eye) y usa monedas como vida."
+  },
+  {
+    "character_code": "PJ14",
+    "character_name": "Apollyon",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C477",
+        "name": "Void"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ15",
+    "character_name": "The Forgotten",
+    "starting_items": [],
+    "note": "Sin ítem inicial. Ataca cuerpo a cuerpo con un garrote de hueso en vez de lágrimas."
+  },
+  {
+    "character_code": "PJ16",
+    "character_name": "Bethany",
+    "starting_items": [
+      {
+        "type": "item",
+        "code": "C584",
+        "name": "Book of Virtues"
+      }
+    ],
+    "note": null
+  },
+  {
+    "character_code": "PJ17",
+    "character_name": "Jacob and Esau",
+    "starting_items": [],
+    "note": "Sin ítem inicial especial."
+  }
+]

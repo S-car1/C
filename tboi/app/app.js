@@ -9,6 +9,8 @@ const SYNERGIES_FILE = "../data/synergies.json";
 const ROUTES_FILE = "../data/routes.json";
 const MARKS_FILE = "../data/marks.json";
 const MARKS_PROGRESS_KEY = "tboi_marks_progress_v1";
+const STARTING_ITEMS_FILE = "../data/starting-items.json";
+const BUILD_KEY = "tboi_build_v1";
 
 const CATEGORY_LABELS = {
   all: "Todo",
@@ -19,6 +21,7 @@ const CATEGORY_LABELS = {
   characters: "Personajes",
   routes: "Rutas",
   marks: "Marcas",
+  build: "Build",
 };
 
 let DATA = { items: [], trinkets: [], cards: [], pills: [], characters: [] };
@@ -26,6 +29,8 @@ let SYNERGIES = [];
 let ROUTES = [];
 let MARKS = [];
 let marksProgress = {}; // "PJ01:M01" -> true
+let STARTING_ITEMS = [];
+let build = { characterCode: null, itemCodes: [] }; // itemCodes are "items:C001" style keys
 let synergyIndex = new Map(); // code -> [synergy,...]
 
 let state = {
@@ -573,7 +578,192 @@ function renderMarks() {
   });
 }
 
+// ---- Build (character + items in progress, with live synergy hints) ----
+
+function loadBuild() {
+  try {
+    build = JSON.parse(localStorage.getItem(BUILD_KEY) || "null") || { characterCode: null, itemCodes: [] };
+  } catch {
+    build = { characterCode: null, itemCodes: [] };
+  }
+}
+
+function saveBuild() {
+  localStorage.setItem(BUILD_KEY, JSON.stringify(build));
+}
+
+function buildEntryKey(category, code) {
+  return `${category}:${code}`;
+}
+
+function findByKey(key) {
+  const [category, code] = key.split(":");
+  return ALL_ENTRIES.find((e) => e.category === category && e.code === code);
+}
+
+function setBuildCharacter(charCode) {
+  build.characterCode = charCode;
+  build.itemCodes = [];
+  const starting = STARTING_ITEMS.find((s) => s.character_code === charCode);
+  if (starting) {
+    for (const it of starting.starting_items) {
+      if (!it.code) continue;
+      const cat = it.type === "item" ? "items" : it.type === "trinket" ? "trinkets" : "cards";
+      build.itemCodes.push(buildEntryKey(cat, it.code));
+    }
+  }
+  saveBuild();
+  renderBuild();
+}
+
+function addToBuild(category, code) {
+  const key = buildEntryKey(category, code);
+  if (!build.itemCodes.includes(key)) build.itemCodes.push(key);
+  saveBuild();
+  state.query = "";
+  renderBuild();
+}
+
+function removeFromBuild(key) {
+  build.itemCodes = build.itemCodes.filter((k) => k !== key);
+  saveBuild();
+  renderBuild();
+}
+
+function getBuildSynergies() {
+  const itemCodes = build.itemCodes
+    .filter((k) => k.startsWith("items:"))
+    .map((k) => k.split(":")[1]);
+  const seen = new Set();
+  const results = [];
+  for (const s of SYNERGIES) {
+    if (s.item_a_code === s.item_b_code) continue; // needs 2 copies, build doesn't track quantities
+    const aIn = itemCodes.includes(s.item_a_code);
+    const bIn = itemCodes.includes(s.item_b_code);
+    if (aIn && bIn) {
+      const dedupeKey = [s.item_a_code, s.item_b_code].sort().join("|") + s.text;
+      if (seen.has(dedupeKey)) continue;
+      seen.add(dedupeKey);
+      results.push(s);
+    }
+  }
+  return results;
+}
+
+function renderBuildEntry(key) {
+  const entry = findByKey(key);
+  if (!entry) return "";
+  const iconHtml = entry.icon
+    ? `<img class="build-icon" src="${entry.icon}" alt="" loading="lazy">`
+    : `<div class="build-icon card-icon-placeholder"></div>`;
+  return `<div class="build-chip">
+    ${iconHtml}
+    <span>${escapeHtml(entry.name)}</span>
+    <button class="build-remove" data-key="${key}">✕</button>
+  </div>`;
+}
+
+function renderBuild() {
+  document.getElementById("detailPanel").classList.add("hidden");
+  document.getElementById("empty").classList.add("hidden");
+  const resultsEl = document.getElementById("results");
+
+  const character = DATA.characters.find((c) => c.code === build.characterCode);
+  const charOptions = DATA.characters
+    .map((c) => `<option value="${c.code}" ${c.code === build.characterCode ? "selected" : ""}>${escapeHtml(c.name)}</option>`)
+    .join("");
+
+  const buildChips = build.itemCodes.map(renderBuildEntry).join("");
+  const synergies = character ? getBuildSynergies() : [];
+  const synergiesHtml = synergies.length
+    ? synergies
+        .map((s) => {
+          const aEntry = ALL_ENTRIES.find((e) => e.category === "items" && e.code === s.item_a_code);
+          const bEntry = ALL_ENTRIES.find((e) => e.category === "items" && e.code === s.item_b_code);
+          return `<div class="synergy-item">
+            <div class="synergy-partner-row">
+              <img class="synergy-icon" src="${aEntry ? aEntry.icon : ""}" alt="" loading="lazy" onerror="this.style.display='none'">
+              <div class="synergy-partner">${escapeHtml(aEntry ? aEntry.name : "?")} + ${escapeHtml(bEntry ? bEntry.name : "?")}</div>
+            </div>
+            <div>${escapeHtml(s.text)}</div>
+          </div>`;
+        })
+        .join("")
+    : `<div class="text-dim build-empty-msg">${
+        build.itemCodes.filter((k) => k.startsWith("items:")).length < 2
+          ? "Agregá al menos 2 items para ver sinergias."
+          : "No hay sinergias documentadas entre los items actuales (la base cubre 28 items de efectos de lágrimas)."
+      }</div>`;
+
+  const searchResults = state.query
+    ? (() => {
+        const nq = normalizeText(state.query);
+        return ALL_ENTRIES
+          .filter((e) => ["items", "trinkets", "cards"].includes(e.category))
+          .map((e) => ({ e, rank: matchRank(e, nq) }))
+          .filter((x) => x.rank >= 0)
+          .sort((a, b) => a.rank - b.rank || a.e.name.localeCompare(b.e.name))
+          .slice(0, 8)
+          .map((x) => x.e);
+      })()
+    : [];
+
+  const searchHtml = searchResults
+    .map((e) => {
+      const already = build.itemCodes.includes(buildEntryKey(e.category, e.code));
+      const iconHtml = e.icon ? `<img class="build-icon" src="${e.icon}" alt="" loading="lazy">` : "";
+      return `<div class="build-search-row" data-category="${e.category}" data-code="${e.code}">
+        ${iconHtml}
+        <span>${escapeHtml(e.name)}</span>
+        <button class="build-add" ${already ? "disabled" : ""}>${already ? "Agregado" : "+ Agregar"}</button>
+      </div>`;
+    })
+    .join("");
+
+  resultsEl.innerHTML = `
+    <div class="build-header">
+      <label class="build-label">Personaje</label>
+      <select id="buildCharSelect" class="build-select">
+        <option value="">— elegir personaje —</option>
+        ${charOptions}
+      </select>
+      ${character && character.note ? "" : ""}
+      ${build.characterCode ? `<button id="buildReset" class="build-reset-btn">Reiniciar build</button>` : ""}
+    </div>
+    <div class="build-chips">${buildChips || '<div class="text-dim">Sin items todavía.</div>'}</div>
+    <div class="detail-label">Agregar item / trinket / carta</div>
+    <div class="build-search">${searchHtml}</div>
+    <div class="detail-label">Sinergias en esta build</div>
+    <div class="build-synergies">${synergiesHtml}</div>
+  `;
+
+  document.getElementById("buildCharSelect").addEventListener("change", (e) => {
+    if (e.target.value) setBuildCharacter(e.target.value);
+  });
+  const resetBtn = document.getElementById("buildReset");
+  if (resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      build = { characterCode: null, itemCodes: [] };
+      saveBuild();
+      renderBuild();
+    });
+  }
+  resultsEl.querySelectorAll(".build-remove").forEach((btn) => {
+    btn.addEventListener("click", () => removeFromBuild(btn.dataset.key));
+  });
+  resultsEl.querySelectorAll(".build-search-row .build-add:not([disabled])").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const row = btn.closest(".build-search-row");
+      addToBuild(row.dataset.category, row.dataset.code);
+    });
+  });
+}
+
 function render() {
+  if (state.category === "build") {
+    renderBuild();
+    return;
+  }
   if (state.category === "marks") {
     renderMarks();
     return;
@@ -667,7 +857,7 @@ function renderQualityChips() {
 
 function renderViewControls() {
   const el = document.getElementById("viewControls");
-  if (state.category === "routes" || state.category === "marks") {
+  if (state.category === "routes" || state.category === "marks" || state.category === "build") {
     el.classList.add("hidden");
     el.innerHTML = "";
     return;
@@ -736,6 +926,10 @@ async function loadData() {
   const marksRes = await fetch(MARKS_FILE);
   MARKS = await marksRes.json();
   loadMarksProgress();
+
+  const startingRes = await fetch(STARTING_ITEMS_FILE);
+  STARTING_ITEMS = await startingRes.json();
+  loadBuild();
 }
 
 async function init() {

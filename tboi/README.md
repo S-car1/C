@@ -20,6 +20,7 @@ tboi/
     synergies.json        # 406 combos de sinergia entre 28 items de tears — tboi.com
     routes.json           # 4 rutas: Mother, Beast/Dogma, Hush, Delirium — wiki.gg
     marks.json             # 22 marcas de completación (13 base + 9 tainted) — wiki.gg
+    starting-items.json    # ítems/trinkets/cartas iniciales de los 17 personajes base — wiki.gg
     unlocks.json          # pendiente
 ```
 
@@ -28,6 +29,14 @@ tboi/
 Es HTML/JS puro, sin build ni dependencias. Busca por nombre en todas las
 categorías a la vez (o filtrá por categoría/quality con los chips), tocá
 un resultado para expandirlo y ver descripción, tags y sinergias conocidas.
+
+Secciones especiales (guardan progreso personal en `localStorage` del
+navegador, no en el repo):
+- **Marcas**: checklist de marcas de completación por personaje + sorteo
+  de runs pendientes.
+- **Build**: elegí un personaje (precarga sus ítems iniciales), agregá
+  ítems a medida que jugás y la app te muestra las sinergias conocidas
+  entre lo que llevás.
 
 **Necesita servirse por HTTP** (no `file://`) porque carga los JSON con
 `fetch`. Opciones:
@@ -183,6 +192,26 @@ personaje y un botón "Sortear run pendiente" que elige al azar una
 combinación personaje+marca que todavía no esté marcada como completa,
 mostrando el boss objetivo y el ítem que desbloquea.
 
+### `starting-items.json`
+
+```jsonc
+{
+  "character_code": "PJ08",
+  "character_name": "Azazel",
+  "starting_items": [
+    { "type": "card", "code": "K001", "name": "O - The Fool" }
+  ],
+  "note": "También empieza con vuelo y un Brimstone de corto alcance innatos (no son ítems recogibles)."
+}
+```
+
+Ítems/trinkets/cartas con los que arranca cada uno de los 17 personajes
+base (no cubre variantes tainted todavía). `note` describe mecánicas
+innatas que no son ítems recogibles (ej. el garrote de The Forgotten) o
+casos especiales (Eden es aleatorio, Isaac no tiene ítem inicial propio
+pese a la creencia común). Usado por la sección **Build** de la app para
+precargar el punto de partida al elegir personaje.
+
 ### `synergies.json`
 
 ```jsonc
@@ -217,7 +246,7 @@ strings) para permitir comparaciones/filtros numéricos directos.
 - **items.json, trinkets.json, cards-runes.json, synergies.json**: scrapeados
   de [tboi.com](https://www.tboi.com) (Platinum God — Isaac Cheat Sheet),
   vía HTML parseado directamente (sin protección anti-bot), el 2026-07-31.
-- **pills.json, characters.json, routes.json, marks.json**: scrapeados de
+- **pills.json, characters.json, routes.json, marks.json, starting-items.json**: scrapeados de
   [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg)
   vía la API de MediaWiki (`action=parse`), el 2026-07-31.
 
