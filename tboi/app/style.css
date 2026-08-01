@@ -642,3 +642,30 @@ main#results {
 .challenge-unlock {
   flex: 0 0 auto;
 }
+
+/* Stat badges: quick visual read of what an item/card changes numerically */
+
+.stat-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.stat-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 7px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.stat-badge.stat-t { background: rgba(111, 168, 255, 0.15); color: var(--q1); border-color: var(--q1); }
+.stat-badge.stat-d { background: rgba(224, 90, 90, 0.15); color: var(--q4); border-color: var(--q4); }
+.stat-badge.stat-s { background: rgba(111, 214, 111, 0.15); color: var(--q2); border-color: var(--q2); }
+.stat-badge.stat-ss { background: rgba(224, 193, 74, 0.15); color: var(--q3); border-color: var(--q3); }
+.stat-badge.stat-r { background: rgba(180, 140, 255, 0.15); color: #b48cff; border-color: #b48cff; }
+.stat-badge.stat-l { background: rgba(224, 193, 74, 0.15); color: var(--q3); border-color: var(--q3); }
+.stat-badge.stat-h { background: rgba(154, 155, 168, 0.15); color: var(--text-dim); border-color: var(--border); }
+.stat-badge.stat-hp { background: rgba(224, 90, 90, 0.15); color: var(--q4); border-color: var(--q4); }

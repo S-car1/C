@@ -45,6 +45,13 @@ Los íconos de items/trinkets/cartas llevan un marco de color según su
 posible, la app prefiere mostrar ícono + nombre en vez de solo texto al
 referenciar un item (recompensas de marcas/desafíos, sinergias, build).
 
+Los items/cartas con cambios de estadísticas numéricos ("+0.7 Tears Up",
+"×1.5 Damage Multiplier") muestran badges de colores (T/D/S/SS/R/L/H/HP)
+arriba de la descripción, visibles sin necesidad de expandir la tarjeta —
+parseados de la descripción en el cliente, no vienen precalculados en el
+JSON. No todos los items tienen stats numéricos (muchos son "da tal
+efecto" sin números), así que no todos van a tener badges.
+
 **Necesita servirse por HTTP** (no `file://`) porque carga los JSON con
 `fetch`. Opciones:
 

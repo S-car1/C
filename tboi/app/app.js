@@ -93,6 +93,7 @@ function normalizeEntry(category, raw) {
       quality: raw.quality,
       searchable: [raw.name, raw.quote, raw.description, raw.dlc, raw.pool, ...(raw.tags || [])],
       badges: [raw.dlc, raw.pool].filter(Boolean),
+      statBadgesHtml: renderStatBadges(raw.description),
       detail: [
         raw.description ? { label: "Descripción", value: raw.description } : null,
         raw.type ? { label: "Tipo", value: raw.type } : null,
@@ -109,6 +110,7 @@ function normalizeEntry(category, raw) {
       quality: raw.quality,
       searchable: [raw.name, raw.quote, raw.description, raw.kind, ...(raw.tags || [])],
       badges: [raw.kind].filter(Boolean),
+      statBadgesHtml: renderStatBadges(raw.description),
       detail: [
         raw.description ? { label: "Efecto", value: raw.description } : null,
         raw.tags && raw.tags.length ? { label: "Tags", value: raw.tags.join(", ") } : null,
@@ -213,6 +215,64 @@ function qualityBadgeHtml(q) {
   return `<span class="badge quality-${q}">Q${q}</span>`;
 }
 
+// Stat deltas ("+0.7 Tears Up", "-1 Luck Down", "x1.5 times Damage Multiplier")
+// follow a consistent phrasing in item/card descriptions. Parsed into short
+// visual badges so a stat change is scannable at a glance mid-run instead of
+// having to read the full sentence.
+const STAT_PATTERNS = [
+  [/shot speed/i, "SS", "Shot Speed", "stat-ss"],
+  [/shot height|tear height/i, "H", "Altura", "stat-h"],
+  [/tears/i, "T", "Tears", "stat-t"],
+  [/damage/i, "D", "Daño", "stat-d"],
+  [/speed/i, "S", "Velocidad", "stat-s"],
+  [/range/i, "R", "Rango", "stat-r"],
+  [/luck/i, "L", "Suerte", "stat-l"],
+  [/health|hp/i, "HP", "Vida", "stat-hp"],
+];
+const STAT_DELTA_RE =
+  /([+-]\s?\d+(?:\.\d+)?)\s+((?:Shot Speed|Shot Height|Tear Height|Tears|Damage|Speed|Range|Luck|HP|Health))\s*(?:Up|Down)?/gi;
+const STAT_MULT_RE = /[x×]\s?(\d+(?:\.\d+)?)\s*times?\s*(Damage|Tears|Speed|Range)\s*Multiplier/gi;
+
+function parseStatBadges(description) {
+  if (!description) return [];
+  const badges = [];
+  const seen = new Set();
+
+  for (const m of description.matchAll(STAT_DELTA_RE)) {
+    const value = m[1].replace(/\s/g, "");
+    const statText = m[2];
+    const found = STAT_PATTERNS.find(([pattern]) => pattern.test(statText));
+    if (!found) continue;
+    const [, code, label, cls] = found;
+    const key = code + value;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    badges.push({ code, label, value, cls });
+  }
+
+  for (const m of description.matchAll(STAT_MULT_RE)) {
+    const value = `×${m[1]}`;
+    const statText = m[2];
+    const found = STAT_PATTERNS.find(([pattern]) => pattern.test(statText));
+    if (!found) continue;
+    const [, code, label, cls] = found;
+    const key = code + value;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    badges.push({ code, label, value, cls });
+  }
+
+  return badges;
+}
+
+function renderStatBadges(description) {
+  const badges = parseStatBadges(description);
+  if (!badges.length) return "";
+  return `<div class="stat-badges">${badges
+    .map((b) => `<span class="stat-badge ${b.cls}" title="${escapeHtml(b.label)}">${escapeHtml(b.value)} ${b.code}</span>`)
+    .join("")}</div>`;
+}
+
 // Gold/silver/bronze frame for Q4/Q3/Q2 icons; no special frame for Q1/Q0/null.
 function qualityIconClass(q) {
   if (q === 4) return "icon-gold";
@@ -315,6 +375,7 @@ function renderCard(entry) {
       ${qualityBadgeHtml(entry.quality)}
       ${entry.badges.map((b) => `<span class="badge">${escapeHtml(b)}</span>`).join("")}
     </div>
+    ${entry.statBadgesHtml || ""}
     <div class="card-detail">
       ${detailHtml}
       ${synergiesHtml}
@@ -359,6 +420,7 @@ function renderDetailPanel() {
       ${qualityBadgeHtml(entry.quality)}
       ${entry.badges.map((b) => `<span class="badge">${escapeHtml(b)}</span>`).join("")}
     </div>
+    ${entry.statBadgesHtml || ""}
     <div class="card-detail expanded-always">
       ${detailHtml}
       ${renderSynergies(entry)}
