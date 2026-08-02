@@ -18,9 +18,13 @@
     <aside class="panel">
       <form id="search-form" class="search-form">
         <label for="address-input">Ingresa tu dirección</label>
-        <input id="address-input" type="text" placeholder="Ej: Av. Padre Hurtado 1234, La Pintana" autocomplete="off" required>
+        <div class="autocomplete-wrap">
+          <input id="address-input" type="text" placeholder="Ej: Av. Padre Hurtado 1234, La Pintana" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" required>
+          <ul id="suggestions" class="suggestions" role="listbox"></ul>
+        </div>
         <button type="submit">Buscar establecimientos cercanos</button>
         <p id="search-status" class="search-status"></p>
+        <p class="hint">También puedes hacer clic en cualquier punto del mapa para ubicar tu dirección.</p>
       </form>
 
       <div class="filters">
@@ -31,12 +35,17 @@
           </select>
         </div>
         <div class="filter-group">
-          <label for="filter-tipo">Tipo</label>
-          <select id="filter-tipo">
-            <option value="">Todos</option>
-            <option value="escolar">Escuelas / Liceos</option>
-            <option value="jardin">Jardines / Salas cuna</option>
-          </select>
+          <span class="filter-group-label">Tipo</span>
+          <div class="checkbox-group">
+            <label class="checkbox-item">
+              <input type="checkbox" id="filter-escolar" checked>
+              <span>Escuelas / Liceos</span>
+            </label>
+            <label class="checkbox-item">
+              <input type="checkbox" id="filter-jardin" checked>
+              <span>Jardines / Salas cuna</span>
+            </label>
+          </div>
         </div>
       </div>
 
@@ -55,7 +64,7 @@
       <a href="https://datosabiertos.mineduc.cl/" target="_blank" rel="noopener">Directorio Oficial de Establecimientos Educacionales (Mineduc)</a>
       y del <a href="https://geoportal.cl/" target="_blank" rel="noopener">catastro de Jardines Infantiles JUNJI (Geoportal Chile)</a>.
       Direcciones de referencia obtenidas por geocodificación inversa (OpenStreetMap Nominatim) — pueden diferir levemente de la dirección oficial.
-      Prototipo en desarrollo, distancias son estimadas en línea recta.
+      Prototipo en desarrollo. Los establecimientos más cercanos muestran distancia y tiempo por calles reales (OSRM); el resto se estima en línea recta.
     </p>
   </footer>
 </div>
